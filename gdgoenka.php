@@ -32,9 +32,7 @@
 </head>
 <body>
 
-
-
-  <?php get_header(); ?>
+<?php get_header(); ?>
 
 <section class="hundred home-banner">
   <div class="flexslider">
@@ -63,194 +61,142 @@
   </div>
 </section>
 <section class="usefull-message hundred">
+  <div class="container">
+    <div class="tab-box">
+      <div class="tabcontents">
+        <div style="display: none;" id="view1">
+          <div class="round-space"><a href="<?php bloginfo('url'); ?>/prospectus/"><img src="<?php bloginfo('template_url'); ?>/images/prospectus.jpg"alt="GDGIS Rohtak Prospectus" /></a>        
 
-
- <!-- custom after slider content -->
-
- <div class="fullwidth welcome">
-    <div class="welcomtext wow fadeInUp" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s;">       
-       <h2><small>Welcome to</small>GD Goenka International School</h2>
-  	</div>
-    
-    <div class="welcomtext wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s;">     
-       <p><span>GD Goenka Convent School in Gurgaon owes its genesis to our Founder chairman Sqn Ldr M.L. Malik (Retd) Ex-Registrar Sainik School. Since its inception in 1993, the school has grown in leaps and bounds, crossed many milestones and achieved many targets.</span></p>
-       <p>The school that had a humble beginning, today stands tall contributing to and nurturing the ambitions and aspirations of innumerable number of children. GD Goenka Convent being the top &amp; best CBSE school in Gurgaon, it has the futuristic infrastructure, spacious and well ventilated classrooms.</p>
-  	</div>
-    
-    <div class="notifications">
-    <div class="fullwidth textnot">
-    	<h3>Notifications</h3>
-		 <div id="notification" class="owl-carousel owl-theme" style="opacity: 1; display: block;">  
-						            
-				  <div class="owl-wrapper-outer autoHeight" style="height: 130px;"><div class="owl-wrapper" style="width: 958px; left: 0px; display: block; transition: all 0ms ease 0s; transform: translate3d(0px, 0px, 0px); transform-origin: 239.5px center; perspective-origin: 239.5px center;"><div class="owl-item" style="width: 479px;"><div>
-				  
-					<a href="notification.php?id=610"><p>Registration open for 2021-2022</p></a>
-					<a href="notification.php?id=610"><p>
-					For registration click here - https://www.gdgoenkarohtak.com/					
-					</p>
-					</a>
-				  </div></div></div></div>
-				 
-       
-				 <div class="owl-controls clickable" style="display: none;"><div class="owl-buttons"><div class="owl-prev">prev</div><div class="owl-next">next</div></div></div></div>
-		<!--
-        <div id="notification" class="owl-carousel">              
-          <div>
-            <p>Admission Open (Session 2016-17) for Classes Pre Nur to IXth and Class XIth(Science and Commerce), Registration forms are available at the School reception between 8.00 a.m to 1.30 p.m on all working days.</p>
-          </div>
-          <div>
-            <p>Classes Pre Nur to IXth and Class XIth(Science and Commerce), Admission Open (Session 2016-17) for  Registration forms are available at the School reception between 8.00 a.m to 1.30 p.m on all working days.</p>
+<h3>GDGIS Prospectus</h3>
+            <p>Keeping in mind our motto: “Higher, Stronger, Brighter”, we give out little ones the very best, each and every day… an idyllic ambience, ideal location a stimulating and nurturing environment for learning. All Through, the emphasis is on closeness and togetherness just like a family. To make your ward a part of legacy of excellence please <a href="<?php bloginfo('url'); ?>/prospectus/"> Read More</a></p>
           </div>
         </div>
-		-->
-    
-    	<a class="notbtn" href="notifications.php">+</a>
+        <div style="display: block;" id="view2">
+          <div class="round-space"> <img src="<?php bloginfo('template_url'); ?>/images/achievements.jpg" alt="GDGIS Rohtak Achievements" />
+            <h3>Achievements</h3>
+            <p>JATIN DAHIYA OF GD GOENKA INTERNATIONAL SCHOOL ROHTAK, REPRESENT INDIA IN WORLD TAEKWONDO CHAMPIONSHIP<a href="<?php bloginfo('url'); ?>/achievements"> Read More</a></p>
+
+          </div>
+        </div>
+        <div style="display: none;" id="view3">
+          <div class="round-space">
+ <img src="<?php bloginfo('template_url'); ?>/images/gps.jpg" alt="" />
+            <h3>GDGIS GPS TRACKING SYSTEM</h3>
+            <p>If you want to track your ward details then please<a href="<?php bloginfo('url'); ?>/gps-tracking/"> Click Here</a></p>
+          </div>
+        </div>
+        
+        <div style="display: none;" id="view4">
+          <div class="round-space">
+                          <img src="<?php bloginfo('template_url'); ?>/images/homework.jpg" alt="GDGIS Rohtak Homework" />
+               <h3>Daily Home Work</h3>
+            <p> Daily Home Work Of GDGIS Rohtak Students<a href="<?php bloginfo('url'); ?>/student-services/daily-home-work/"> Read More</a></p>
+
+          </div>
+        </div>
+         </div>
+      <ul class="tabs" data-persist="true">
+        <li><a href="#view2">achievements</a></li>
+        <li><a href="#view4">Daily Home Work</a></li>
+        <li class="selected"><a href="http://gdgoenkarohtak.com/prospectus/">GDGIS Prospectus</a></li>
+        <li><a href="#view3">GPS Tracking System</a></li>
+        
+      
+      </ul>
     </div>
-    <div class="fullwidth payfee">
-    	<a target="_blank" rel="nofollow" href="#"><span>PAY FEE ONLINE</span> <span class="pay_fee_arrow"></span></a>
-    </div>
-	
-	
-		
-    </div>
-    
-	
-	
-	
-
-    
-</div>
-  
-<div class="fullwidth base">
-	<ul>
-    	<li class="wow fadeInLeft" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s;"><span>CBSE</span> Affiliation No.<strong>XXXXXX</strong></li>
-        <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s;"><span>25+</span>Years</li>
-        <li class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".7s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.7s;"><span>16+</span>Buses</li>
-        <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".9s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.9s;"><span>7000+</span>Books</li>
-    </ul>
-</div>
-
-  <!-- custom end -->
-
-  <div class="container">
-    
-
-
- 
   </div>
-</section> 
+</section>
 <section class="welcome-sec hundred">
   <div class="container">
     <div class="container-left">
       <h1>G.D.Goenka International School Rohtak- Best School in India</h1><br>
-      <img src="https://gdgoenkarohtak.com/wp-content/themes/gdgoenka/images/welcome-img.jpg" alt="Best School In India" class="left-align">
-      <p>G.D. Goenka International School, Rohtak, a reputed co-educational, English medium school, under the aegis of G.D. Goenka Group of institution, New Delhi, is a school to reckon with. Established in the year 2014 at Rohtak, the school is renowned for its state of the art infrastructure including, high tech labs and well stocked library, Its well-equipped activity rooms for Art and Craft, Dance &amp; Music and a competent faculty make it the best school in Haryana.</p>
+      <img src="<?php bloginfo('template_url'); ?>/images/welcome-img.jpg" alt="Best School In India" class="left-align">
+      <p>G.D. Goenka International School, Rohtak, a reputed co-educational, English medium school, under the aegis of G.D. Goenka Group of institution, New Delhi, is a school to reckon with. Established in the year 2014 at Rohtak, the school is renowned for its state of the art infrastructure including, high tech labs and well stocked library, Its well-equipped activity rooms for Art and Craft, Dance & Music and a competent faculty make it the best school in Haryana.</p>
 
-<p>It is a Senior Secondary School starting from pre-nursery to grade XII. Boarding facility is available for both girls and boys, starting from grade 3rd to 12th. The school also offers day boarding facilities to students. This time is utilized in completing home assignments, clarifying doubts and indulging in various hobby classes. All this takes place under the keen and watchful eyes of our diligent academy staff and coaches. the school offers a fully AC campus and AC fleet of buses.......<a href="https://gdgoenkarohtak.com/about-school/"><b>Read More</b></a>...</p>
+<p>It is a Senior Secondary School starting from pre-nursery to grade XII. Boarding facility is available for both girls and boys, starting from grade 3rd to 12th. The school also offers day boarding facilities to students. This time is utilized in completing home assignments, clarifying doubts and indulging in various hobby classes. All this takes place under the keen and watchful eyes of our diligent academy staff and coaches. the school offers a fully AC campus and AC fleet of buses.......<a href="<?php bloginfo('url'); ?>/about-school/"><b>Read More</b></a>...</p>
 
       <p></p>
       <div class="Birtday-sec hundred">
         <h2>Birthday Students </h2>
-        <div class="Birthdayslider" style="height: 278px;">
+        <div class="Birthdayslider">
           <ul class="slides">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;">
+            <?php   $args = array( 'post_type' => 'post',  'category_name' => 'birthday', 'order' =>
+'date' , 'posts_per_page'=>10 );
+        $loop = new WP_Query($args);
+        while ($loop->have_posts()) : $loop->the_post();
+               ?>
+            <?php $curdate = date('Y-m-d');  $birth = $cfs->get('birth'); ?>
+            <?php if ($curdate < $birth) {?>
+            <li>
               <div class="box-out">
                 <div class="box">
-                  <img width="284" height="284" src="https://gdgoenkarohtak.com/wp-content/uploads/2016/04/Falak-Dua17-4-09-e1460794389833-284x284.jpg" class="attachment-birththumb size-birththumb wp-post-image" alt="" loading="lazy" srcset="https://gdgoenkarohtak.com/wp-content/uploads/2016/04/Falak-Dua17-4-09-e1460794389833-284x284.jpg 284w, https://gdgoenkarohtak.com/wp-content/uploads/2016/04/Falak-Dua17-4-09-e1460794389833-150x150.jpg 150w, https://gdgoenkarohtak.com/wp-content/uploads/2016/04/Falak-Dua17-4-09-e1460794389833-600x600.jpg 600w, https://gdgoenkarohtak.com/wp-content/uploads/2016/04/Falak-Dua17-4-09-e1460794389833-300x300.jpg 300w" sizes="(max-width: 284px) 100vw, 284px" draggable="false">                                  </div>
+                  <?php if (has_post_thumbnail()) : the_post_thumbnail('birththumb');?>
+                  <?php endif; ?>
+                </div>
                 <div class="box">
-                  <h5> Recently Was
-                    Falak Dua                    Birthday </h5>
-                  <p>Wish You a Very Very Happy Birthday From GDGIS Rohtak Family</p>
+                  <h5> Upcoming
+                    <?php the_title(); ?>
+                    Birthday </h5>
+                  <h5><?php echo $birth; ?></h5>
+                  <?php // the_content();?>
                 </div>
               </div>
             </li>
-                                                            <li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;">
+            <?php } ?>
+            <?php endwhile; wp_reset_query(); ?>
+            <?php
+        $args2 = array( 'post_type' => 'post',  'category_name' => 'birthday', 'order' => 'date' , 'posts_per_page'=>20);
+        $loop2 = new WP_Query($args2);
+        while ($loop2->have_posts()) : $loop2->the_post(); global $product; ?>
+            <?php $curdate = date('Y-m-d'); $birth = $cfs->get('birth'); ?>
+            <?php if ($curdate==$birth) {?>
+            <li>
               <div class="box-out">
                 <div class="box">
-                  <img width="284" height="284" src="https://gdgoenkarohtak.com/wp-content/uploads/2016/04/Daksh-Rana13-Apr-10-e1460175150399-284x284.jpg" class="attachment-birththumb size-birththumb wp-post-image" alt="" loading="lazy" srcset="https://gdgoenkarohtak.com/wp-content/uploads/2016/04/Daksh-Rana13-Apr-10-e1460175150399-284x284.jpg 284w, https://gdgoenkarohtak.com/wp-content/uploads/2016/04/Daksh-Rana13-Apr-10-e1460175150399-150x150.jpg 150w, https://gdgoenkarohtak.com/wp-content/uploads/2016/04/Daksh-Rana13-Apr-10-e1460175150399-600x600.jpg 600w, https://gdgoenkarohtak.com/wp-content/uploads/2016/04/Daksh-Rana13-Apr-10-e1460175150399-300x300.jpg 300w" sizes="(max-width: 284px) 100vw, 284px" draggable="false">                                  </div>
+                  <?php if (has_post_thumbnail()) : the_post_thumbnail('birththumb');?>
+                  <?php endif; ?>
+                </div>
                 <div class="box">
-                  <h5> Recently Was
-                    Daksh Rana                    Birthday </h5>
-                  <p>Wish You a Very Very Happy Birthday From GDGIS Rohtak Family</p>
+                  <h5> Today is
+                    <?php the_title(); ?>
+                    Birthday </h5>
+                  <?php the_content(); ?>
                 </div>
               </div>
             </li>
-                                  </ul>
-        <ol class="flex-control-nav flex-control-paging"><li><a class="flex-active">1</a></li><li><a class="">2</a></li></ol><ul class="flex-direction-nav"><li class="flex-nav-prev"><a class="flex-prev" href="#">Previous</a></li><li class="flex-nav-next"><a class="flex-next" href="#">Next</a></li></ul></div>
+            <?php }  ?>
+            <?php endwhile; wp_reset_query(); ?>
+            <?php   $args3 = array( 'post_type' => 'post',  'category_name' => 'birthday', 'order' =>'date' , 'posts_per_page'=>2);
+        $loop3 = new WP_Query($args3);
+        while ($loop3->have_posts()) : $loop3->the_post();
+               ?>
+            <?php $curdate = date('Y-m-d');  $birth = $cfs->get('birth'); ?>
+            <?php if ($curdate > $birth) {?>
+            <li>
+              <div class="box-out">
+                <div class="box">
+                  <?php if (has_post_thumbnail()) : the_post_thumbnail('birththumb');?>
+                  <?php endif; ?>
+                </div>
+                <div class="box">
+                  <h5> Recently Was
+                    <?php the_title(); ?>
+                    Birthday </h5>
+                  <?php the_content(); ?>
+                </div>
+              </div>
+            </li>
+            <?php } ?>
+            <?php endwhile; wp_reset_query();   ?>
+          </ul>
+        </div>
       </div>
     </div>
-    <div class="container-right">
-  <div class="right-box">
-    <h3>Action Centre</h3>
-    <div class="right-box-in">
-      <ul class="actioncenter-list">
-		   <li>
-                    <div class="box"><a href="https://gdgoenkarohtak.com/complaint/"><span><img src="https://gdgoenkarohtak.com/wp-content/themes/gdgoenka/images/contact.png" alt=""></span>
-           <p>Complaints/Grievances</p>
-            </a> </div>
-        </li>
-
-		  
-        <li>
-                    <div class="box"><a href="http://gdgisenquiry.schooloncloud.com/"><span><img src="https://gdgoenkarohtak.com/wp-content/themes/gdgoenka/images/admission-enquiry.png" alt=""></span>
-           <p>Admission Enquiry</p>
-            </a> </div>
-        </li>
-
-    <li>
-          <div class="box"><a href="https://gdgisrohtak.schooloncloud.com/" https:="" gdgoenkarohtak.com"=""><span><img src="https://gdgoenkarohtak.com/wp-content/themes/gdgoenka/images/suggestions1.png" alt=""></span>
-            <p>Parents login</p>
-            </a> </div>
-        </li>
-
-        <li>
-          <div class="box"><a href="https://m.p-y.tm/gdgoenkaintl_web" https:="" gdgoenkarohtak.com"=""><span><img src="https://gdgoenkarohtak.com/wp-content/themes/gdgoenka/images/paytm.png" alt=""></span>
-            <p>Paytm</p>
-            </a> </div>
-        </li>
-        <li>
-          <div class="box"><a href="https://gdgoenkarohtak.com/wp-content/uploads/2018/holidayplanner2019.pdf"><span><img src="https://gdgoenkarohtak.com/wp-content/themes/gdgoenka/images/events.png"></span>
-            <p> Holidays &amp; Events</p>
-            </a> </div>
-        </li>
-        <li>
-          <div class="box"><a href="https://gdgoenkarohtak.com/wp-content/uploads/2015/08/meal.pdf"><span><img src="https://gdgoenkarohtak.com/wp-content/themes/gdgoenka/images/meal.png"></span>
-            <p>Meal Menu</p>
-            </a> </div>
-        </li>
-       
-      </ul>
-    </div>
+    <?php get_sidebar(); ?>
   </div>
-  <div class="right-box">
-    <h3>Life @ GD Goenka Rohtak</h3>
-    <div class="right-box-in">
-     <iframe width="854" height="480" src="https://www.youtube.com/embed/OVPus-VyVjg" frameborder="0" allowfullscreen=""></iframe>
-     <p>Best School in Rohtak. GDGIS Rohtak Best School in India,Top Schools in India</p>
-    </div>
-  </div>
-</div>
-<div id="contact" class="contact-popup-box mfp-hide">
-  <h3>GD GOENKA INTERNATIONAL SCHOOL, ROHTAK</h3>
-  <p>8th Mile Stone, Sonepat Road, Rohtak, 124001 Haryana</p>
-  <p>Mobile No: +91 8222911801-02-04</p>
-  <p>Email: <a href="mailto:info@gdgoenkarohtak.com">info@gdgoenkarohtak.com</a></p>
-</div>  </div>
 </section>
 <section class="latest-blog hundred">
   <div class="container">
-
-
-<!-- custom content start -->
-
-<div class="fullwidth testimonial">
-           <h2><em>“A person can succeed at almost anything for which they have unlimited enthusiasm.”</em></h2>
-       
-         
-</div>
-
-<!-- custom content end -->
-
     <h3>Read Our Latest Blog</h3>
     <ul class="blog-list">
      <?php
@@ -291,33 +237,15 @@
     </ul>
     <a href="<?php bloginfo('url'); ?>/blog/" class="btn">view  blog</a> </div>
 </section>
-<section class="testimonial hundred">
-  <div class="container">
-    <h3 class="bottom_line">Parent Reviews</h3>
-    <div class="testimonialslider">
-      <ul class="slides">
-        <?php
-    $args = array('post_type' =>'parentreview', 'posts_per_page'=>10, 'order' => 'DESC');
-    $parentreview = new WP_Query($args);
-    while ($parentreview->have_posts()) : $parentreview->the_post();
-    ?>
-        <li>
-          <div class="testimonial-box">
-            <?php the_content(); ?>
-          </div>
-          <h5>
-            <?php the_title(); ?>
-          </h5>
-          <?php endwhile; wp_reset_query(); ?>
-        </li>
-      </ul>
-    </div>
-  </div>
 
-  <div class="fullwidth sherwood">	
+
+
+<section>
+
+<div class="fullwidth sherwood">	
     <div class="parallax-sherwood fullwidth" data-image-src="images/sherwood.jpg" alt="Top CBSE Schools in Gurgaon">
 		<div class="fullwidth">
-        <h1 class="pagetitle pagetitle_mid wow fadeInUp" style="visibility: visible;"> Why Choose GD Goenka<p> (Top and Best CBSE Affiliated School in Rohtak)</p></h1>
+        <h1 class="pagetitle pagetitle_mid wow fadeInUp" style="visibility: visible;"> Why Choose GD Goenka<p> (Top and Best CBSE Affiliated School in Gurgaon)</p></h1>
     	<div class="tabarea"> 
          	<ul>
             	<li><a class="showfile activelink" title="one">Student Centric Curriculum</a></li>
@@ -330,21 +258,21 @@
          
     	 <div class="fullwidth tabcontent">
           <div id="one" class="logfile">
-         	<p></p>
+         	<p>GD Goenka International School in Rohtak adopts a creative and innovative approach where learning is catered through the hands-on experiences, imparted through exposure to myriad activities in both the scholastic as well as co-scholastic areas.</p>
             <div class="fullwidth tabcontent">
-         	<a href="/why-choose-student"><span class="why_choose_btn_icon"></span></a>
+         	<a href="/why-choose-sherwood.php#student"><span class="why_choose_btn_icon"></span></a>
          </div>
 			</div>
             <div id="two" class="logfile" style="display:none;">
-         	<p></p>
+         	<p>An equal and paramount importance is given to extra-curricular activities to achieve an all-round personality development of the students. The multifaceted activities of the school also include the NIE programme organized by the Times of India group.</p>
             <div class="fullwidth tabcontent">
-         	<a href=""><span class="why_choose_btn_icon"></span></a>
+         	<a href="/why-choose-sherwood.php#sports"><span class="why_choose_btn_icon"></span></a>
          </div>
 			</div>
             <div id="three" class="logfile" style="display:none;">
-         	<p></p>
+         	<p>'Smart class' technology has been adopted wherein classrooms are equipped with Interactive Boards for all classes.  This helps reinforce class room concepts and brings greater clarity of thoughts and understanding. Sherwood Convent considered as one of the best school in Gurgaon, this English-medium CBSE Affiliated School in Gurgaon has an impressive structure and even more quality educational values.</p>
             <div class="fullwidth tabcontent">
-         	<a href="/why-choo.php#teachers"><span class="why_choose_btn_icon"></span></a>
+         	<a href="/why-choose-sherwood.php#teachers"><span class="why_choose_btn_icon"></span></a>
          </div>
 			</div>
             <div id="four" class="logfile" style="display:none;">
@@ -356,7 +284,7 @@
             <div id="five" class="logfile" style="display:none;">
          	<p>Activity clubs swing into full force every Friday to nurture the inherent talents of the childern. Each child is allotted the activity of his/her choice as per his/her aptitude and talent. This gives a first hand opportunity for the child to realize his innate ability besides academics. </p>
             <div class="fullwidth tabcontent">
-         	<a href="/why-choose-.php#club"><span class="why_choose_btn_icon"></span></a>
+         	<a href="/why-choose-sherwood.php#club"><span class="why_choose_btn_icon"></span></a>
          </div>
 			</div>
             
@@ -368,7 +296,374 @@
 </div>
 
 </section>
-<?php get_footer(); ?>
-  
+
+<section>
+<div class="fullwidth testimonial">
+           <h2><em>“A person can succeed at almost anything for which they have unlimited enthusiasm.”</em></h2>
+       
+         
+</div>
+</section>
+
+<style>
+
+#testimonial4{
+  overflow: hidden;
+  min-height: 375px;
+  position: relative;
+  background: #1583c9;
+}
+#testimonial4 .carousel-inner{
+  width: 75%;
+  margin: auto;
+}
+#testimonial4 .carousel-inner:hover{
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+#testimonial4 .carousel-inner:active{
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+#testimonial4 .carousel-inner .item{
+  overflow: hidden;
+}
+
+.testimonial4_indicators .carousel-indicators{
+  left: 0;
+  margin: 0;
+  width: 100%;
+  font-size: 0;
+  height: 20px;
+  bottom: 15px;
+  padding: 0 5px;
+  cursor: e-resize;
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: absolute;
+  text-align: center;
+  white-space: nowrap;
+}
+.testimonial4_indicators .carousel-indicators li{
+  padding: 0;
+  width: 10px;
+  height: 10px;
+  border: none;
+  text-indent: 0;
+  margin: 2px 3px;
+  cursor: pointer;
+  display: inline-block;
+  background: #ffffff;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+.testimonial4_indicators .carousel-indicators .active{
+  padding: 0;
+  width: 10px;
+  height: 10px;
+  border: none;
+  margin: 2px 3px;
+  background-color: #000;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+.testimonial4_indicators .carousel-indicators::-webkit-scrollbar{
+  height: 3px;
+}
+.testimonial4_indicators .carousel-indicators::-webkit-scrollbar-thumb{
+  background: #eeeeee;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+.testimonial4_control_button .carousel-control{
+  top: 175px;
+  opacity: 1;
+  width: 40px;
+  bottom: auto;
+  height: 40px;
+  font-size: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  overflow: hidden;
+  line-height: 38px;
+  text-shadow: none;
+  text-align: center;
+  position: absolute;
+  background: transparent;
+  border: 2px solid #ffffff;
+  text-transform: uppercase;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: all 0.6s cubic-bezier(0.3,1,0,1);
+  transition: all 0.6s cubic-bezier(0.3,1,0,1);
+}
+.testimonial4_control_button .carousel-control.left{
+  left: 7%;
+  right: auto;
+}
+.testimonial4_control_button .carousel-control.right{
+  right: 7%;
+  left: auto;
+}
+.testimonial4_control_button .carousel-control.left:hover,
+.testimonial4_control_button .carousel-control.right:hover{
+  color: #000;
+  background: #fff;
+  border: 2px solid #fff;
+}
+
+.testimonial4_header{
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 550px;
+  display: block;
+  margin: 30px auto;
+  text-align: center;
+  position: relative;
+}
+.testimonial4_header h4{
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.testimonial4_slide{
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+}
+.testimonial4_slide img {
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  display: block;
+  color: #f2f2f2;
+  font-size: 18px;
+  line-height: 46px;
+  text-align: center;
+  position: relative;
+}
+
+.testimonial4_slide p {
+  color: #ffffff;
+  font-size: 16px;
+  margin: 40px 0 20px 0;
+}
+
+.testimonial4_slide h4 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+@media only screen and (max-width: 480px){
+  .testimonial4_control_button .carousel-control{
+    display: none;
+  }
+  .testimonial4_header{
+    width: 95%;
+  }
+  .testimonial4_header h4{
+    font-size: 20px;
+  }
+  .testimonial4_slide{
+    width: 98%;
+    padding: 5px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+  .testimonial4_control_button .carousel-control.left{
+    left: 2%;
+  }
+  .testimonial4_control_button .carousel-control.right{
+    right: 2%;
+  }
+  .testimonial4_header{
+    width: 95%;
+  }
+  .testimonial4_slide{
+    width: 98%;
+    padding: 5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .testimonial4_control_button .carousel-control.left{
+    left: 5%;
+  }
+  .testimonial4_control_button .carousel-control.right{
+    right: 5%;
+  }
+}
+
+@-webkit-keyframes psBoxShadowEffect_2{
+  0% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.5;
+	-webkit-box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #ffffff, 0 0 0 10px rgba(255,255,255,0.5);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 5px 5px #ffffff, 0 0 0 5px rgba(255,255,255,0.5);
+    -webkit-transform: scale(1.5);
+    opacity: 0;
+  }
+}
+@keyframes psBoxShadowEffect_2{
+  0% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.5;
+	box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #ffffff, 0 0 0 10px rgba(255,255,255,0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 5px 5px #ffffff, 0 0 0 5px rgba(255,255,255,0.5);
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+
+</style>
+
+<section>
+
+
+
+</section>
+
+<section class="testimonial hundred">
+
+<div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+		<div class="testimonial4_header">
+			<h4>what our clients are saying</h4>
+		</div>
+		<ol class="carousel-indicators">
+			<li data-target="#testimonial4" data-slide-to="0" class="active"></li>
+			<li data-target="#testimonial4" data-slide-to="1"></li>
+			<li data-target="#testimonial4" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<div class="testimonial4_slide">
+					<img src="http://via.placeholder.com/100x100" class="img-circle img-responsive" />
+					<p>Lorem ipsum dolor sit amet adipiscing elit am nibh unc varius facilisis eros ed erat in in velit quis arcu ornare laoreet urabitur.</p>
+					<h4>Ben Hanna</h4>
+				</div>
+			</div>
+			<div class="item">
+				<div class="testimonial4_slide">
+					<img src="http://via.placeholder.com/100x100" class="img-circle img-responsive" />
+					<p>Lorem ipsum dolor sit amet adipiscing elit am nibh unc varius facilisis eros ed erat in in velit quis arcu ornare laoreet urabitur.</p>
+					<h4>Ben Hanna</h4>
+				</div>
+			</div>
+			<div class="item">
+				<div class="testimonial4_slide">
+					<img src="http://via.placeholder.com/100x100" class="img-circle img-responsive" />
+					<p>Lorem ipsum dolor sit amet adipiscing elit am nibh unc varius facilisis eros ed erat in in velit quis arcu ornare laoreet urabitur.</p>
+					<h4>Ben Hanna</h4>
+				</div>
+			</div>
+		</div>
+		<a class="left carousel-control" href="#testimonial4" role="button" data-slide="prev">
+			<span class="fa fa-chevron-left"></span>
+		</a>
+		<a class="right carousel-control" href="#testimonial4" role="button" data-slide="next">
+			<span class="fa fa-chevron-right"></span>
+		</a>
+	</div>
+
+</section>
+
+<section>
+
+
+<h1 style="text-align:center"> Testimonials</h1>
+<div class="fullwidth events">
+    
+    <div class="fullwidth eventlist">	
+	    	<ul>
+						<li style="background-image:url(https://www.sherwoodschool.co.in/images/events/main/0_651040716_gallery_img7.jpg); background-size: cover; background-repeat: no-repeat; background-position: center top;">
+					<a href="events/528/it-was-the-best-time-of-the-year-our-sherwood-kids-totally-rocked-the-annual-day-in-a-splendid-way.php">
+											<img src="https://www.sherwoodschool.co.in/images/events/main/0_651040716_gallery_img7.jpg" alt="Best CBSE Affiliated Schools in Gurgaon">
+															<h3>Testimony</h3>
+					</a>
+				</li>
+			
+							<li>
+            <h3 style="text-align:center"> Testimony Text</h3>
+              
+				</li>
+			
+							
+			
+							
+			
+						<!--
+			<li>
+            	<a href="#">
+                <img src="images/img1.jpg" alt="img" /> <span>14 May ‘16</span>
+                <h3>District Level Science Exhibition "INSPIRE"</h3>
+                </a>
+            </li>
+            <li>
+            	<a href="#">
+                <img src="images/img2.jpg" alt="img" /> <span>14 May ‘16</span>
+                <h3>Cyber Buzz 2016</h3>
+                </a>
+            </li>
+            <li>
+            	<a href="#">
+                <img src="images/img3.jpg" alt="img" /> <span>14 May ‘16</span>
+                <h3>Christmas Day Celebration</h3>
+                </a>
+            </li>
+            <li>
+            	<a href="#">
+                <img src="images/img4.jpg" alt="img" /> <span>14 May ‘16</span>
+                <h3>Cyber Buzz 2016</h3>
+                </a>
+            </li>
+            <li>
+            	<a href="#">
+                <img src="images/img5.jpg" alt="img" /> <span>14 May ‘16</span>
+                <h3>Friday Activities</h3>
+                </a>
+            </li>
+			-->
+        </ul>
+				</div>
+    
+    <div class="fullwidth text-center">
+    	<a class="btnlink" href="events-and-competitions.php">View All</a>
+    </div>
+    
+</div>
+
+
+</section>
+
+<?php get_footer(); ?>	
 </body>
 </html>
