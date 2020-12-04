@@ -1,3 +1,4 @@
+
 <html dir="ltr" lang="en-US">
 
 
@@ -49,6 +50,13 @@
   <script src="https://www.googletagmanager.com/gtag/js?id=G-H74KY38NCR"></script>
 </head>
 
+<?php
+
+
+
+
+?>
+
 <body
   class="stretched device-xl has-plugin-easing has-plugin-bootstrap has-plugin-lightbox has-plugin-dataheights has-plugin-onepagemodule has-plugin-animations has-plugin-carousel has-plugin-linkscroll has-plugin-form has-plugin-ajaxform has-plugin-pricing-switcher has-plugin-flexslider get-started-form-ready gototop-active"
   data-new-gr-c-s-check-loaded="14.984.0" data-gr-ext-installed="">
@@ -69,9 +77,11 @@
             <!-- Logo
 						============================================= -->
             <div id="logo" class="col-auto order-lg-2 mr-lg-0 px-0">
-              <a href="index.html" class="standard-logo" data-dark-logo="demos/app-landing/images/logo-dark.png">
-              <h1 style="align-items: center;padding-top: 36px;">CSEC</h1></a>
-              <a href="index.html" class="retina-logo" data-dark-logo="demos/app-landing/images/logo-dark@2x.png">"
+              <a href="index.html" class="standard-logo" data-dark-logo="demos/app-landing/images/logo-dark.png"><img
+                  src="" alt="Canvas Logo"
+                  style="height: 80px;"></a>
+              <a href="index.html" class="retina-logo" data-dark-logo="demos/app-landing/images/logo-dark@2x.png"><img
+                  src="https://themes.semicolonweb.com/html/canvas/demos/app-landing/images/logo@2x.png"
                   alt="Canvas Logo" style="height: 80px;"></a>
             </div><!-- #logo end -->
 
@@ -102,7 +112,7 @@
                   </a>
                   <ul class="sub-menu-container" style="">
                     <li class="menu-item" style=""><a class="menu-link" href="#" data-href="#section-nextgen">
-                        <div>Open Source Framework</div>
+                        <div>NextGen Framework</div>
                       </a></li>
                     <li class="menu-item" style=""><a class="menu-link" href="#" data-href="#section-stunning-graphics">
                         <div>Stunning Graphics</div>
@@ -115,7 +125,7 @@
                 </li>
                 <li class="menu-item"><a class="menu-link" href="#" data-href="#section-pricing"
                     style="padding-top: 29px; padding-bottom: 29px;">
-                    <div>About</div>
+                    <div>Pricing</div>
                   </a></li>
               </ul>
 
@@ -131,11 +141,11 @@
                   </a></li>
                 <li class="menu-item"><a class="menu-link" href="#" data-href="#section-gallery"
                     style="padding-top: 29px; padding-bottom: 29px;">
-                    <div>Services</div>
+                    <div>Gallery</div>
                   </a></li>
                 <li class="menu-item menu-item-emphasis"><a class="menu-link" href="#modal-login" data-lightbox="inline"
                     style="padding-top: 29px; padding-bottom: 29px;">
-                    <div>Contact</div>
+                    <div>Login</div>
                   </a></li>
               </ul>
 
@@ -151,7 +161,7 @@
       class="slider-element slider-parallax min-vh-60 min-vh-md-100 include-header slider-parallax-invisible"
       style="margin-top: -87.3438px;">
       <div class="slider-inner"
-        style="background: url(&quot;assets/img/Desktop-Image-for-Mac.jpg&quot;) center center / cover no-repeat; transform: translate3d(0px, -391.6px, 0px); height: 947px;">
+        style="background: url(&quot;https://themes.semicolonweb.com/html/canvas/demos/app-landing/images/hero/hero.jpg&quot;) center center / cover no-repeat; transform: translate3d(0px, -391.6px, 0px); height: 947px;">
 
         <div class="vertical-middle slider-element-fade" style="opacity: -0.717159;">
           <div class="container dark py-5 py-md-0">
@@ -162,9 +172,9 @@
                 </div>
                 <a href="#" data-scrollto="#section-pricing" data-easing="easeInOutExpo" data-speed="1250"
                   data-offset="160" class="button button-large button-white button-light text-capitalize"
-                  style="border-radius: 23px;">Go to Github</a>
-                <a href="" class="hero-action-link" data-lightbox="iframe"><i
-                    class="icon-play-sign"></i> Doodles </a>
+                  style="border-radius: 23px;">Try it Free</a>
+                <a href="https://www.youtube.com/watch?v=N_r349riLEE" class="hero-action-link" data-lightbox="iframe"><i
+                    class="icon-play-sign"></i> Watch the Video</a>
               </div>
             </div>
           </div>
@@ -235,10 +245,11 @@
                   alt="Image" style="display: block;" class="bottommargin-sm">
                 <div class="emphasis-title bottommargin-sm">
                   <span class="before-heading">Plug into the</span>
-                  <h2 style="font-size: 42px;" class="font-body ls1 font-weight-normal">Open Source Frameworks</h2>
+                  <h2 style="font-size: 42px;" class="font-body ls1 font-weight-normal">NextGen Framework</h2>
                 </div>
-                <p style="color: #777;" class="lead">Node.js, jquery, springboot, hibernate, jpa, react.js</p>
-                <a href="#" class="section-more-link">Know More <i class="icon-angle-right"></i></a>
+                <p style="color: #777;" class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Praesentium, vel! Eius pariatur nemo expedita.</p>
+                <a href="#" class="section-more-link">Learn More <i class="icon-angle-right"></i></a>
               </div>
 
             </div>
@@ -257,10 +268,11 @@
                   src="https://themes.semicolonweb.com/html/canvas/demos/app-landing/images/section/section-2-icon.png"
                   alt="Image" style="display: block;" class="bottommargin-sm">
                 <div class="emphasis-title bottommargin-sm">
-                  <span class="before-heading">Web & Mobile Ready</span>
+                  <span class="before-heading">Retina Ready ~ 534 PPI</span>
                   <h2 style="font-size: 42px;" class="font-body ls1 font-weight-normal">Stunning Graphics</h2>
                 </div>
-                <p style="color: #777;" class="lead">Graphics and elements optimized for both Web & Mobile</p>
+                <p style="color: #777;" class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Praesentium, vel! Eius pariatur nemo expedita.</p>
                 <a href="#" class="section-more-link">Learn More <i class="icon-angle-right"></i></a>
               </div>
 
@@ -293,7 +305,8 @@
                   <span class="before-heading">Privacy Protected</span>
                   <h2 style="font-size: 42px;" class="font-body ls1 font-weight-normal">Secured Solutions</h2>
                 </div>
-                <p style="color: #777;" class="lead">Security being a crucial element is one of the reason we use inherently</p>
+                <p style="color: #777;" class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Praesentium, vel! Eius pariatur nemo expedita.</p>
                 <a href="#" class="section-more-link">Learn More <i class="icon-angle-right"></i></a>
               </div>
             </div>
@@ -311,7 +324,7 @@
 
           <div id="section-pricing" class="page-section p-0 m-0"
             data-onepage-settings="{&quot;offset&quot;:160,&quot;speed&quot;:&quot;1250&quot;,&quot;easing&quot;:&quot;easeInOutExpo&quot;}">
-          <h1 style="text-align: center;">Service Type</h1>
+
             <div class="pricing-tenure-switcher row align-items-center justify-content-center mb-4"
               data-container="#pricing-switch">
               <span class="pts-left font-weight-bold">Monthly</span>
@@ -330,7 +343,7 @@
 
                 <div class="pricing-box text-center">
                   <div class="pricing-title text-uppercase">
-                    <h3>Basic</h3>
+                    <h3>Starter</h3>
                   </div>
                   <div class="pricing-price">
                     FREE<span class="price-tenure">Limited Access</span>
@@ -339,7 +352,8 @@
                     <ul>
                       <li><strong>Full</strong> Access</li>
                       <li><i class="icon-code"></i> Source Files</li>
-                      <li><strong>100</strong> 3 emails</li>
+                      <li><strong>100</strong> User Accounts</li>
+                      <li><strong>1 Year</strong> License</li>
                       <li>Phone &amp; Email Support</li>
                     </ul>
                   </div>
@@ -359,9 +373,9 @@
                     <h3>Professional</h3>
                   </div>
                   <div class="pricing-price">
-                    <div class="pts-switch-content-left"><span class="price-unit"></span>12<span
+                    <div class="pts-switch-content-left"><span class="price-unit">$</span>12<span
                         class="price-tenure">Monthly</span></div>
-                    <div class="pts-switch-content-right d-none"><span class="price-unit"></span>99<span
+                    <div class="pts-switch-content-right d-none"><span class="price-unit">$</span>99<span
                         class="price-tenure">Yearly</span></div>
                   </div>
                   <div class="pricing-features border-0 bg-transparent">
@@ -381,11 +395,11 @@
                     <div class="pts-switch-content-left"><a href="#modal-get-started" data-lightbox="inline"
                         data-pricing-plan="Professional Monthly Plan"
                         class="button button-large button-rounded text-capitalize ls0"
-                        style="border-radius: 23px;">Connect</a></div>
+                        style="border-radius: 23px;">Start Free Trial</a></div>
                     <div class="pts-switch-content-right d-none"><a href="#modal-get-started" data-lightbox="inline"
                         data-pricing-plan="Professional Yearly Plan"
                         class="button button-large button-rounded text-capitalize ls0"
-                        style="border-radius: 23px;">Connect</a></div>
+                        style="border-radius: 23px;">Start Free Trial</a></div>
                   </div>
                 </div>
 
@@ -398,16 +412,17 @@
                     <h3>Business</h3>
                   </div>
                   <div class="pricing-price">
-                    <div class="pts-switch-content-left"><span class="price-unit"></span>19<span
+                    <div class="pts-switch-content-left"><span class="price-unit">$</span>19<span
                         class="price-tenure">Monthly</span></div>
-                    <div class="pts-switch-content-right d-none"><span class="price-unit"></span>149<span
+                    <div class="pts-switch-content-right d-none"><span class="price-unit">$</span>149<span
                         class="price-tenure">Yearly</span></div>
                   </div>
                   <div class="pricing-features border-0 bg-transparent">
                     <ul>
                       <li><strong>Full</strong> Access</li>
                       <li><i class="icon-code"></i> Source Files</li>
-                      <li><strong>500</strong> Unlimited User Accounts</li>
+                      <li><strong>500</strong> User Accounts</li>
+                      <li><strong>3 Years</strong> License</li>
                       <li>Phone &amp; Email Support</li>
                     </ul>
                   </div>
@@ -415,11 +430,11 @@
                     <div class="pts-switch-content-left"><a href="#modal-get-started" data-lightbox="inline"
                         data-pricing-plan="Business Monthly Plan"
                         class="button button-large button-rounded text-capitalize ls0"
-                        style="border-radius: 23px;">Connect</a></div>
+                        style="border-radius: 23px;">Start Free Trial</a></div>
                     <div class="pts-switch-content-right d-none"><a href="#modal-get-started" data-lightbox="inline"
                         data-pricing-plan="Business Yearly Plan"
                         class="button button-large button-rounded text-capitalize ls0"
-                        style="border-radius: 23px;">Connect</a></div>
+                        style="border-radius: 23px;">Start Free Trial</a></div>
                   </div>
                 </div>
 
@@ -510,29 +525,39 @@
 
               <div class="col-lg-5 offset-lg-1 col-md-6 bottommargin-sm">
                 <h4 class="font-body" style="margin-bottom:15px;">How do I become an author?</h4>
-                <p></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, dolorum, vero ipsum molestiae
+                  minima odio quo voluptate illum excepturi quam cum voluptates doloribus quae nisi.</p>
               </div>
               <div class="col-lg-5 col-md-6 bottommargin-sm">
                 <h4 class="font-body" style="margin-bottom:15px;">Helpful Resources for Authors</h4>
-                <p></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, placeat, architecto rem dolorem
+                  dignissimos repellat veritatis in et eos doloribus magnam aliquam ipsa alias assumenda officiis quasi
+                  sapiente suscipit.</p>
               </div>
               <div class="col-lg-5 offset-lg-1 col-md-6 bottommargin-sm">
                 <h4 class="font-body" style="margin-bottom:15px;">How much money can I make?</h4>
-                <p></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, fugiat iste nisi tempore nesciunt
+                  nemo fuga? Nesciunt, delectus laboriosam nisi repudiandae nam fuga saepe animi recusandae.</p>
               </div>
               <div class="col-lg-5 col-md-6 bottommargin-sm">
                 <h4 class="font-body" style="margin-bottom:15px;">Can I offer my items for free on a promotional basis?
                 </h4>
-                <p></p>
+                <p>Laboriosam iusto quia nulla ad voluptatibus iste beatae voluptas corrupti facilis accusamus
+                  recusandae sequi debitis reprehenderit quibusdam. Facilis eligendi a exercitationem nisi et placeat
+                  excepturi velit!</p>
               </div>
               <div class="col-lg-5 offset-lg-1 col-md-6 bottommargin-sm">
                 <h4 class="font-body" style="margin-bottom:15px;">An Introduction to the Marketplaces for Authors</h4>
-                <p></p>
+                <p>Quisquam atque vero delectus corrupti! Quo, maiores, dolorem, hic commodi nulla ratione accusamus
+                  doloribus fuga magnam id temporibus dignissimos deleniti quidem ipsam corporis sapiente nam expedita
+                  saepe quas ab? Vero, assumenda.</p>
               </div>
               <div class="col-lg-5 col-md-6">
-                <h4 class="font-body" style="margin-bottom:15px;">How to get the best hosting plan for your needs?
+                <h4 class="font-body" style="margin-bottom:15px;">How does the Tuts+ Premium affiliate program work?
                 </h4>
-                <p class="mb-0"></p>
+                <p class="mb-0">Reprehenderit similique nemo voluptate ullam natus illum magnam alias nobis doloremque
+                  delectus ipsa dicta repellat maxime dignissimos eveniet quae debitis ratione assumenda tempore
+                  officiis fugiat dolor.</p>
               </div>
 
             </div>
@@ -556,10 +581,11 @@
                         alt="Customer Testimonails" draggable="false"></a>
                   </div>
                   <div class="testi-content">
-                    <p>Not imported </p>
+                    <p>Similique fugit repellendus expedita excepturi iure provident quia eaque. Repellendus, vero
+                      numquam?</p>
                     <div class="testi-meta">
-                      Not imported 
-                      <span>Not imported </span>
+                      Steve Jobs
+                      <span>Apple Inc.</span>
                     </div>
                   </div>
                 </div>
@@ -570,10 +596,11 @@
                         alt="Customer Testimonails" draggable="false"></a>
                   </div>
                   <div class="testi-content">
-                    <p>Not imported</p>
+                    <p>Natus voluptatum enim quod necessitatibus quis expedita harum provident eos obcaecati id culpa
+                      corporis molestias.</p>
                     <div class="testi-meta">
-                      Not imported
-                      <span> Not imported </span>
+                      Collis Ta'eed
+                      <span>Envato Inc.</span>
                     </div>
                   </div>
                 </div>
@@ -584,7 +611,8 @@
                         alt="Customer Testimonails" draggable="false"></a>
                   </div>
                   <div class="testi-content">
-                    <p>Not imported</p>
+                    <p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo
+                      rerum!</p>
                     <div class="testi-meta">
                       John Doe
                       <span>XYZ Inc.</span>
@@ -837,12 +865,12 @@
         <div class="section center mb-0 bg-transparent">
           <div class="container clearfix">
 
-            <h3 class="ls1 font-weight-normal" style="font-size: 32px;">
-              <span>10000+</span> Hours of Code</h3>
+            <h3 class="ls1 font-weight-normal" style="font-size: 32px;">Experienced &amp; Trusted by
+              <span>50,000+</span> People worldwide</h3>
             <a href="#modal-login" data-lightbox="inline" class="button button-large button-black text-capitalize"
-              style="border-radius: 23px;">Contact Now</a>
+              style="border-radius: 23px;">Login Now</a>
             <a href="#" data-scrollto="#section-pricing" data-easing="easeInOutExpo" data-speed="1250" data-offset="160"
-              class="button button-large text-capitalize" style="border-radius: 23px;">Get a Quote</a>
+              class="button button-large text-capitalize" style="border-radius: 23px;">Try it Free</a>
 
             <div class="clear bottommargin"></div>
 
@@ -856,15 +884,18 @@
             <div class="row clearfix">
               <div class="col-lg-4">
                 <div class="app-footer-features"><i class="icon-line2-globe-alt"></i>
+                  <h5 class="font-body"><a href="#">Free Training</a><span> &amp; 24-hour coverage</span></h5>
                 </div>
               </div>
               <div class="col-lg-4">
                 <div class="app-footer-features"><i class="icon-line2-notebook"></i>
+                  <h5 class="font-body"><a href="#">99.99% Uptime</a><span> the last 12 months</span></h5>
                 </div>
               </div>
               <div class="col-lg-4">
                 <div class="app-footer-features"><i class="icon-line2-lock"></i>
-                      <a></a></h5>
+                  <h5 class="font-body"><span>Serious about</span> <a href="#">Security</a> <span>&amp;</span> <a
+                      href="#">Privacy</a></h5>
                 </div>
               </div>
             </div>
@@ -890,9 +921,10 @@
               <div class="widget clearfix">
                 <div class="row clearfix">
                   <div class="col-lg-8 bottommargin-sm clearfix" style="color:#888;">
-                    <img src="assets/img/csec_logo_alpha.PNG"
+                    <img src="https://themes.semicolonweb.com/html/canvas/demos/app-landing/images/footer-logo.png"
                       alt="Canvas Logo" style="display: block;" class="bottommargin-sm">
-                    <p>CloakedSec LLC is a private organization with interests in Secure Web Solutions</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, consequatur facere molestiae
+                      iusto atque.</p>
 
                     <a href="#" class="social-icon si-small si-borderless si-colored si-rounded si-facebook">
                       <i class="icon-facebook"></i>
@@ -946,11 +978,11 @@
                     <h4>About Us</h4>
 
                     <ul>
-                      <!-- <li><a href="https://codex.wordpress.org/">Documentation</a></li>
+                      <li><a href="https://codex.wordpress.org/">Documentation</a></li>
                       <li><a href="https://wordpress.org/support/forum/requests-and-feedback">Feedback</a></li>
                       <li><a href="https://wordpress.org/extend/plugins/">Plugins</a></li>
                       <li><a href="https://wordpress.org/support/">Support Forums</a></li>
-                      <li><a href="https://wordpress.org/extend/themes/">Themes</a></li> -->
+                      <li><a href="https://wordpress.org/extend/themes/">Themes</a></li>
                     </ul>
                   </div>
                 </div>
@@ -959,11 +991,11 @@
                     <h4>Support</h4>
 
                     <ul>
-                      <!-- <li><a href="https://codex.wordpress.org/">Documentation</a></li>
+                      <li><a href="https://codex.wordpress.org/">Documentation</a></li>
                       <li><a href="https://wordpress.org/support/forum/requests-and-feedback">Feedback</a></li>
                       <li><a href="https://wordpress.org/extend/plugins/">Plugins</a></li>
                       <li><a href="https://wordpress.org/support/">Support Forums</a></li>
-                      <li><a href="https://wordpress.org/extend/themes/">Themes</a></li> -->
+                      <li><a href="https://wordpress.org/extend/themes/">Themes</a></li>
                     </ul>
                   </div>
                 </div>
@@ -982,8 +1014,8 @@
         <div class="container clearfix">
 
           <div class="w-100 text-center text-md-left">
-            Copyrights © 2020 All Rights Reserved<br>
-            <div class="copyright-links"><a href="#">Terms of Use</a> / <a href="github.com/copyright/readme.txt/">Privacy Policy</a></div>
+            Copyrights © 2020 All Rights Reserved by Canvas Inc.<br>
+            <div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
           </div>
 
         </div>
@@ -996,7 +1028,213 @@
   <!-- Go To Top
 	============================================= -->
   <div id="gotoTop" class="icon-angle-up" style="display: block;"></div>
+  <div class="scw-switcher-wrap d-none d-md-block center">
+    <button type="button" class="scw-trigger-icon scw-trigger">
+      <i class="icon-settings"></i>
+      <i class="icon-line-cross"></i>
+    </button>
 
+    <div class="widget">
+      <a href="https://1.envato.market/c/1309643/480739/4415?u=http%3A%2F%2Fthemeforest.net%2Fitem%2Fcanvas-the-multipurpose-html5-template%2F9228123%3Flicense%3Dregular%26open_purchase_for_item_id%3D9228123%26purchasable%3Dsource"
+        class="btn btn-secondary text-uppercase font-primary" target="_blank" style="width: 80%;">Get Canvas Now</a>
+
+      <div class="line line-sm"></div>
+
+      <div class="row justify-content-center">
+        <div class="col-6">
+          <a href="https://themes.semicolonweb.com/html/canvas/index-dark.html"
+            class="btn btn-outline-secondary btn-block">Dark</a>
+        </div>
+      </div>
+
+      <div class="line line-sm"></div>
+
+      <h4>Preloaders Styles</h4>
+
+      <div class="btn-container">
+        <button class="btn btn-outline-secondary btn-sm preloader-demo" data-loader="1">1</button>
+        <button class="btn btn-outline-secondary btn-sm preloader-demo" data-loader="2">2</button>
+        <button class="btn btn-outline-secondary btn-sm preloader-demo" data-loader="3">3</button>
+        <button class="btn btn-outline-secondary btn-sm preloader-demo" data-loader="4">4</button>
+        <button class="btn btn-outline-secondary btn-sm preloader-demo" data-loader="5">5</button>
+        <button class="btn btn-outline-secondary btn-sm preloader-demo" data-loader="6">6</button>
+        <button class="btn btn-outline-secondary btn-sm preloader-demo" data-loader="7">7</button>
+        <button class="btn btn-outline-secondary btn-sm preloader-demo" data-loader="8">8</button>
+        <button class="btn btn-outline-secondary btn-sm preloader-demo" data-loader="9">9</button>
+        <button class="btn btn-outline-secondary btn-sm preloader-demo" data-loader="10">10</button>
+        <button class="btn btn-outline-secondary btn-sm preloader-demo" data-loader="11">11</button>
+        <button class="btn btn-outline-secondary btn-sm preloader-demo" data-loader="12">12</button>
+        <button class="btn btn-outline-secondary btn-sm preloader-demo" data-loader="13">13</button>
+        <button class="btn btn-outline-secondary btn-sm preloader-demo" data-loader="14">14</button>
+      </div>
+    </div>
+
+    <div class="line line-sm"></div>
+
+    <div class="widget clearfix">
+      <h4>Niche Demos</h4>
+
+      <p>Canvas gives you a Solid Foundation to create Unique Layouts using the broad variety of included elements and
+        modules.</p>
+
+      <div class="row">
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/index.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/classic.jpg"
+            alt="Classic"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-covid-care.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/covid-care.jpg"
+            alt="COVID Care"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-forum.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/forum.jpg"
+            alt="Forums/Community"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-blog.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/blog.jpg"
+            alt="Blog"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-freelancer.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/freelancer.jpg"
+            alt="Freelancer"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-cleaner.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/cleaner.jpg"
+            alt="Cleaner"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-beauty-kit.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/beauty-kit.jpg"
+            alt="Beauty Kit"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-yoga.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/yoga.jpg"
+            alt="Yoga"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-store.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/store.jpg"
+            alt="Store"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-hostel.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/hostel.jpg"
+            alt="Hostel"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-crowdfunding.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/crowdfunding.jpg"
+            alt="Crowd Funding"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-burger.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/burger.png"
+            alt="Burger"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-landing.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/landing.jpg"
+            alt="Landing"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-beauty.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/beauty.jpg"
+            alt="Beauty"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-real-estate.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/real-estate1.jpg"
+            alt="Real Estate Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-coworking.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/coworking.jpg"
+            alt="CoWorking"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-recipes.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/recipes.jpg"
+            alt="Recipes"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-movers.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/movers.jpg"
+            alt="Movers Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-conference.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/conference.jpg"
+            alt="Conference Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-nonprofit.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/nonprofit.jpg"
+            alt="Non-Profit Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-seo.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/seo.jpg"
+            alt="SEO Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-articles.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/article.jpg"
+            alt="Articles Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-course.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/course.jpg"
+            alt="Course Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-shop.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/shop.jpg"
+            alt="Shop Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-bike.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/bike.jpg"
+            alt="Bike Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-hosting.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/hosting.jpg"
+            alt="Hosting Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-photographer.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/photographer.jpg"
+            alt="Photographer Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-news.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/news.jpg"
+            alt="News Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-headphones.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/headphones.jpg"
+            alt="Headphones Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-gym.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/gym.jpg"
+            alt="Gym Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-modern-blog.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/modern-blog.jpg"
+            alt="Modern Blog Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-travel.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/travel.jpg"
+            alt="Travel Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-construction.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/construction.jpg"
+            alt="Construction Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-medical.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/medical.jpg"
+            alt="Medical Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-music.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/music.jpg"
+            alt="Music Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-car.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/car.jpg"
+            alt="Car Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-app-landing.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/app-landing.jpg"
+            alt="App Landing Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-media-agency.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/media-agency.jpg"
+            alt="Media Agency Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-barber.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/barber.jpg"
+            alt="Barber Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-restaurant.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/restaurant.jpg"
+            alt="Restaurant Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-business.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/business.jpg"
+            alt="Business Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-ecommerce.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/ecommerce.jpg"
+            alt="eCommerce Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-pet.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/pet.jpg"
+            alt="Gallery Pets Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-resume.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/resume.jpg"
+            alt="Resume Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-interior-design.html"
+          target="_blank"><img class="rounded"
+            src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/interior-design.jpg"
+            alt="Interior Design Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-agency.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/agency.jpg"
+            alt="Agency Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-spa.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/spa.jpg"
+            alt="Spa Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-photography.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/photography.jpg"
+            alt="Photography Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-cafe.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/cafe.jpg"
+            alt="Cafe Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-writer.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/writer.jpg"
+            alt="Writer Demo"></a>
+        <a class="col-6" href="https://themes.semicolonweb.com/html/canvas/demo-xmas.html" target="_blank"><img
+            class="rounded" src="https://themes.semicolonweb.com/html/canvas/images/intro/niche/new/xmas.jpg"
+            alt="Xmas Demo"></a>
+      </div>
+    </div>
+  </div>
 
   <!-- JavaScripts
 	============================================= -->
@@ -1021,3 +1259,4 @@
 </body>
 
 </html>
+
