@@ -1,31 +1,845 @@
-<html lang="en" class="font" data-react-helmet="lang">
+<html lang="en" class="wide smoothscroll wow-animation desktop landscape rd-navbar-static-linked">
 
 <head>
-    <meta charset="utf-8">
-    <script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script>
-    <script async="" src="https://mc.yandex.ru/metrika/tag.js"></script>
-    <script type="text/javascript" async="" src="//www.googleadservices.com/pagead/conversion_async.js"></script>
-    
+    <!-- Site Title -->
+    <title>Home</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport"
+        content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <!-- Stylesheets -->
     <script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/ec.js"></script>
-    
-    <script type="text/javascript" async="" src="//bat.bing.com/bat.js"></script>
     <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
-    <script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/linkid.js"></script>
-    <script type="text/javascript" async=""
-        src="https://www.google-analytics.com/gtm/js?id=GTM-P3B33MM&amp;t=gtm2&amp;cid=92920459.1606383505"></script>
-    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
-    <script type="text/javascript" async=""
-        src="https://www.googletagmanager.com/gtag/js?id=G-FTPYEGT5LY&amp;l=dataLayer&amp;cx=c"></script>
-    <script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-MS2BNB"></script>
+    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-P9FT69"></script>
+    <script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script>
+    <script src="https://livedemo00.template-help.com/cdn-cgi/apps/body/4o300efCt-CXoq1JEC-sVReFz48.js"></script>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
     <script>
-        "use strict";
-        if (
-            ('fontDisplay' in document.documentElement.style) ||
-            (localStorage && localStorage.getItem('font'))
-        ) {
-            document.documentElement.classList.add('font');
-        }
+        ;
+        window.CloudflareApps = window.Eager = window.CloudflareApps || window.Eager || {};
+        window.CloudflareApps = window.CloudflareApps || {};
+        CloudflareApps.siteId = "2635f6279cb88cfd8ad4b6d16d18badb";
+        CloudflareApps.installs = CloudflareApps.installs || {};;
+        (function () {
+            CloudflareApps.internal = CloudflareApps.internal || {};
+            var errors = [];
+            CloudflareApps.internal.placementErrors = errors;
+            var errorHashes = {}
+            var noteError = function (options) {
+                var hash = options.selector + '::' + options.type + '::' + (options.installId || '');
+                if (errorHashes[hash])
+                    return;
+                errorHashes[hash] = true;
+                errors.push(options);
+            }
+            var initializedSelectors = {};
+            var currentInit = false;
+            CloudflareApps.internal.markSelectors = function () {
+                if (!currentInit) {
+                    check();
+                    currentInit = true;
+                    setTimeout(function () {
+                        currentInit = false;
+                    });
+                }
+            }
+            var check = function () {
+                var installs = window.CloudflareApps.installs;
+                for (var installId in installs) {
+                    if (!installs.hasOwnProperty(installId))
+                        continue;
+                    var selectors = installs[installId].selectors;
+                    if (!selectors)
+                        continue;
+                    for (var key in selectors) {
+                        if (!selectors.hasOwnProperty(key))
+                            continue;
+                        var hash = installId + "::" + key;
+                        if (initializedSelectors[hash])
+                            continue;
+                        var els = document.querySelectorAll(selectors[key]);
+                        if (els && els.length > 1) {
+                            noteError({
+                                type: 'init:too-many',
+                                option: key,
+                                selector: selectors[key],
+                                installId: installId
+                            });
+                            initializedSelectors[hash] = true;
+                            continue;
+                        } else if (!els || !els.length) {
+                            continue;
+                        }
+                        initializedSelectors[hash] = true;
+                        els[0].setAttribute('cfapps-selector', selectors[key]);
+                    }
+                }
+            }
+            CloudflareApps.querySelector = function (selector) {
+                if (selector === 'body' || selector === 'head') {
+                    return document[selector];
+                }
+                CloudflareApps.internal.markSelectors();
+                var els = document.querySelectorAll('[cfapps-selector="' + selector + '"]');
+                if (!els || !els.length) {
+                    noteError({
+                        type: 'select:not-found:by-attribute',
+                        selector: selector
+                    });
+                    els = document.querySelectorAll(selector);
+                    if (!els || !els.length) {
+                        noteError({
+                            type: 'select:not-found:by-query',
+                            selector: selector
+                        });
+                        return null;
+                    } else if (els.length > 1) {
+                        noteError({
+                            type: 'select:too-many:by-query',
+                            selector: selector
+                        });
+                    }
+                    return els[0];
+                }
+                if (els.length > 1) {
+                    noteError({
+                        type: 'select:too-many:by-attribute',
+                        selector: selector
+                    });
+                }
+                return els[0];
+            }
+        })();;
+        (function () {
+            var prevEls = {};
+            CloudflareApps.createElement = function (options, prevEl) {
+                CloudflareApps.internal.markSelectors();
+                try {
+                    if (prevEl && prevEl.parentNode) {
+                        var replacedEl;
+                        if (prevEl.cfAppsElementId) {
+                            replacedEl = prevEls[prevEl.cfAppsElementId];
+                        }
+                        if (replacedEl) {
+                            prevEl.parentNode.replaceChild(replacedEl, prevEl);
+                            delete prevEls[prevEl.cfAppsElementId];
+                        } else {
+                            prevEl.parentNode.removeChild(prevEl);
+                        }
+                    }
+                    var element = document.createElement('cloudflare-app');
+                    var container;
+                    try {
+                        container = CloudflareApps.querySelector(options.selector);
+                    } catch (e) {}
+                    if (!container) {
+                        return element;
+                    }
+                    if (!container.parentNode && (options.method == "after" || options.method == "before" ||
+                            options.method == "replace")) {
+                        return element;
+                    }
+                    if (container == document.body) {
+                        if (options.method == "after")
+                            options.method = "append";
+                        else if (options.method == "before")
+                            options.method = "prepend";
+                    }
+                    switch (options.method) {
+                        case "prepend":
+                            if (container.firstChild) {
+                                container.insertBefore(element, container.firstChild);
+                                break;
+                            }
+                            case "append":
+                                container.appendChild(element);
+                                break;
+                            case "after":
+                                if (container.nextSibling) {
+                                    container.parentNode.insertBefore(element, container.nextSibling);
+                                } else {
+                                    container.parentNode.appendChild(element);
+                                }
+                                break;
+                            case "before":
+                                container.parentNode.insertBefore(element, container);
+                                break;
+                            case "replace":
+                                try {
+                                    id = element.cfAppsElementId = Math.random().toString(36);
+                                    prevEls[id] = container;
+                                } catch (e) {}
+                                container.parentNode.replaceChild(element, container);
+                    }
+                    return element;
+                } catch (e) {
+                    if (typeof console !== "undefined" && typeof console.error !== "undefined") {
+                        console.error("Error creating Cloudflare Apps element", e);
+                    }
+                }
+            }
+        })();;
+        (function () {
+            CloudflareApps.matchPage = function (patterns) {
+                if (!patterns || !patterns.length) {
+                    return true;
+                }
+                if (window.CloudflareApps && CloudflareApps.proxy && CloudflareApps.proxy.originalURL) {
+                    var url = CloudflareApps.proxy.originalURL.parsed;
+                    var loc = url.host + url.path;
+                } else {
+                    var loc = document.location.host + document.location.pathname;
+                }
+                for (var i = 0; i < patterns.length; i++) {
+                    var re = new RegExp(patterns[i], 'i');
+                    if (re.test(loc)) {
+                        return true;
+                    }
+                }
+                return false;
+            }
+        })();;
+        CloudflareApps.installs["z8mJiV6tI7w0"] = {
+            appId: "XzVIEqe1R2kW",
+            scope: {}
+        };;
+        CloudflareApps.installs["z8mJiV6tI7w0"].options = {
+            "ie": 7
+        };
+        (function () {
+            var script = document.createElement('script');
+            script.src = 'https://livedemo00.template-help.com/cdn-cgi/apps/body/4o300efCt-CXoq1JEC-sVReFz48.js';
+            document.head.appendChild(script);
+        })();
     </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/fontawesome.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.2/iconfont/material-icons.min.css">
+    <!--[if lt IE 10]>
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+    <style>
+        cloudflare-app[app-id="a-better-browser"] {
+            display: block;
+            background: #45484d;
+            color: #fff;
+            line-height: 1.45;
+            position: fixed;
+            z-index: 90000000;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: .5em 1em;
+            text-align: center;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        cloudflare-app[app-id="a-better-browser"][data-visibility="hidden"] {
+            display: none;
+        }
+
+        cloudflare-app[app-id="a-better-browser"] cloudflare-app-message {
+            display: block;
+        }
+
+        cloudflare-app[app-id="a-better-browser"] a {
+            text-decoration: underline;
+            color: #ebebf4;
+        }
+
+        cloudflare-app[app-id="a-better-browser"] a:hover,
+        cloudflare-app[app-id="a-better-browser"] a:active {
+            color: #dbdbeb;
+        }
+
+        cloudflare-app[app-id="a-better-browser"] cloudflare-app-close {
+            display: block;
+            cursor: pointer;
+            font-size: 1.5em;
+            position: absolute;
+            right: .4em;
+            top: .35em;
+            height: 1em;
+            width: 1em;
+            line-height: 1;
+        }
+
+        cloudflare-app[app-id="a-better-browser"] cloudflare-app-close:active {
+            -webkit-transform: translateY(1px);
+            transform: translateY(1px);
+        }
+
+        cloudflare-app[app-id="a-better-browser"] cloudflare-app-close:hover {
+            opacity: .9em;
+            color: #fff;
+        }
+    </style>
+    <style data-olark="true" type="text/css">
+        .olark-key,
+        #hbl_code,
+        #olark-data {
+            display: none !important;
+        }
+    </style>
+    <style data-olark="true" type="text/css">
+        @media print {
+            #habla_beta_container_do_not_rely_on_div_classes_or_names {
+                display: none !important
+            }
+        }
+    </style>
+    <link data-olark="true" rel="stylesheet" href="https://static.olark.com/jsclient/styles/artsy-albatross/theme.css"
+        type="text/css">
+</head>
+
+<body class="" data-new-gr-c-s-check-loaded="14.984.0" data-gr-ext-installed="">
+    <div id="olark" style="display: none;">
+        <olark><iframe frameborder="0" id="olark-loader"></iframe></olark>
+    </div>
+    <!-- The Main Wrapper -->
+    <div class="page">
+
+        <!--For older internet explorer-->
+        <div class="old-ie"
+            style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;">
+            <a href="https://windows.microsoft.com/en-US/internet-explorer/..">
+                <img src="https://livedemo00.template-help.com/wt_58895/images/ie8-panel/warning_bar_0000_us.jpg"
+                    height="42" width="820"
+                    alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today.">
+            </a>
+        </div>
+        <!--END block for older internet explorer-->
+
+        <!--========================================================
+                              HEADER
+    =========================================================-->
+        <header class="page-header">
+            <!-- RD Navbar -->
+            <div class="rd-navbar-wrap">
+                <nav class="rd-navbar rd-navbar-static" data-rd-navbar-lg="rd-navbar-static">
+                    <div class="rd-navbar-inner">
+                        <!-- RD Navbar Panel -->
+                        <div class="rd-navbar-panel">
+
+                            <!-- RD Navbar Toggle -->
+                            <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar"><span></span></button>
+                            <!-- END RD Navbar Toggle -->
+
+                            <!-- RD Navbar Brand -->
+                            <a href="index.html" class="rd-navbar-brand">
+                                <span class="brand-name">
+                                    GPS
+                                </span>
+                                <span class="brand-slogan">Vehicle Tracking System </span>
+                            </a>
+                            <!-- END RD Navbar Brand -->
+                        </div>
+                        <!-- END RD Navbar Panel -->
+
+                        <div class="rd-navbar-nav-wrap">
+
+                            <!-- RD Navbar Nav -->
+                            <ul class="rd-navbar-nav">
+                                <li class="active">
+                                    <a href="index.html">Home</a>
+                                </li>
+                                
+                                <li class="rd-navbar--has-dropdown rd-navbar-submenu">
+                                    <a href="services.html">Services</a>
+                                    <!-- RD Navbar Dropdown -->
+                                    <ul class="rd-navbar-dropdown">
+                                        <li>
+                                            <a href="#">Vehicle Security</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Vehicle monitoring</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Home Security</a>
+                                        </li>
+                                        <li class="rd-navbar--has-dropdown rd-navbar-submenu">
+                                            <a href="#">Control</a>
+                                            <ul class="rd-navbar-dropdown">
+                                                <li>
+                                                    <a href="#">Home Security</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Control</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Vehicle Security</a>
+                                                </li>
+                                            </ul>
+
+                                            <span class="rd-navbar-submenu-toggle"></span>
+                                        </li>
+                                        <li>
+                                            <a href="#">Train monitoring</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Personal Tracking </a>
+                                        </li>
+                                    </ul>
+                                    <!-- END RD Navbar Dropdown -->
+                                    <span class="rd-navbar-submenu-toggle"></span>
+                                </li>
+                                <li>
+                                    <a href="about.html">About</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contact Us</a>
+                                </li>
+                            </ul>
+                            <!-- END RD Navbar Nav -->
+                        </div>
+
+                        <a href="#" class="log">login</a>
+                    </div>
+                </nav>
+                <nav class="rd-navbar rd-navbar--is-clone rd-navbar-static" data-rd-navbar-lg="rd-navbar-static">
+                    <div class="rd-navbar-inner">
+                        <!-- RD Navbar Panel -->
+                        <div class="rd-navbar-panel">
+
+                            <!-- RD Navbar Toggle -->
+                            <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar"><span></span></button>
+                            <!-- END RD Navbar Toggle -->
+
+                            <!-- RD Navbar Brand -->
+                            <a href="index.html" class="rd-navbar-brand">
+                                <span class="brand-name">
+                                    GPS
+                                </span>
+                                <span class="brand-slogan">Vehicle Tracking System </span>
+                            </a>
+                            <!-- END RD Navbar Brand -->
+                        </div>
+                        <!-- END RD Navbar Panel -->
+
+                        <div class="rd-navbar-nav-wrap">
+
+                            <!-- RD Navbar Nav -->
+                            <ul class="rd-navbar-nav">
+                                <li class="active">
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="index-1.html">About</a>
+
+
+                                </li>
+                                <li class="rd-navbar--has-dropdown rd-navbar-submenu">
+                                    <a href="index-2.html">Services</a>
+                                    <!-- RD Navbar Dropdown -->
+                                    <ul class="rd-navbar-dropdown">
+                                        <li>
+                                            <a href="#">Vehicle Security</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Vehicle monitoring</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Home Security</a>
+                                        </li>
+                                        <li class="rd-navbar--has-dropdown rd-navbar-submenu">
+                                            <a href="#">Control</a>
+                                            <ul class="rd-navbar-dropdown">
+                                                <li>
+                                                    <a href="#">Home Security</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Control</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Vehicle Security</a>
+                                                </li>
+                                            </ul>
+
+                                            <span class="rd-navbar-submenu-toggle"></span>
+                                        </li>
+                                        <li>
+                                            <a href="#">Train monitoring</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Personal Tracking </a>
+                                        </li>
+                                    </ul>
+                                    <!-- END RD Navbar Dropdown -->
+                                    <span class="rd-navbar-submenu-toggle"></span>
+                                </li>
+                                <li>
+                                    <a href="index-3.html">Gallery</a>
+                                </li>
+                                <li>
+                                    <a href="index-4.html">Contacts</a>
+                                </li>
+                            </ul>
+                            <!-- END RD Navbar Nav -->
+                        </div>
+
+                        <a href="#" class="log">login</a>
+                    </div>
+                </nav>
+            </div>
+            <!-- END RD Navbar -->
+            <!-- The easiest way  -->
+            <section class="well  bg-primary header">
+                <div class="container text-center">
+                    <h1>The easiest way
+                        <span class="heading-3">to monitor and dispatch your vehicles</span>
+                    </h1>
+                    <p class="inset-1">We give you the power and performance of a complete fleet management system.
+                        Fleet owners
+                        gain a new level of
+                        control over their vehicles, drivers and fleet operating costs.</p>
+                    <div class="btn-group">
+                        <a href="#" class="btn btn-md btn-secondary">learn more</a>
+                        <a href="#" class="btn btn-lg btn-default">Know More</a>
+                    </div>
+                </div>
+            </section>
+            <!-- END The easiest way  -->
+        </header>
+        <!--========================================================
+                              CONTENT
+    =========================================================-->
+        <main class="page-content">
+
+            <!-- GPS tracking  -->
+            <section class="well well-1 bg-alabster">
+                <div class="container text-center text-sm-left">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-5">
+                            <h2>GPS tracking
+                                <span class="heading-3"> benefits &amp; savings</span>
+                            </h2>
+                            <p>Our Company is the recognized leader in the GPS fleet management industry and our GPS
+                                Fleet Tracking
+                                solution
+                                sets the standard for excellence and performance. We are committed to providing fleet
+                                operators everywhere
+                                with the highest
+                                quality, most cost-effective solutions.</p>
+                        </div>
+                        <div class="col-md-preffix-1 col-sm-6">
+                            <div class="image-wrap image-wrap-right image-wrap-1">
+                                <img src="https://livedemo00.template-help.com/wt_58895/images/page-01_img01.png"
+                                    width="938" height="609" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END GPS tracking  -->
+
+
+            <!--  Improve your safety -->
+            <section class="well  well-2 text-center">
+                <div class="container">
+                    <h2> Improve your safety
+                        <span class="heading-3">on the road</span>
+                    </h2>
+                    <div class="row row-md-reverse text-md-left">
+                        <div class="col-md-6">
+                            <p>GPS tracking technology has come so far in the past few years. At GPS Vehicle Tracking
+                                System, our
+                                mandate is to keep on top of all the changing technology, so we can pass that knowledge
+                                to you - our
+                                valued customers. If you're
+                                curious about GPS trackers, you've come to the right place. Not only do we offer fleet
+                                tracking and
+                                vehicle tracking
+                                options, but we also have an entire line of personal GPS tracking devices available. Our
+                                line of GPS
+                                tracking devices is extensive, but we're happy to help you find the best option for any
+                                vehicle that you
+                                want to track.
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="image-wrap image-wrap-left image-wrap-left-md  image-wrap-2">
+                                <img src="https://livedemo00.template-help.com/wt_58895/images/page-01_img02.png"
+                                    width="794" height="568" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END  Improve your safety -->
+
+            <!--  Discover advanced -->
+            <section class="well well-3 bg-alabster">
+                <div class="container text-center">
+                    <h2> Discover advanced
+                        <span class="heading-3">GPS tracking features</span>
+                    </h2>
+                    <div class="row text-md-left row-xs-center offset-1 flow-offset-2">
+                        <div class="col-sm-6 col-md-4">
+                            <span class="icon icon-xl icon-primary material-icons-map"></span>
+                            <h5>GPS vehicle tracking</h5>
+                            <p>We offer the best professional tool
+                                for GPS vehicle tracking and fleet
+                                management. A small GPS tracker
+                                containing GPS receiver and GPRS. </p>
+                            <a href="#" class="btn btn-sm btn-default">Learn more</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <span class="icon icon-xl icon-primary material-icons-local_shipping "></span>
+                            <h5>CANbus data reading</h5>
+                            <p>Modern trucks implement an electronic data communication protocol called CANBus/J1939.
+                                This protocol
+                                allows
+                                external equipment to be used.</p>
+                            <a href="#" class="btn btn-sm btn-default">Learn more</a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <span class="icon icon-xl icon-primary material-icons-timer "></span>
+                            <h5>Integrated navigation</h5>
+                            <p>Would you like to integrate our system with a popular navigator? Do you need to
+                                communicate with your
+                                drivers in a simple, clear and economic way? </p>
+                            <a href="#" class="btn btn-sm btn-default">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END  Discover advanced -->
+
+            <!-- Complete fleet -->
+            <section class="well well-4 bg-image bg-image-1 bg-fixed">
+                <div class="container text-center">
+                  <h1>Complete fleet
+                    <span class="heading-3">management solution</span>
+                  </h1>
+                  <p class="inset-1">Competition within the transport business is high and oil prices are still rising. The
+                    solution for
+                    profitability is to know how everything works, to drive more efficiently than the competition. GPS Vehicle
+                    Tracking System offers
+                    a comprehensive suite of solutions for professionals in the efficiency of freight transport by fleet
+                    monitoring and tracking </p>
+                  <a href="#" class="btn btn-md btn-primary">Learn more</a>
+                </div>
+              </section>
+            <!-- END Complete fleet -->
+
+            <!-- Testimonials -->
+            <section class="well well-5">
+                <div class="container text-center">
+                    <h2 class="text-secondary">Testimonials</h2>
+                    <div class="row row-xs-center row-md-left text-sm-left offset-3">
+                        <div class="col-sm-8 col-md-6 col-lg-5">
+                            <blockquote class="quote">
+                                <div class="box-sm">
+                                    <div class="box__left inset-2">
+                                        <img src="https://livedemo00.template-help.com/wt_58895/images/page-01_img04.jpg"
+                                            width="131" height="131" alt="" class="round">
+                                    </div>
+                                    <div class="box__body">
+                                        <p>
+                                            <q>
+                                                Thanks a lot for the quick
+                                                response. I was really impressed,
+                                                your solution is excellent!! Your
+                                                competence is justified!!</q>
+                                        </p>
+                                        <h5>
+                                            <cite>
+                                                Adam Smith
+                                            </cite>
+                                        </h5>
+                                        <div class="small text-secondary">Driver</div>
+                                    </div>
+                                </div>
+
+                            </blockquote>
+                        </div>
+                        <div class="col-sm-8 col-md-6 col-lg-preffix-1 col-lg-6 offset-2">
+                            <blockquote class="quote">
+                                <div class="box-sm">
+                                    <div class="box__left inset-2">
+                                        <img src="https://livedemo00.template-help.com/wt_58895/images/page-01_img05.jpg"
+                                            width="131" height="131" alt="" class="round">
+                                    </div>
+                                    <div class="box__body">
+                                        <p class="inset-3">
+                                            <q> I just don't know how to
+                                                describe your services... They are
+                                                extraordinary! I am quite happy with them! Just keep up going this way!
+                                            </q>
+                                        </p>
+                                        <h5>
+                                            <cite>
+                                                Tom Cooper
+                                            </cite>
+                                        </h5>
+                                        <div class="small text-secondary">Driver</div>
+                                    </div>
+                                </div>
+
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END Testimonials -->
+
+            <section class="well well-6 bg-primary">
+                <div class="container text-center ">
+                    <h3 class="text-white"><span class="text-bold big">GPS</span> Vehicle Tracking System </h3>
+                    <p class="inset-4">We represent the highest value GPS vehicle tracker and fleet tracking solution in
+                        the
+                        industry. Its proven functionality and
+                        rapid deployment easily scales whether you’re a small business or a large enterprise
+                        organization. </p>
+                    <a href="#" class="btn btn-lg btn-secondary">buy now!</a>
+                </div>
+            </section>
+        </main>
+        <!--========================================================
+                              FOOTER
+    ==========================================================-->
+        <footer class="page-footer page-footer-well bg-primary">
+
+            <!-- END GPS Vehicle Tracking System -->
+            <div class="container text-center">
+                <p class="copyright">
+                    Copyright <span id="copyright-year">2020</span>.
+                    <a href="https://github.com/cloakedsec/">Privacy Policy</a>
+                    <!-- {%FOOTER_LINK} -->
+                </p>
+                <ul class="inline-list">
+                    <li><a href="#" class="icon icon-xs icon-default fa-facebook"></a></li>
+                    <li><a href="#" class="icon icon-xs icon-default fa-twitter"></a></li>
+                    <li><a href="#" class="icon icon-xs icon-default fa-google-plus"></a></li>
+                </ul>
+            </div>
+        </footer>
+        <!-- GPS Vehicle Tracking System  -->
+
+    </div>
+
+    <!-- Core Scripts -->
+    <script src="https://livedemo00.template-help.com/wt_58895/js/core.min.js"></script>
+    <!-- Additional Functionality Scripts -->
+    <script src="https://livedemo00.template-help.com/wt_58895/js/script.js"></script> <!-- begin olark code -->
+    <script data-cfasync="false" type="text/javascript">
+        /*<![CDATA[*/
+        window.olark || (function (c) {
+            var f = window,
+                d = document,
+                l = f.location.protocol == "https:" ? "https:" : "http:",
+                z = c.name,
+                r = "load";
+            var nt = function () {
+                f[z] = function () {
+                    (a.s = a.s || []).push(arguments)
+                };
+                var a = f[z]._ = {},
+                    q = c.methods.length;
+                while (q--) {
+                    (function (n) {
+                        f[z][n] = function () {
+                            f[z]("call", n, arguments)
+                        }
+                    })(c.methods[q])
+                }
+                a.l = c.loader;
+                a.i = nt;
+                a.p = {
+                    0: +new Date
+                };
+                a.P = function (u) {
+                    a.p[u] = new Date - a.p[0]
+                };
+
+                function s() {
+                    a.P(r);
+                    f[z](r)
+                }
+                f.addEventListener ? f.addEventListener(r, s, false) : f.attachEvent("on" + r, s);
+                var ld = function () {
+                    function p(hd) {
+                        hd = "head";
+                        return ["<", hd, "></", hd, "><", i, ' onl' + 'oad="var d=', g,
+                            ";d.getElementsByTagName('head')[0].", j, "(d.", h, "('script')).", k,
+                            "='", l, "//", a.l, "'", '"', "></", i, ">"
+                        ].join("")
+                    }
+                    var i = "body",
+                        m = d[i];
+                    if (!m) {
+                        return setTimeout(ld, 100)
+                    }
+                    a.P(1);
+                    var j = "appendChild",
+                        h = "createElement",
+                        k = "src",
+                        n = d[h]("div"),
+                        v = n[j](d[h](z)),
+                        b = d[h]("iframe"),
+                        g = "document",
+                        e = "domain",
+                        o;
+                    n.style.display = "none";
+                    m.insertBefore(n, m.firstChild).id = z;
+                    b.frameBorder = "0";
+                    b.id = z + "-loader";
+                    if (/MSIE[ ]+6/.test(navigator.userAgent)) {
+                        b.src = "javascript:false"
+                    }
+                    b.allowTransparency = "true";
+                    v[j](b);
+                    try {
+                        b.contentWindow[g].open()
+                    } catch (w) {
+                        c[e] = d[e];
+                        o = "javascript:var d=" + g + ".open();d.domain='" + d.domain + "';";
+                        b[k] = o + "void(0);"
+                    }
+                    try {
+                        var t = b.contentWindow[g];
+                        t.write(p());
+                        t.close()
+                    } catch (x) {
+                        b[k] = o + 'd.write("' + p().replace(/"/g, String.fromCharCode(92) + '"') +
+                            '");d.close();'
+                    }
+                    a.P(2)
+                };
+                ld()
+            };
+            nt()
+        })({
+            loader: "static.olark.com/jsclient/loader0.js",
+            name: "olark",
+            methods: ["configure", "extend", "declare", "identify"]
+        }); /* custom configuration goes here (www.olark.com/documentation) */
+        olark.identify('7830-582-10-3714'); /*]]>*/
+    </script> <noscript><a href="https://www.olark.com/site/7830-582-10-3714/contact" title="Contact us"
+            target="_blank">Questions? Feedback?</a> powered by <a href="https://www.olark.com?welcome"
+            title="Olark live chat software">Olark live chat software</a></noscript> <!-- end olark code -->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7078796-5']);
+        _gaq.push(['_trackPageview']);
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') +
+                '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69" height="0"
+            width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script>
         (function (w, d, s, l, i) {
             w[l] = w[l] || [];
@@ -37,650 +851,285 @@
                 j = d.createElement(s),
                 dl = l != 'dataLayer' ? '&l=' + l : '';
             j.async = true;
-            j.src =
-                '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+            j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-MS2BNB');
-    </script>
-    
-  
-    <link rel="apple-touch-icon" sizes="180x180" href="https://s3sf.tmimgcdn.com/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="https://s3sf.tmimgcdn.com/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="https://s3sf.tmimgcdn.com/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="https://s3sf.tmimgcdn.com/manifest.json">
-    <link rel="mask-icon" href="https://s3sf.tmimgcdn.com/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="https://s3sf.tmimgcdn.com/favicon.ico">
-    <link href="https://s3sf.tmimgcdn.com/plasma-platform.spa.chunk.23ccdef5d231cf5f6e79.css" rel="stylesheet">
-    <link href="https://s3sf.tmimgcdn.com/index.spa.chunk.f79b2cb2e0575fac0d34.css" rel="stylesheet">
-    <link href="https://s3sf.tmimgcdn.com/page_livedemo.spa.chunk.4069d28020108479e626.css" rel="stylesheet">
-    <script charset="UTF-8" src="//web.webpushs.com/js/push/5ab41f034f43c29d4e5b5082a08f9be1_1.js" async=""></script>
-    <link rel="canonical" href="https://www.templatemonsterpreview.com/demo/58895.html" data-react-helmet="true">
-    <meta name="description"
-        content="View the demo preview of the professional GPS Vehicle Tracking System Website Template (#58895) to learn what this theme is before you decide to buy it. View the pages, check the images, press the buttons, explore the functionality."
-        data-react-helmet="true">
-    <meta property="og:url" content="https://www.templatemonsterpreview.com/demo/58895.html" data-react-helmet="true">
-    <meta property="og:title" content="Demo Preview for GPS Vehicle Tracking System Website Template #58895"
-        data-react-helmet="true">
-    <meta property="og:description"
-        content="View the demo preview of the professional GPS Vehicle Tracking System Website Template (#58895) to learn what this theme is before you decide to buy it. View the pages, check the images, press the "
-        data-react-helmet="true">
-    <meta property="og:image"
-        content="https://s.tmimgcdn.com/scr/58800/gps-vehicle-tracking-system-website-template_58895-original.jpg?width=1024&amp;height=1146"
-        data-react-helmet="true">
-    <meta property="og:type" content="product" data-react-helmet="true">
-    <script type="application/ld+json" data-react-helmet="true">
-        {
-            "@context": "http://schema.org",
-            "@type": "WebPage",
-            "url": "https://www.templatemonsterpreview.com/demo/58895.html",
-            "name": "Demo Preview for GPS Vehicle Tracking System Website Template #58895",
-            "description": "View the demo preview of the professional GPS Vehicle Tracking System Website Template (#58895) to learn what this theme is before you decide to buy it. View the pages, check the images, press the buttons, explore the functionality."
-        }
-    </script>
-    <script
-        src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/990429972/?random=1607329424316&amp;cv=9&amp;fst=1607329424316&amp;num=1&amp;value=69&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1040&amp;u_aw=1920&amp;u_cd=24&amp;u_his=1&amp;u_tz=330&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;gtm=2wgb41&amp;sendb=1&amp;ig=1&amp;data=dynx_itemid%3D58895%3Bdynx_pagetype%3Dofferdetail%3Bdynx_totalvalue%3D69%3Bevent%3Dview_item%3Bgoogle_business_vertical%3Dretail%3Bid%3D58895&amp;frm=0&amp;url=https%3A%2F%2Fwww.templatemonsterpreview.com%2Fdemo%2F58895.html%3F_ga%3D2.246665156.1727327010.1607319972-660716621.1607319972&amp;tiba=Demo%20Preview%20for%20GPS%20Vehicle%20Tracking%20System%20Website%20Template%20%2358895&amp;hn=www.googleadservices.com&amp;async=1&amp;rfmt=3&amp;fmt=4">
-    </script>
-    <script
-        src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/990429972/?random=1607329425476&amp;cv=9&amp;fst=1607329425476&amp;num=1&amp;value=249&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1040&amp;u_aw=1920&amp;u_cd=24&amp;u_his=1&amp;u_tz=330&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;gtm=2wgb41&amp;sendb=1&amp;ig=1&amp;data=event%3Dview_item_list%3Bgoogle_business_vertical%3Dretail%3Bid%3D888&amp;frm=0&amp;url=https%3A%2F%2Fwww.templatemonsterpreview.com%2Fdemo%2F58895.html%3F_ga%3D2.246665156.1727327010.1607319972-660716621.1607319972&amp;tiba=Demo%20Preview%20for%20GPS%20Vehicle%20Tracking%20System%20Website%20Template%20%2358895&amp;hn=www.googleadservices.com&amp;async=1&amp;rfmt=3&amp;fmt=4">
-    </script>
-    <script
-        src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/990429972/?random=1607329425537&amp;cv=9&amp;fst=1607329425537&amp;num=1&amp;value=269&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1040&amp;u_aw=1920&amp;u_cd=24&amp;u_his=1&amp;u_tz=330&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;gtm=2wgb41&amp;sendb=1&amp;ig=1&amp;data=event%3Dview_item_list%3Bgoogle_business_vertical%3Dretail%3Bid%3D370&amp;frm=0&amp;url=https%3A%2F%2Fwww.templatemonsterpreview.com%2Fdemo%2F58895.html%3F_ga%3D2.246665156.1727327010.1607319972-660716621.1607319972&amp;tiba=Demo%20Preview%20for%20GPS%20Vehicle%20Tracking%20System%20Website%20Template%20%2358895&amp;hn=www.googleadservices.com&amp;async=1&amp;rfmt=3&amp;fmt=4">
-    </script>
-    <script
-        src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/990429972/?random=1607329425541&amp;cv=9&amp;fst=1607329425541&amp;num=1&amp;value=49&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1040&amp;u_aw=1920&amp;u_cd=24&amp;u_his=1&amp;u_tz=330&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;gtm=2wgb41&amp;sendb=1&amp;ig=1&amp;data=event%3Dview_item_list%3Bgoogle_business_vertical%3Dretail%3Bid%3D897&amp;frm=0&amp;url=https%3A%2F%2Fwww.templatemonsterpreview.com%2Fdemo%2F58895.html%3F_ga%3D2.246665156.1727327010.1607319972-660716621.1607319972&amp;tiba=Demo%20Preview%20for%20GPS%20Vehicle%20Tracking%20System%20Website%20Template%20%2358895&amp;hn=www.googleadservices.com&amp;async=1&amp;rfmt=3&amp;fmt=4">
-    </script>
-    <script
-        src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/990429972/?random=1607329425543&amp;cv=9&amp;fst=1607329425543&amp;num=1&amp;value=72&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1040&amp;u_aw=1920&amp;u_cd=24&amp;u_his=1&amp;u_tz=330&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;gtm=2wgb41&amp;sendb=1&amp;ig=1&amp;data=event%3Dview_item_list%3Bgoogle_business_vertical%3Dretail%3Bid%3D772&amp;frm=0&amp;url=https%3A%2F%2Fwww.templatemonsterpreview.com%2Fdemo%2F58895.html%3F_ga%3D2.246665156.1727327010.1607319972-660716621.1607319972&amp;tiba=Demo%20Preview%20for%20GPS%20Vehicle%20Tracking%20System%20Website%20Template%20%2358895&amp;hn=www.googleadservices.com&amp;async=1&amp;rfmt=3&amp;fmt=4">
-    </script>
-    <script
-        src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/990429972/?random=1607329425545&amp;cv=9&amp;fst=1607329425545&amp;num=1&amp;value=39&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1040&amp;u_aw=1920&amp;u_cd=24&amp;u_his=1&amp;u_tz=330&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;gtm=2wgb41&amp;sendb=1&amp;ig=1&amp;data=event%3Dview_item_list%3Bgoogle_business_vertical%3Dretail%3Bid%3D842&amp;frm=0&amp;url=https%3A%2F%2Fwww.templatemonsterpreview.com%2Fdemo%2F58895.html%3F_ga%3D2.246665156.1727327010.1607319972-660716621.1607319972&amp;tiba=Demo%20Preview%20for%20GPS%20Vehicle%20Tracking%20System%20Website%20Template%20%2358895&amp;hn=www.googleadservices.com&amp;async=1&amp;rfmt=3&amp;fmt=4">
-    </script>
-    <script
-        src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/990429972/?random=1607329425548&amp;cv=9&amp;fst=1607329425548&amp;num=1&amp;value=99&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=376635470&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1040&amp;u_aw=1920&amp;u_cd=24&amp;u_his=1&amp;u_tz=330&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;gtm=2wgb41&amp;sendb=1&amp;ig=1&amp;data=event%3Dview_item_list%3Bgoogle_business_vertical%3Dretail%3Bid%3D758&amp;frm=0&amp;url=https%3A%2F%2Fwww.templatemonsterpreview.com%2Fdemo%2F58895.html%3F_ga%3D2.246665156.1727327010.1607319972-660716621.1607319972&amp;tiba=Demo%20Preview%20for%20GPS%20Vehicle%20Tracking%20System%20Website%20Template%20%2358895&amp;hn=www.googleadservices.com&amp;async=1&amp;rfmt=3&amp;fmt=4">
-    </script>
-    <script
-        src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/990429972/?random=1607329426444&amp;cv=9&amp;fst=1607329426444&amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1040&amp;u_aw=1920&amp;u_cd=24&amp;u_his=1&amp;u_tz=330&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;gtm=2wgb41&amp;sendb=1&amp;ig=1&amp;data=dynx_pagetype%3Dofferdetail&amp;frm=0&amp;url=https%3A%2F%2Fwww.templatemonsterpreview.com%2Fdemo%2F58895.html%3F_ga%3D2.246665156.1727327010.1607319972-660716621.1607319972&amp;tiba=Demo%20Preview%20for%20GPS%20Vehicle%20Tracking%20System%20Website%20Template%20%2358895&amp;hn=www.googleadservices.com&amp;async=1&amp;rfmt=3&amp;fmt=4">
-    </script>
-    <script async="" type="text/javascript" src="https://cdn.livechatinc.com/tracking.js"></script>
-</head>
-
-<body data-new-gr-c-s-check-loaded="14.984.0" data-gr-ext-installed="" data-new-gr-c-s-loaded="14.984.0">
-    <div id="PlasmaPromotionWrapper-14"></div>
-    <div class="root" id="root">
-        <div class="">
-            <div class="Demo----2tcN">
-                <div class="DemoPanel----2ASI DemoPanel--hide----1KzC">
-                    <div class="DemoPanel__container----RNs3 DemoPanel__container--hide----MX6n">
-                        <div class="DemoPanel__chapter----1ceP">
-                            <div class="DemoPanel__title----1Tpq"><a
-                                    href="//www.templatemonster.com/website-templates/gps-vehicle-tracking-system-website-template-58895.html"
-                                    aria-label="Product" class="DemoPanel__goBackProduct----28HG"><svg
-                                        viewBox="0 0 20 20" class="DemoPanel__icon--goBack----3rTP" width="20"
-                                        height="20">
-                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                            d="M12.835 5.872a.5.5 0 10-.67-.744l-4.99 4.493a.513.513 0 00-.078.082.5.5 0 00.077.676l4.991 4.493a.5.5 0 10.67-.744L8.247 10l4.588-4.128z">
-                                        </path>
-                                    </svg><span class="DemoPanel__name----1Bcf" style="max-width: 469.5px;">GPS Vehicle
-                                        Tracking System Website Template</span></a><a
-                                    class="DemoPanel__previewLink----141i"
-                                    href="https://livedemo00.template-help.com/wt_58895" target="_blank"
-                                    rel="noopener noreferrer"><svg viewBox="0 0 13 13" width="13" height="13"
-                                        class="DemoPanel__icon--link----2TVk">
-                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                            d="M10.793 1.5l-6.06 6.06a.5.5 0 10.708.707l6.06-6.06v2.75a.5.5 0 001 0V1a.498.498 0 00-.5-.5H8.044a.5.5 0 000 1h2.75zM.5 4a.5.5 0 01.5-.5h5.09a.5.5 0 010 1H1.5v7h7V6.91a.5.5 0 011 0V12a.5.5 0 01-.5.5H1a.5.5 0 01-.5-.5V4z">
-                                        </path>
-                                    </svg></a></div>
-                            <div>
-                                <div class="ResponseSwitchers----QZWx"><button
-                                        class="ResponseSwitchers__item----s96P ResponseSwitchers__item--mobile----32gm"><svg
-                                            viewBox="0 0 12 20" class="ResponseSwitchers__itemIcon----1nyd" width="20"
-                                            height="20">
-                                            <g>
-                                                <use xlink:href="#responseMobile_svg__path0_fill"></use>
-                                                <use xlink:href="#responseMobile_svg__path1_fill"></use>
-                                                <use xlink:href="#responseMobile_svg__path2_fill"></use>
-                                            </g>
-                                            <defs>
-                                                <path id="responseMobile_svg__path0_fill" fill-rule="evenodd"
-                                                    d="M2.152 1C1.516 1 1 1.516 1 2.152v15.696C1 18.484 1.516 19 2.152 19h7.435c.636 0 1.152-.516 1.152-1.152V2.152C10.74 1.516 10.223 1 9.587 1H2.152zM0 2.152C0 .964.963 0 2.152 0h7.435c1.19 0 2.152.964 2.152 2.152v15.696A2.152 2.152 0 019.587 20H2.152A2.152 2.152 0 010 17.848V2.152z">
-                                                </path>
-                                                <path id="responseMobile_svg__path1_fill" fill-rule="evenodd"
-                                                    d="M3.304 2.152a.5.5 0 01.5-.5h4.13a.5.5 0 110 1h-4.13a.5.5 0 01-.5-.5z">
-                                                </path>
-                                                <path id="responseMobile_svg__path2_fill" fill-rule="evenodd"
-                                                    d="M5.87 17.935a.087.087 0 100-.174v.174zm0 .826a.913.913 0 110-1.826.913.913 0 010 1.826z">
-                                                </path>
-                                            </defs>
-                                        </svg><span
-                                            class="ResponseSwitchers__itemText----1jaf">Mobile</span></button><button
-                                        class="ResponseSwitchers__item----s96P ResponseSwitchers__item--tablet----8178"><svg
-                                            viewBox="0 0 20 20" class="ResponseSwitchers__itemIcon----1nyd" width="20"
-                                            height="20">
-                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                d="M4.152 1C3.517 1 3 1.516 3 2.152v15.696C3 18.484 3.517 19 4.152 19h10.74c.636 0 1.152-.516 1.152-1.152V2.152c0-.636-.516-1.152-1.153-1.152H4.152zM2 2.152C2 .964 2.965 0 4.152 0h10.74c1.188 0 2.152.964 2.152 2.152v15.696A2.152 2.152 0 0114.89 20H4.152A2.153 2.153 0 012 17.848V2.152z">
-                                            </path>
-                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                d="M9.521 1.326a.413.413 0 100 .827.413.413 0 000-.827zM9.521 17.935a.087.087 0 100-.174.087.087 0 000 .174zm-.913-.087a.913.913 0 111.827 0 .913.913 0 01-1.827 0z">
-                                            </path>
-                                        </svg><span
-                                            class="ResponseSwitchers__itemText----1jaf">Tablet</span></button><button
-                                        class="ResponseSwitchers__item----s96P ResponseSwitchers__item--desktop----13T1 ResponseSwitchers__item--active----3BQ-"><svg
-                                            viewBox="0 0 20 20" class="ResponseSwitchers__itemIcon----1nyd" width="20"
-                                            height="20">
-                                            <g>
-                                                <use xlink:href="#responseDesktop_svg__path0_fill"></use>
-                                                <use xlink:href="#responseDesktop_svg__path1_fill"></use>
-                                                <use xlink:href="#responseDesktop_svg__path2_fill"></use>
-                                            </g>
-                                            <defs>
-                                                <path id="responseDesktop_svg__path0_fill" fill-rule="evenodd"
-                                                    d="M1.74 1.063c-.382 0-.74.358-.74.863v13.018c0 .505.358.863.74.863h16.52c.383 0 .74-.357.74-.863V1.926c0-.506-.357-.863-.74-.863H1.74zM0 1.926C0 .891.753 0 1.74 0h16.52C19.249 0 20 .891 20 1.926v13.018c0 1.035-.752 1.926-1.74 1.926H1.74c-.987 0-1.74-.891-1.74-1.926V1.926z">
-                                                </path>
-                                                <path id="responseDesktop_svg__path1_fill" fill-rule="evenodd"
-                                                    d="M3.717 19.5a.5.5 0 01.5-.5h11.566a.5.5 0 010 1H4.216a.5.5 0 01-.5-.5z">
-                                                </path>
-                                                <path id="responseDesktop_svg__path2_fill" fill-rule="evenodd"
-                                                    d="M10 15.87c.276 0 .5.308.5.688v2.273c0 .38-.224.689-.5.689s-.5-.308-.5-.689v-2.273c0-.38.224-.688.5-.688z">
-                                                </path>
-                                            </defs>
-                                        </svg><span class="ResponseSwitchers__itemText----1jaf">Desktop</span></button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="DemoPanel__chapter--center----lLL3"><button type="button"
-                                class="Button_TMButton__1Ix3j Button_TMButton--widthAuto__3Rwio Button_TMButton--heightMedium__1M8hE Button_TMButton--roundedAll__GmkJ4 Button_TMButton--bgError__1h4Rt AddToCart----3okE"><span
-                                    class="AddToCart__link----G5lS"><svg viewBox="0 0 20 20"
-                                        class="AddToCart__icon----2BN3" width="20" height="20">
-                                        <use xlink:href="#cart_svg__path0_fill" opacity="0.01"></use>
-                                        <use xlink:href="#cart_svg__path1_fill" transform="translate(14.043 15.043)">
-                                        </use>
-                                        <use xlink:href="#cart_svg__path1_fill" transform="translate(4.956 15.043)">
-                                        </use>
-                                        <use xlink:href="#cart_svg__path2_fill" transform="translate(0 1)"></use>
-                                        <use xlink:href="#cart_svg__path3_fill" transform="translate(4.058 5.956)">
-                                        </use>
-                                        <defs>
-                                            <path id="cart_svg__path0_fill" fill-rule="evenodd" d="M0 0h20v20H0V0z">
-                                            </path>
-                                            <path id="cart_svg__path1_fill" fill-rule="evenodd"
-                                                d="M0 1.74a1.74 1.74 0 113.48 0 1.74 1.74 0 01-3.48 0zM1.74 1a.74.74 0 100 1.48.74.74 0 000-1.48z">
-                                            </path>
-                                            <path id="cart_svg__path2_fill" fill-rule="evenodd"
-                                                d="M0 .5A.5.5 0 01.5 0h2.891a.5.5 0 01.487.385l3.214 13.658h8.69a.5.5 0 110 1H6.696a.5.5 0 01-.487-.385L2.995 1H.5A.5.5 0 010 .5z">
-                                            </path>
-                                            <path id="cart_svg__path3_fill" fill-rule="evenodd"
-                                                d="M0 .5A.5.5 0 01.5 0h14.942a.5.5 0 01.474.658l-2.478 7.435a.5.5 0 01-.474.342H2.249a.5.5 0 010-1h10.355L14.748 1H.5A.5.5 0 010 .5z">
-                                            </path>
-                                        </defs>
-                                    </svg>Add to Cart</span></button></div>
-                        <div class="DemoPanel__chapter----1ceP">
-                            <div class="DemoPanel__chapter--wrapper----3Ob-">
-                                <article class="DemoPanel__license----ZtaE License----2PfT"><input type="hidden"
-                                        name="license" value="19"><input type="hidden" name="price" value="69">
-                                    <div class="Dropdown_TMDropdown__27KMl Dropdown_TMDropdown--openPositionBottom__21IS2 Dropdown_TMDropdown--closed__3k_EJ License__dropdown--closed----Hq1s Dropdown_TMDropdown--type6__2UrYx License__dropdown----15z2"
-                                        tabindex="-1" role="presentation">
-                                        <div
-                                            class="Dropdown_TMDropdown__button__gaPeS Dropdown_TMDropdown__button--sizeMedium__2jJIT">
-                                            <div class="Dropdown_TMDropdown__button--inner__1GJpx">
-                                                <div class="Dropdown_TMDropdown__buttonContent__3X7-i">
-                                                    <div class="Dropdown_TMDropdown__buttonLabelContent__1LmbM">
-                                                        <div class="License__content----2UzA">
-                                                            <div class="License__titleContentWrapper----6Oep">
-                                                                <div class="License__option----i-XX"><span
-                                                                        class="License__optionTitle----38Qn">For 1
-                                                                        Site</span></div>
-                                                                <div class="License__description----3Tz3" role="button"
-                                                                    tabindex="0"><svg viewBox="0 0 20 20"
-                                                                        class="License__help----3005" width="20"
-                                                                        height="20">
-                                                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                                                            d="M10 1a9 9 0 100 18 9 9 0 000-18zM0 10C0 4.477 4.477 0 10 0s10 4.477 10 10-4.477 10-10 10S0 15.523 0 10zm10-4.25c-1.155 0-2.09.937-2.09 2.09a.5.5 0 01-1 0 3.091 3.091 0 113.59 3.052v2.13a.5.5 0 11-1 0v-2.59a.5.5 0 01.5-.5 2.09 2.09 0 100-4.182zm.068 9.432a.068.068 0 11-.136 0 .068.068 0 11.136 0zM10 14.25a.932.932 0 100 1.864.932.932 0 000-1.864z">
-                                                                        </path>
-                                                                    </svg>
-                                                                    <div class="License__wrapper----wpeJ"></div>
-                                                                </div>
-                                                                <p class="License__price----4qkq"><span><strong
-                                                                            class="FormatCurrency----_wDd ">$69</strong></span>
-                                                                </p>
-                                                            </div>
-                                                            <p class="License__optionDescription----Skal">Item can be
-                                                                used on one site by you or your client as a final
-                                                                product. Total price includes item price and all
-                                                                applicable taxes.</p>
-                                                        </div>
-                                                    </div>
-                                                </div><span class="Dropdown_TMDropdown__buttonArrow__2yF_F"></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
-                                <div class="Dropdown----3_xl DemoPanel__dropdown----1UuX">
-                                    <div class="DropdownContent----1zH7 DropdownContent--openPosition--bottom----2Rs- DropdownContent--horizontalAlign--right----7s8i DropdownContent--hidden----2IsS"
-                                        role="presentation">
-                                        <ul class="DropdownOptionsList----3ofi DemoPanel__services----33MA"
-                                            role="listbox">
-                                            <li class="DropdownOption----3FYD DropdownOption--height--medium----1dvs DropdownOption--selectable----1seQ DemoPanel__servicesOption----2VZK"
-                                                role="option" tabindex="0" aria-selected="false"><label
-                                                    class="TMQuarkCheckbox----21gJ DemoPanel__servicesCheckbox----208k"
-                                                    for="888"><input class="TMQuarkCheckbox__input----Ho2W"
-                                                        type="checkbox" id="888"
-                                                        name="TT: Website and Joomla Templates: Ready-to-Use Website Premium"
-                                                        value="888"><span class="TMQuarkCheckbox__label----MbLo"
-                                                        tabindex="0" role="button">
-                                                        <div class="DemoPanel__servicesIcon----3WCx" role="button"
-                                                            tabindex="0">
-                                                            <picture><img
-                                                                    class="LazyLoad__image----26Nd LazyLoad__image--show----3tyD"
-                                                                    src="https://s.tmimgcdn.com/images/library/ready-to-use-website-premium-icon.svg"
-                                                                    alt="TT: Website and Joomla Templates: Ready-to-Use Website Premium"
-                                                                    draggable="false"></picture>
-                                                        </div>
-                                                        <div class="DemoPanel__servicesTitle----2YdE"><span
-                                                                class="DemoPanel__servicesName----2WJQ">Ready-to-Use
-                                                                Website Premium</span><span
-                                                                class="DemoPanel__servicesPrice----2REw"><span
-                                                                    class="DemoPanel__servicesPrice--discount----1V5f"><strong
-                                                                        class="FormatCurrency----_wDd ">$299</strong></span><strong
-                                                                    class="FormatCurrency----_wDd DemoPanel__discountPrice----2nyU">$249</strong></span>
-                                                        </div>
-                                                    </span><i class="TMQuarkCheckbox__icon----2ohW"></i></label></li>
-                                            <li class="DropdownOption----3FYD DropdownOption--height--medium----1dvs DropdownOption--selectable----1seQ DemoPanel__servicesOption----2VZK"
-                                                role="option" tabindex="0" aria-selected="false"><label
-                                                    class="TMQuarkCheckbox----21gJ DemoPanel__servicesCheckbox----208k"
-                                                    for="370"><input class="TMQuarkCheckbox__input----Ho2W"
-                                                        type="checkbox" id="370"
-                                                        name="TT: Website Templates: Converting to WordPress"
-                                                        value="370"><span class="TMQuarkCheckbox__label----MbLo"
-                                                        tabindex="0" role="button">
-                                                        <div class="DemoPanel__servicesIcon----3WCx" role="button"
-                                                            tabindex="0">
-                                                            <picture><img
-                                                                    class="LazyLoad__image----26Nd LazyLoad__image--show----3tyD"
-                                                                    src="https://s.tmimgcdn.com/images/library/customization-svg.svg"
-                                                                    alt="TT: Website Templates: Converting to WordPress"
-                                                                    draggable="false"></picture>
-                                                        </div>
-                                                        <div class="DemoPanel__servicesTitle----2YdE"><span
-                                                                class="DemoPanel__servicesName----2WJQ">Converting to
-                                                                WordPress</span><span
-                                                                class="DemoPanel__servicesPrice----2REw"><span
-                                                                    class="DemoPanel__servicesPrice--discount----1V5f"><strong
-                                                                        class="FormatCurrency----_wDd ">$299</strong></span><strong
-                                                                    class="FormatCurrency----_wDd DemoPanel__discountPrice----2nyU">$269</strong></span>
-                                                        </div>
-                                                    </span><i class="TMQuarkCheckbox__icon----2ohW"></i></label></li>
-                                            <li class="DropdownOption----3FYD DropdownOption--height--medium----1dvs DropdownOption--selectable----1seQ DemoPanel__servicesOption----2VZK"
-                                                role="option" tabindex="0" aria-selected="false"><label
-                                                    class="TMQuarkCheckbox----21gJ DemoPanel__servicesCheckbox----208k"
-                                                    for="897"><input class="TMQuarkCheckbox__input----Ho2W"
-                                                        type="checkbox" id="897"
-                                                        name="TM: Website&amp;Landing: GDPR &amp; CCPA Compliance - New Privacy Rules"
-                                                        value="897"><span class="TMQuarkCheckbox__label----MbLo"
-                                                        tabindex="0" role="button">
-                                                        <div class="DemoPanel__servicesIcon----3WCx" role="button"
-                                                            tabindex="0">
-                                                            <picture><img
-                                                                    class="LazyLoad__image----26Nd LazyLoad__image--show----3tyD"
-                                                                    src="https://s.tmimgcdn.com/images/library/zemez-gdpr-icon.svg"
-                                                                    alt="TM: Website&amp;Landing: GDPR &amp; CCPA Compliance - New Privacy Rules"
-                                                                    draggable="false"></picture>
-                                                        </div>
-                                                        <div class="DemoPanel__servicesTitle----2YdE"><span
-                                                                class="DemoPanel__servicesName----2WJQ">GDPR &amp; CCPA
-                                                                Compliance - New Privacy Rules</span><span
-                                                                class="DemoPanel__servicesPrice----2REw"><strong
-                                                                    class="FormatCurrency----_wDd ">$49</strong></span>
-                                                        </div>
-                                                    </span><i class="TMQuarkCheckbox__icon----2ohW"></i></label></li>
-                                            <li class="DropdownOption----3FYD DropdownOption--height--medium----1dvs DropdownOption--selectable----1seQ DemoPanel__servicesOption----2VZK"
-                                                role="option" tabindex="0" aria-selected="false"><label
-                                                    class="TMQuarkCheckbox----21gJ DemoPanel__servicesCheckbox----208k"
-                                                    for="772"><input class="TMQuarkCheckbox__input----Ho2W"
-                                                        type="checkbox" id="772"
-                                                        name="TT: Website Templates: Must-Have Pack" value="772"><span
-                                                        class="TMQuarkCheckbox__label----MbLo" tabindex="0"
-                                                        role="button">
-                                                        <div class="DemoPanel__servicesIcon----3WCx" role="button"
-                                                            tabindex="0">
-                                                            <picture><img
-                                                                    class="LazyLoad__image----26Nd LazyLoad__image--show----3tyD"
-                                                                    src="https://s.tmimgcdn.com/images/library/sc-installation.svg"
-                                                                    alt="TT: Website Templates: Must-Have Pack"
-                                                                    draggable="false"></picture>
-                                                        </div>
-                                                        <div class="DemoPanel__servicesTitle----2YdE"><span
-                                                                class="DemoPanel__servicesName----2WJQ">Must-Have Launch
-                                                                Pack</span><span
-                                                                class="DemoPanel__servicesPrice----2REw"><span
-                                                                    class="DemoPanel__servicesPrice--discount----1V5f"><strong
-                                                                        class="FormatCurrency----_wDd ">$79</strong></span><strong
-                                                                    class="FormatCurrency----_wDd DemoPanel__discountPrice----2nyU">$72</strong></span>
-                                                        </div>
-                                                    </span><i class="TMQuarkCheckbox__icon----2ohW"></i></label></li>
-                                            <li class="DropdownOption----3FYD DropdownOption--height--medium----1dvs DropdownOption--selectable----1seQ DemoPanel__servicesOption----2VZK"
-                                                role="option" tabindex="0" aria-selected="false"><label
-                                                    class="TMQuarkCheckbox----21gJ DemoPanel__servicesCheckbox----208k"
-                                                    for="842"><input class="TMQuarkCheckbox__input----Ho2W"
-                                                        type="checkbox" id="842"
-                                                        name="TT: Website: Template Upload and Setup" value="842"><span
-                                                        class="TMQuarkCheckbox__label----MbLo" tabindex="0"
-                                                        role="button">
-                                                        <div class="DemoPanel__servicesIcon----3WCx" role="button"
-                                                            tabindex="0">
-                                                            <picture><img
-                                                                    class="LazyLoad__image----26Nd LazyLoad__image--show----3tyD"
-                                                                    src="https://s.tmimgcdn.com/images/library/sc-installation.svg"
-                                                                    alt="TT: Website: Template Upload and Setup"
-                                                                    draggable="false"></picture>
-                                                        </div>
-                                                        <div class="DemoPanel__servicesTitle----2YdE"><span
-                                                                class="DemoPanel__servicesName----2WJQ">Template Upload
-                                                                and Setup</span><span
-                                                                class="DemoPanel__servicesPrice----2REw"><span
-                                                                    class="DemoPanel__servicesPrice--discount----1V5f"><strong
-                                                                        class="FormatCurrency----_wDd ">$49</strong></span><strong
-                                                                    class="FormatCurrency----_wDd DemoPanel__discountPrice----2nyU">$39</strong></span>
-                                                        </div>
-                                                    </span><i class="TMQuarkCheckbox__icon----2ohW"></i></label></li>
-                                            <li class="DropdownOption----3FYD DropdownOption--height--medium----1dvs DropdownOption--selectable----1seQ DemoPanel__servicesOption----2VZK"
-                                                role="option" tabindex="0" aria-selected="false"><label
-                                                    class="TMQuarkCheckbox----21gJ DemoPanel__servicesCheckbox----208k"
-                                                    for="758"><input class="TMQuarkCheckbox__input----Ho2W"
-                                                        type="checkbox" id="758"
-                                                        name="TT: ZM: Website (LiveDemo): Add Drag&amp;Drop HTML Builder by Novi"
-                                                        value="758"><span class="TMQuarkCheckbox__label----MbLo"
-                                                        tabindex="0" role="button">
-                                                        <div class="DemoPanel__servicesIcon----3WCx" role="button"
-                                                            tabindex="0">
-                                                            <picture><img
-                                                                    class="LazyLoad__image----26Nd LazyLoad__image--show----3tyD"
-                                                                    src="https://s.tmimgcdn.com/images/library/sc-logo.svg"
-                                                                    alt="TT: ZM: Website (LiveDemo): Add Drag&amp;Drop HTML Builder by Novi"
-                                                                    draggable="false"></picture>
-                                                        </div>
-                                                        <div class="DemoPanel__servicesTitle----2YdE"><span
-                                                                class="DemoPanel__servicesName----2WJQ">Add
-                                                                Drag&amp;Drop HTML Builder by Novi</span><span
-                                                                class="DemoPanel__servicesPrice----2REw"><strong
-                                                                    class="FormatCurrency----_wDd ">$99</strong></span>
-                                                        </div>
-                                                    </span><i class="TMQuarkCheckbox__icon----2ohW"></i></label></li>
-                                            <button type="button"
-                                                class="Button_TMButton__1Ix3j Button_TMButton--widthFull__38hz5 Button_TMButton--heightMedium__1M8hE Button_TMButton--roundedBottom__26TL5 Button_TMButton--bgImportant__3jt0F"><span
-                                                    class="DemoPanel__link----33Bo"><svg viewBox="0 0 20 20"
-                                                        class="DemoPanel__addServicesIcon----2tkR" width="20"
-                                                        height="20">
-                                                        <use xlink:href="#cart_svg__path0_fill" opacity="0.01"></use>
-                                                        <use xlink:href="#cart_svg__path1_fill"
-                                                            transform="translate(14.043 15.043)"></use>
-                                                        <use xlink:href="#cart_svg__path1_fill"
-                                                            transform="translate(4.956 15.043)"></use>
-                                                        <use xlink:href="#cart_svg__path2_fill"
-                                                            transform="translate(0 1)"></use>
-                                                        <use xlink:href="#cart_svg__path3_fill"
-                                                            transform="translate(4.058 5.956)"></use>
-                                                        <defs>
-                                                            <path id="cart_svg__path0_fill" fill-rule="evenodd"
-                                                                d="M0 0h20v20H0V0z"></path>
-                                                            <path id="cart_svg__path1_fill" fill-rule="evenodd"
-                                                                d="M0 1.74a1.74 1.74 0 113.48 0 1.74 1.74 0 01-3.48 0zM1.74 1a.74.74 0 100 1.48.74.74 0 000-1.48z">
-                                                            </path>
-                                                            <path id="cart_svg__path2_fill" fill-rule="evenodd"
-                                                                d="M0 .5A.5.5 0 01.5 0h2.891a.5.5 0 01.487.385l3.214 13.658h8.69a.5.5 0 110 1H6.696a.5.5 0 01-.487-.385L2.995 1H.5A.5.5 0 010 .5z">
-                                                            </path>
-                                                            <path id="cart_svg__path3_fill" fill-rule="evenodd"
-                                                                d="M0 .5A.5.5 0 01.5 0h14.942a.5.5 0 01.474.658l-2.478 7.435a.5.5 0 01-.474.342H2.249a.5.5 0 010-1h10.355L14.748 1H.5A.5.5 0 010 .5z">
-                                                            </path>
-                                                        </defs>
-                                                    </svg> Add Following Services to Your Order</span></button>
-                                        </ul>
-                                    </div><button
-                                        class="DropdownContentToggleButton----2VeU DropdownContentToggleButton--height--medium----i6Sp"
-                                        type="button" aria-label="LiveDemo services"><span
-                                            class="DropdownContentToggleButton__content----1hNF DropdownContentToggleButton__content--height--medium----1nJ3"><span
-                                                class="DropdownContentToggleButton__label----1r5p">
-                                                <p class="DemoPanel__dropdownTitle----2tn-"><svg viewBox="0 0 14 20"
-                                                        class="DemoPanel__dropdownIcon----2MZy" width="14" height="14">
-                                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                                            d="M13 7.5H1.5V19H13V7.5zm-11.5-1a1 1 0 00-1 1V19a1 1 0 001 1H13a1 1 0 001-1V7.5a1 1 0 00-1-1H1.5zM7.348 1A3.218 3.218 0 004.13 4.217v1.24a.5.5 0 01-1 0v-1.24a4.218 4.218 0 018.435 0v1.24a.5.5 0 11-1 0v-1.24A3.217 3.217 0 007.348 1z">
-                                                        </path>
-                                                    </svg><span
-                                                        class="DemoPanel__dropdownTitle--short----3ep5">Popular</span><span>services</span><span
-                                                        class="DemoPanel__dropdownTitle--full----2lNS">available for
-                                                        this item</span></p>
-                                            </span></span></button>
-                                </div>
-                            </div><button class="TMLibraryLike----1h6V DemoPanel__collection----1jR0" type="button"><svg
-                                    viewBox="0 0 20 20"
-                                    class="TMLibraryLike__icon----RlWo TMLibraryLike__icon--normal----2jWj" width="20"
-                                    height="20">
-                                    <use xlink:href="#heart_svg__path0_fill" transform="translate(0 1)"></use>
-                                    <defs>
-                                        <path id="heart_svg__path0_fill"
-                                            d="M10.607 15.73a23.179 23.179 0 011.716-1.538c.347-.287 1.628-1.322 1.881-1.53C17.558 9.908 19 7.983 19 5.53c0-4.794-6.128-6.205-8.106-2.254L10 5.063l-.894-1.787C7.129-.674 1 .733 1 5.53c0 2.453 1.442 4.377 4.796 7.131.253.209 1.532 1.242 1.879 1.528.713.59 1.25 1.068 1.714 1.536.224.225.427.446.611.665.183-.217.385-.437.607-.66zM9.387 1.872c.22.278.535.8.613.956a9.3 9.3 0 01.613-.957C13.459-1.653 20-.07 20 5.53c0 6.006-8.253 9.035-10 12.647C8.254 14.564 0 11.536 0 5.53 0-.076 6.543-1.65 9.387 1.873z">
-                                        </path>
-                                    </defs>
-                                </svg><span class="DemoPanel__collection--text----3TxX">Add to Collection</span><span
-                                    class="TMLibraryLike__popover----3d-m">Add to Collection</span></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="DemoPanel__closePanel----3hhG DemoPanel__closePanel--rotate----1vuW" role="button"
-                    tabindex="0"><svg viewBox="0 0 20 20" class="DemoPanel__icon--close----2Z0A" width="20" height="20">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M12.835 5.872a.5.5 0 10-.67-.744l-4.99 4.493a.513.513 0 00-.078.082.5.5 0 00.077.676l4.991 4.493a.5.5 0 10.67-.744L8.247 10l4.588-4.128z">
-                        </path>
-                    </svg></div>
-                <div class="DemoTemplate----3_Bk DemoTemplate--desktop----11iV">
-                    <div class="DemoTemplate__image----3Zv3">
-                        <div class="DemoTemplate__frameWrap----1YkU"><iframe
-                                sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-popups"
-                                class="DemoTemplate__frame----2Mvu" title="Preview Template"
-                                src="https://livedemo00.template-help.com/wt_58895"
-                                style="height: 927px; min-height: calc(100vh - 0px);"></iframe></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="https://s3sf.tmimgcdn.com/javascript/fontloader.min.js" async=""></script>
+        })(window, document, 'script', 'dataLayer', 'GTM-P9FT69');
+    </script><!-- End Google Tag Manager -->
+    <a href="#" id="ui-to-top" class="ui-to-top fa fa-angle-up"></a><iframe data-olark="true" aria-hidden="true"
+        title="empty"
+        style="width: 0px; height: 0px; position: absolute; left: 0px; bottom: 0px; border: none;"></iframe>
     <script type="text/javascript" id="">
         (function () {
-            function h(b, a, d) {
-                b = b + "\x3d" + a + "; path\x3d/; domain\x3d." + location.hostname.replace(/^www\./i, "");
-                "undefined" !== typeof d && (a = new Date, a.setTime(a.getTime() + d), b += "; expires\x3d" + a
-                    .toUTCString());
-                document.cookie = b
-            }
-
-            function k(b) {
-                for (var a = document.cookie.split(";"), d, f = 0; f < a.length; f++) {
-                    var g = a[f].trim();
-                    0 === g.indexOf(b + "\x3d") && (d = g.substring((b + "\x3d").length, g.length))
+            var b = document.location.search.split("aff\x3d")[1];
+            if (b) {
+                var d = document.querySelectorAll("a"),
+                    c;
+                for (c = 0; c < d.length; c++) {
+                    var a = d[c];
+                    0 == a.href.indexOf("https://www.templatemonster.com") && (0 < a.href.indexOf("?") ? a.href = a
+                        .href + "\x26aff\x3d" + b : a.href = a.href + "?aff\x3d" + b)
                 }
-                return d
             }
-            var e = k("aff"),
-                c = new URLSearchParams(window.location.search);
-            (c = c.get("aff")) || (c = "TM");
-            e || (e = "TM" === c.toUpperCase() ?
-                31536E8 : 5184E6, h("aff", c, e));
-            k("ref") || (e = btoa(document.referrer ? document.referrer : window.location.href), h("ref", e));
-            c && "TM" !== c.toUpperCase() && (window.dataLayer = window.dataLayer || [], window.dataLayer.push({
-                event: "trackAffiliate"
-            }))
-        })();
-    </script><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MS2BNB" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-    <div class="page" id="page"></div>
-    <script src="https://s3sf.tmimgcdn.com/runtime.spa.bundle.4614c8e8fdcf74ac1eb8.js"></script>
-    <script defer="" src="https://s3sf.tmimgcdn.com/plasma-platform.spa.chunk.ac1bf3e7f8c3b0b4d387.js"></script>
-    <script defer="" src="https://s3sf.tmimgcdn.com/vendor.spa.chunk.7bc87b710ba5dcb948ef.js"></script>
-    <script defer="" src="https://s3sf.tmimgcdn.com/index.spa.chunk.dc9331b91a6f0f105b4f.js"></script>
-    <script defer="" src="https://s3sf.tmimgcdn.com/component_promotions.spa.chunk.a2b2aa0fe9febc349a45.js"></script>
-    <script defer="" src="https://s3sf.tmimgcdn.com/vendors~page_cart~page_livedemo.spa.chunk.cb8f17544936ad6b31ee.js">
-    </script>
-    <script defer="" src="https://s3sf.tmimgcdn.com/page_livedemo.spa.chunk.5a7c9b5b2a84a386fbff.js"></script>
-    <div style="display: none; visibility: hidden;">
-        <script>
-            var head = document.getElementsByTagName("head")[0],
-                script = document.createElement("script");
-            script.charset = "UTF-8";
-            script.src = "//web.webpushs.com/js/push/5ab41f034f43c29d4e5b5082a08f9be1_1.js";
-            script.async = !0;
-            head.appendChild(script);
-        </script>
-    </div>
-    <script type="text/javascript" id="">
-        function runChat() {
-            window.__lc = window.__lc || {};
-            window.__lc.license = 9531830;
-            (function (e, f, c) {
-                function d(a) {
-                    return b._h ? b._h.apply(null, a) : b._q.push(a)
-                }
-                var b = {
-                    _q: [],
-                    _h: null,
-                    _v: "2.0",
-                    on: function () {
-                        d(["on", c.call(arguments)])
-                    },
-                    once: function () {
-                        d(["once", c.call(arguments)])
-                    },
-                    off: function () {
-                        d(["off", c.call(arguments)])
-                    },
-                    get: function () {
-                        if (!b._h) throw Error("[LiveChatWidget] You can't use getters before load.");
-                        return d(["get", c.call(arguments)])
-                    },
-                    call: function () {
-                        d(["call", c.call(arguments)])
-                    },
-                    init: function () {
-                        var a =
-                            f.createElement("script");
-                        a.async = !0;
-                        a.type = "text/javascript";
-                        a.src = "https://cdn.livechatinc.com/tracking.js";
-                        f.head.appendChild(a)
-                    }
-                };
-                !e.__lc.asyncInit && b.init();
-                e.LiveChatWidget = e.LiveChatWidget || b
-            })(window, document, [].slice)
-        }
-        setTimeout(function () {
-            runChat()
-        }, 3E3);
-    </script>
-    <noscript><a href="https://www.livechatinc.com/chat-with/9531830/" rel="nofollow">Chat with us</a>, powered by <a
-            href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
-
-
-    <script type="text/javascript" id="">
-        function runYM() {
-            (function (a, e, f, g, b, c, d) {
-                a[b] = a[b] || function () {
-                    (a[b].a = a[b].a || []).push(arguments)
-                };
-                a[b].l = 1 * new Date;
-                c = e.createElement(f);
-                d = e.getElementsByTagName(f)[0];
-                c.async = 1;
-                c.src = g;
-                d.parentNode.insertBefore(c, d)
-            })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-            ym(32938414, "init", {
-                id: 32938414,
-                clickmap: !0,
-                trackLinks: !0,
-                accurateTrackBounce: !0,
-                webvisor: !1,
-                ecommerce: "raisaLayer"
-            })
-        }
-        setTimeout(function () {
-            runYM()
-        }, google_tag_manager["GTM-MS2BNB"].macro(29));
-    </script>
-
-    <noscript>
-        <div><img src="https://mc.yandex.ru/watch/32938414" style="position:absolute; left:-9999px;" alt=""></div>
-    </noscript>
-
-    <script type="text/javascript" id="">
-        (function wait() {
-            if ("undefined" !== typeof fbq && "2.9" < fbq.version) {
-                var a = "en" == google_tag_manager["GTM-MS2BNB"].macro(33) ? "" : "_" + ("br" == google_tag_manager[
-                    "GTM-MS2BNB"].macro(34) ? "pt" : google_tag_manager["GTM-MS2BNB"].macro(35)); - 1 == document
-                    .location.href.search(".appspot.") && fbq("track", "ViewContent", {
-                        content_ids: [google_tag_manager["GTM-MS2BNB"].macro(36) + a],
-                        content_type: "product",
-                        product_group: google_tag_manager["GTM-MS2BNB"].macro(37),
-                        product_category: google_tag_manager["GTM-MS2BNB"].macro(38),
-                        value: google_tag_manager["GTM-MS2BNB"].macro(40),
-                        currency: "USD"
-                    })
-            } else setTimeout(wait, 3)
+            b = document.location.search.split("i\x3d")[1];
+            var e = document.location.search.split("pr_code\x3d")[1];
+            if (b && e)
+                for (b = b.split("\x26")[0], d = document.querySelectorAll("a"), c = 0; c < d.length; c++) a = d[c],
+                    0 == a.href.indexOf("https://www.templatemonster.com") &&
+                    (a.href = "https://www.templatehelp.com/preset/cart.php?act\x3dadd\x26templ\x3d" + b +
+                        "\x26pr_code\x3d" + e)
         })();
     </script>
-    <script type="text/javascript" id="">
-        var d = new Date;
-        d.setTime(d.getTime() + 31536E6);
-        var expires = "expires\x3d" + d.toGMTString(),
-            event = google_tag_manager["GTM-MS2BNB"].macro(101);
-        document.cookie = "ga" + event + "\x3d1; " + expires + "; domain\x3d.templatemonster.com; path\x3d/";
-    </script>
-    <div style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon60366004504"><img
-            style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon78261207406" width="0"
-            height="0" alt=""
-            src="https://bat.bing.com/action/0?ti=4076283&amp;Ver=2&amp;mid=fb7f4d2d-488d-460c-9a8d-e1af8c2adb4d&amp;sid=e5f46d2037f011ebb64b179ba0d5be38&amp;vid=2773f3b02fcb11eb8e02dded613df91b&amp;vids=0&amp;pi=1200101525&amp;lg=en-US&amp;sw=1920&amp;sh=1080&amp;sc=24&amp;tl=Demo%20Preview%20for%20GPS%20Vehicle%20Tracking%20System%20Website%20Template%20%2358895&amp;p=https%3A%2F%2Fwww.templatemonsterpreview.com%2Fdemo%2F58895.html%3F_ga%3D2.246665156.1727327010.1607319972-660716621.1607319972&amp;r=&amp;lt=852&amp;evt=pageLoad&amp;msclkid=N&amp;sv=1&amp;rn=329434">
-    </div>
-    <script type="text/javascript" id="">
-        function runFB() {
-            ! function (b, e, f, g, a, c, d) {
-                b.fbq || (a = b.fbq = function () {
-                        a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)
-                    }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e
-                    .createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode
-                    .insertBefore(c, d))
-            }(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js");
-            fbq("init", "838473489555909");
-            fbq("track", "PageView")
-        }
-        setTimeout(function () {
-            runFB()
-        }, google_tag_manager["GTM-MS2BNB"].macro(102));
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=838473489555909&amp;ev=PageView&amp;noscript=1">
-    </noscript>
+    <div data-olark="true" id="hbl-live-chat-wrapper" role="region" aria-label="Chat widget"
+        title="Olark Live Chat Widget">
+        <div data-reactroot="" id="olark-wrapper" class="">
+            <div aria-live="assertive" aria-atomic="true" role="alert" id="chat-box-announcer"
+                style="position: absolute; visibility: visible; overflow: hidden; display: block; width: 1px; height: 1px; margin: -1px; border: 0px; padding: 0px; clip: rect(0px, 0px, 0px, 0px); clip-path: polygon(0px 0px, 0px 0px, 0px 0px, 0px 0px); white-space: nowrap;">
+                <p></p>
+            </div>
+            <style rel="stylesheet" type="text/css">
+                #olark-wrapper #olark-container .olark-button {
+                    background-color: #5ba0d0 !important;
+                    color: #ffffff !important;
+                }
 
+                #olark-wrapper #olark-container .olark-button:hover {
+                    background-color: #4993ca !important;
+                }
 
-    <script type="text/javascript" id="">
-        var seconds = 15;
+                #olark-wrapper #olark-container .olark-button:focus {
+                    background-color: #3279ae !important;
+                }
 
-        function explode() {
-            str = "";
-            if (15 == seconds || 30 == seconds || 45 == seconds) str = "Interested(" + seconds + "s)";
-            else if (60 == seconds || 90 == seconds || 120 == seconds) str = "Engaged(" + seconds + "s)";
-            else if (180 == seconds || 300 == seconds || 600 == seconds) str = "Immersed(" + seconds + "s)";
-            "" != str && fbq("trackCustom", str);
-            seconds += 15
-        }
-        setInterval(explode, 15E3);
-    </script>
-    <iframe name="ym-native-frame" title="ym-native-frame" frameborder="0" aria-hidden="true"
-        style="opacity: 0 !important; width: 0px !important; height: 0px !important; position: absolute !important; left: 100% !important; bottom: 100% !important; border: 0px !important;"></iframe>
-    <div id="chat-widget-container"
-        style="opacity: 1; visibility: visible; z-index: 2147483639; position: fixed; bottom: 0px; width: 279px; height: 198px; max-width: 100%; max-height: calc(100% - 0px); min-height: 0px; min-width: 0px; background-color: transparent; border: 0px; overflow: hidden; right: 0px; transition: none 0s ease 0s !important;">
-        <iframe allow="autoplay; microphone *; camera *;"
-            src="https://secure.livechatinc.com/licence/9531830/v2/open_chat.cgi?license=9531830&amp;group=3&amp;embedded=1&amp;widget_version=3&amp;unique_groups=0&amp;localization_improvement=1"
-            allowtransparency="true" id="chat-widget" name="chat-widget" title="LiveChat chat widget" scrolling="no"
-            style="width: 100%; height: 100%; min-height: 0px; min-width: 0px; margin: 0px; padding: 0px; background-image: none; background-position: 0% 0%; background-size: initial; background-attachment: scroll; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 0, 0); border-width: 0px; float: none; position: absolute; inset: 0px; transition: none 0s ease 0s !important;"></iframe>
+                #olark-wrapper #olark-container .olark-theme-bg {
+                    background-color: #5ba0d0 !important;
+                }
+
+                #olark-wrapper #olark-container .olark-theme-text {
+                    color: #ffffff !important;
+                }
+
+                #olark-wrapper .olark-launch-button {
+                    background-color: #5ba0d0 !important;
+                }
+
+                #olark-wrapper .olark-launch-button svg path {
+                    fill: #ffffff !important;
+                }
+
+                #olark-wrapper .olark-launch-button .olark-close-icon path {
+                    stroke: #ffffff !important;
+                }
+
+                #olark-wrapper .olark-launch-button .olark-envelope-icon rect {
+                    stroke: #ffffff !important;
+                    fill: none !important;
+                }
+
+                #olark-wrapper .olark-launch-button .olark-envelope-icon path {
+                    stroke: #ffffff !important;
+                    fill: none !important;
+                }
+
+                #olark-wrapper .olark-launch-button .olark-button-text {
+                    color: #ffffff !important;
+                }
+
+                #olark-wrapper .olark-top-bar {
+                    background-color: #5ba0d0 !important;
+                    color: #ffffff !important;
+                    border-color: #4993ca !important;
+                }
+
+                #olark-wrapper .olark-top-bar-text {
+                    color: #ffffff !important;
+                }
+
+                #olark-wrapper .olark-top-bar-arrow {
+                    fill: #ffffff !important;
+                }
+
+                #olark-wrapper .olark-end-chat-button {
+                    color: #ffffff !important;
+                    background-color: rgba(56, 135, 194, 0.5) !important;
+                }
+
+                #olark-wrapper .olark-end-chat-button:hover {
+                    background-color: #3887c2 !important;
+                }
+
+                #olark-wrapper #olark-container .olark-visitor-message:not(.olark-message-trans-bg) {
+                    background-color: rgba(91, 160, 208, 0.25) !important;
+                }
+
+                #olark-wrapper #olark-container .olark-form-send-button {
+                    background-color: #5ba0d0 !important;
+                    color: #ffffff !important;
+                }
+
+                #olark-wrapper #olark-container .olark-feedback-form-button {
+                    background-color: #5ba0d0 !important;
+                    color: #ffffff !important;
+                }
+
+                #olark-wrapper #olark-container .olark-feedback-form-button:focus {
+                    background-color: #3279ae !important;
+                }
+
+                #olark-wrapper #olark-container .olark-feedback-form-button:hover {
+                    background-color: #6da8d5 !important;
+                }
+
+                #olark-wrapper #olark-container .olark-restart-button {
+                    background-color: #5ba0d0 !important;
+                    color: #ffffff !important;
+                }
+
+                #olark-wrapper #olark-container .olark-restart-button:focus {
+                    background-color: #3279ae !important;
+                }
+
+                #olark-wrapper #olark-container .olark-restart-button:hover {
+                    background-color: #84b6db !important;
+                }
+
+                #olark-wrapper #olark-container .olark-branding-panel .olark-branding-cancel-button {
+                    background-color: #5ba0d0 !important;
+                    border: none !important;
+                    color: #ffffff !important;
+                }
+
+                #olark-wrapper #olark-container .olark-branding-panel .olark-branding-go-button {
+                    border: none !important;
+                    background: rgba(91, 160, 208, 0.35) !important;
+                }
+
+                #olark-wrapper #olark-container .olark-send-transcript-container .olark-send-transcript-form.olark-inline-form-valid .olark-form-input-container {
+                    border-color: #5ba0d0 !important;
+                }
+
+                #olark-wrapper #olark-container .olark-send-transcript-container .olark-send-transcript-form.olark-inline-form-valid .olark-send-icon {
+                    fill: #5ba0d0 !important;
+                }
+
+                #olark-wrapper #olark-container .olark-survey-form .olark-survey-form-radio-button:checked {
+                    background: #5ba0d0 !important;
+                    border-color: #5ba0d0 !important;
+                }
+
+                #olark-wrapper #olark-container .olark-visitor-message:not(.olark-message-has-border) {
+                    border: none !important;
+                }
+
+                #olark-wrapper .olark-end-chat-flag {
+                    fill: #5ba0d0 !important;
+                }
+
+                #olark-wrapper #olark-container .olark-form-confirmation-icon .olark-launch-button-icon {
+                    fill: #5ba0d0 !important;
+                }
+
+                #olark-wrapper #olark-container .olark-form-input:focus {
+                    border-color: #5ba0d0 !important;
+                }
+
+                #olark-wrapper #olark-container .olark-form-message-input:focus {
+                    border-color: #5ba0d0 !important;
+                }
+            </style><!-- react-empty: 5 --><button class="olark-launch-button olark-chat-tab olark-size-md" tabindex="0"
+                aria-hidden="false" aria-label="Open Chat" aria-controls="olark-container" aria-expanded="false"><svg
+                    x="0px" y="0px" viewBox="0 0 28 18" aria-hidden="true">
+                    <title>Envelope Icon</title>
+                    <desc>small picture of an envelope signifying email</desc>
+                    <path fill="#ffffff"
+                        d="M28,3.2C28,1.5,26.5,0,24.8,0H3.2C1.5,0,0,1.5,0,3.2v11.5C0,16.5,1.5,18,3.2,18h21.5c1.8,0,3.2-1.5,3.2-3.2 V3.2z M24.7,14.8c-0.2,0.1-0.4,0.2-0.6,0.2c-0.2,0-0.4-0.1-0.6-0.3l-5-5.3l-3.6,3c-0.3,0.2-0.6,0.3-0.9,0.3s-0.7-0.1-0.9-0.4l-3.6-3 l-5,5.3c-0.2,0.2-0.4,0.3-0.6,0.3c-0.2,0-0.4-0.1-0.6-0.2c-0.3-0.3-0.4-0.8,0-1.2l4.9-5.3L3.3,4.5C3,4.2,2.9,3.6,3.2,3.3 C3.5,2.9,4,2.9,4.4,3.2l9.6,7.9l9.6-7.9c0.4-0.3,0.9-0.2,1.2,0.1c0.3,0.4,0.2,0.9-0.1,1.2l-4.8,3.9l4.9,5.3 C25.1,14,25,14.5,24.7,14.8z">
+                    </path>
+                </svg>
+                <div class="olark-notification-badge olark-hidden">
+                    <div class="olark-notification-badge-text">0</div>
+                </div>
+                <div class="olark-button-text">Contact us!</div>
+            </button>
+            <div id="olark-container" class="olark-hidden olark-size-md" aria-hidden="true" tabindex="-1"
+                role="complementary">
+                <div class="olark-top-bar">
+                    <h2 class="olark-top-bar-text">Contact us!</h2>
+                    <div class="olark-top-bar-button" role="button" tabindex="-1" aria-label="chat" aria-hidden="true"
+                        aria-controls="olark-container" aria-expanded="false"><svg viewBox="0 0 15.1 8.9" fill="#ffffff"
+                            aria-hidden="true">
+                            <title>Arrow Down</title>
+                            <desc>a small down arrow to minimize chat box</desc>
+                            <polygon class="olark-top-bar-arrow" points="0.2,1.4 7.6,8.9 15.1,1.4 13.7,0 7.6,6 1.6,0">
+                            </polygon>
+                        </svg></div>
+                </div>
+                <div class="olark-conversation-container olark-form-conversation-container olark-no-message-form olark-offline-message-container"
+                    id="olark-offline-form">
+                    <div class="olark-form-message">Live help is displayed for demo purposes only. To add it to your
+                        store please refer to the template documentation or <a
+                            href="http://www.olark.com/?r=ad8fbsj2">Olark Live chat official website. </a></div>
+                    <div class="olark-form-container">
+                        <form class="olark-form" novalidate="" role="form">
+                            <div class="olark-form-input-container"><input type="text" name="fname"
+                                    class="olark-form-input" id="olark-form-input-fname" placeholder="" tabindex="-1"
+                                    aria-hidden="true" aria-invalid="false" data-lpignore="true" autocomplete="on"
+                                    required="" aria-required="true" aria-label="click here and type your Name"
+                                    aria-describedby="olark-error-message"><label class="olark-hide-floating-label"
+                                    for="olark-form-input-fname">click here and type your Name</label><span
+                                    class="olark-required-asterisk"><svg viewBox="0 0 20 20"
+                                        enable-background="new 0 0 20 20" x="0" y="0" fill="currentcolor"
+                                        aria-hidden="true">
+                                        <title>Required Asterisk</title>
+                                        <desc>signifies that this field can not be left blank</desc>
+                                        <path
+                                            d="M10,0C4.5,0,0,4.5,0,10c0,5.5,4.5,10,10,10s10-4.5,10-10C20,4.5,15.5,0,10,0z M13.8,13.6L12,15l-2-3L8,15l-1.8-1.4l2-2.8 L5,9.6l0.8-2.2L9,8.6L8.8,5h2.4L11,8.6l3.2-1.3L15,9.6l-3.2,1.1L13.8,13.6z">
+                                        </path>
+                                    </svg></span></div>
+                            <div class="olark-form-input-container"><input type="email" name="email"
+                                    class="olark-form-input" id="olark-form-input-email" placeholder="" tabindex="-1"
+                                    aria-hidden="true" aria-invalid="false" data-lpignore="true" autocomplete="on"
+                                    required="" aria-required="true" aria-label="click here and type your Email"
+                                    aria-describedby="olark-error-message"><label class="olark-hide-floating-label"
+                                    for="olark-form-input-email">click here and type your Email</label><span
+                                    class="olark-required-asterisk"><svg viewBox="0 0 20 20"
+                                        enable-background="new 0 0 20 20" x="0" y="0" fill="currentcolor"
+                                        aria-hidden="true">
+                                        <title>Required Asterisk</title>
+                                        <desc>signifies that this field can not be left blank</desc>
+                                        <path
+                                            d="M10,0C4.5,0,0,4.5,0,10c0,5.5,4.5,10,10,10s10-4.5,10-10C20,4.5,15.5,0,10,0z M13.8,13.6L12,15l-2-3L8,15l-1.8-1.4l2-2.8 L5,9.6l0.8-2.2L9,8.6L8.8,5h2.4L11,8.6l3.2-1.3L15,9.6l-3.2,1.1L13.8,13.6z">
+                                        </path>
+                                    </svg></span></div>
+                            <div class="olark-form-input-container">
+                                <div>
+                                    <div class="olark-form-message-input olark-clone-textarea"
+                                        style="width: 330px !important; overflow-wrap: break-word;">We're not around but
+                                        we still want to hear from you! Leave us a note:</div><textarea
+                                        class="olark-form-message-input" tabindex="-1" aria-hidden="true"
+                                        aria-invalid="false" data-lpignore="true" name="body" id="olark-form-input-body"
+                                        placeholder="We're not around but we still want to hear from you!  Leave us a note:"
+                                        title="We're not around but we still want to hear from you!  Leave us a note:"
+                                        required="" aria-required="true"
+                                        aria-label="We're not around but we still want to hear from you!  Leave us a note:"></textarea>
+                                </div><label class="olark-hide-floating-label" for="olark-form-input-body">We're not
+                                    around but we still want to he...</label><span class="olark-required-asterisk"><svg
+                                        viewBox="0 0 20 20" enable-background="new 0 0 20 20" x="0" y="0"
+                                        fill="currentcolor" aria-hidden="true">
+                                        <title>Required Asterisk</title>
+                                        <desc>signifies that this field can not be left blank</desc>
+                                        <path
+                                            d="M10,0C4.5,0,0,4.5,0,10c0,5.5,4.5,10,10,10s10-4.5,10-10C20,4.5,15.5,0,10,0z M13.8,13.6L12,15l-2-3L8,15l-1.8-1.4l2-2.8 L5,9.6l0.8-2.2L9,8.6L8.8,5h2.4L11,8.6l3.2-1.3L15,9.6l-3.2,1.1L13.8,13.6z">
+                                        </path>
+                                    </svg></span>
+                            </div><button class="olark-form-send-button" type="submit" aria-hidden="true"
+                                tabindex="-1">Send</button>
+                        </form>
+                    </div>
+                </div><!-- react-empty: 53 -->
+                <div class="olark-branding-link"><a role="button" aria-hidden="true" tabindex="-1"><span
+                            class="olark-branding-link-word ">Powered </span><span class="olark-branding-link-word ">by
+                        </span><span class="olark-branding-link-word accented">Olark </span></a></div>
+            </div>
+        </div>
     </div>
 </body>
 
