@@ -4611,7 +4611,7 @@ mark, .mark {
 	position: absolute;
 	left: 28px;
 	top: -1px;
-	font-family: "FontAwesome";
+	font-family: "Material";
 	color: #000;
 }
 
@@ -4634,7 +4634,7 @@ mark, .mark {
 	position: absolute;
 	top: -1px;
 	left: 0px;
-	font-family: "FontAwesome";
+	font-family: "Material";
 	color: #b80924;
 	transition: 0.35s all ease;
 }
@@ -6879,7 +6879,7 @@ html .group-bottom > *, html .group-bottom > *:first-child {
 	top: 0;
 	font-size: 48px;
 	color: rgba(0, 0, 0, 0.2);
-	font-family: "FontAwesome";
+	font-family: "Material";
 }
 
 .quote-classic-boxed .quote-body p {
@@ -17426,7 +17426,7 @@ html:not(.lt-ie10) .not-animated {
 	top: 50%;
 	margin-left: -40px;
 	margin-top: -40px;
-	font: 400 40px/80px 'FontAwesome';
+	font: 400 40px/80px 'Material';
 	cursor: pointer;
 	z-index: 1;
 	-webkit-backface-visibility: hidden;
@@ -18646,7 +18646,7 @@ html:not(.lt-ie10) .not-animated {
 	height: 20px;
 	line-height: 20px;
 	content: "";
-	font-family: "FontAwesome";
+	font-family: "Material";
 	font-size: 20px;
 }
 
@@ -21058,7 +21058,7 @@ html .rd-file-picker input[type="file"] {
 	transform: rotate(0deg) scale(1);
 	opacity: 1;
 	visibility: visible;
-	font-family: "FontAwesome";
+	font-family: "Material";
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-toggle span:after, .rd-navbar-transparent.rd-navbar-fixed .rd-navbar-toggle span:after, .rd-navbar-center.rd-navbar-fixed .rd-navbar-toggle span:after, .rd-navbar-minimal.rd-navbar-fixed .rd-navbar-toggle span:after, .rd-navbar-humburger-menu.rd-navbar-fixed .rd-navbar-toggle span:after {
@@ -21066,7 +21066,7 @@ html .rd-file-picker input[type="file"] {
 	transform: rotate(-90deg) scale(0);
 	opacity: 0;
 	visibility: hidden;
-	font-family: "FontAwesome";
+	font-family: "Material";
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-toggle.active span:before, .rd-navbar-transparent.rd-navbar-fixed .rd-navbar-toggle.active span:before, .rd-navbar-center.rd-navbar-fixed .rd-navbar-toggle.active span:before, .rd-navbar-minimal.rd-navbar-fixed .rd-navbar-toggle.active span:before, .rd-navbar-humburger-menu.rd-navbar-fixed .rd-navbar-toggle.active span:before {
@@ -21315,14 +21315,14 @@ html .rd-file-picker input[type="file"] {
 		transform: rotate(0deg) scale(1);
 		opacity: 1;
 		visibility: visible;
-		font-family: "FontAwesome";
+		font-family: "Material";
 	}
 	.rd-navbar-sidebar-toggle.rd-navbar-fixed .rd-navbar-toggle span:after {
 		content: "";
 		transform: rotate(-90deg) scale(0);
 		opacity: 0;
 		visibility: hidden;
-		font-family: "FontAwesome";
+		font-family: "Material";
 	}
 	.rd-navbar-sidebar-toggle.rd-navbar-fixed .rd-navbar-toggle.active span:before {
 		opacity: 0;
@@ -21517,7 +21517,7 @@ html .rd-file-picker input[type="file"] {
 	width: 45px;
 	font-size: 8px;
 	line-height: 45px;
-	font-family: "FontAwesome";
+	font-family: "Material";
 	transition: .3s all ease;
 	vertical-align: middle;
 	color: #000;
@@ -21556,7 +21556,7 @@ html .rd-file-picker input[type="file"] {
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-dropdown > li > a:before, .rd-navbar-sidebar-toggle.rd-navbar-fixed .rd-navbar-dropdown > li > a:before, .rd-navbar-transparent.rd-navbar-fixed .rd-navbar-dropdown > li > a:before, .rd-navbar-center.rd-navbar-fixed .rd-navbar-dropdown > li > a:before, .rd-navbar-minimal.rd-navbar-fixed .rd-navbar-dropdown > li > a:before, .rd-navbar-humburger-menu.rd-navbar-fixed .rd-navbar-dropdown > li > a:before {
 	content: "\f105";
-	font-family: "FontAwesome";
+	font-family: "Material";
 	position: absolute;
 	left: 0;
 	top: 50%;
@@ -21606,7 +21606,7 @@ html .rd-file-picker input[type="file"] {
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-megamenu ul > li > ul > li > a:before, .rd-navbar-sidebar-toggle.rd-navbar-fixed .rd-navbar-megamenu ul > li > ul > li > a:before, .rd-navbar-transparent.rd-navbar-fixed .rd-navbar-megamenu ul > li > ul > li > a:before, .rd-navbar-center.rd-navbar-fixed .rd-navbar-megamenu ul > li > ul > li > a:before, .rd-navbar-minimal.rd-navbar-fixed .rd-navbar-megamenu ul > li > ul > li > a:before, .rd-navbar-humburger-menu.rd-navbar-fixed .rd-navbar-megamenu ul > li > ul > li > a:before {
 	content: "\f105";
-	font-family: "FontAwesome";
+	font-family: "Material";
 	position: absolute;
 	margin-top: -10px;
 	top: 50%;
@@ -21748,7 +21748,7 @@ html .rd-file-picker input[type="file"] {
 	padding-left: 6px;
 	vertical-align: middle;
 	content: "\f078";
-	font-family: "FontAwesome";
+	font-family: "Material";
 	font-size: 8px;
 	display: inline-block;
 }
@@ -21817,7 +21817,7 @@ html .rd-file-picker input[type="file"] {
 	top: 50%;
 	transform: translateY(-50%);
 	content: "\f105";
-	font-family: "FontAwesome";
+	font-family: "Material";
 	font-size: 16px;
 	opacity: 0;
 	transition: 0.45s all ease;
@@ -22047,7 +22047,7 @@ html .rd-file-picker input[type="file"] {
 	transform: rotate(0deg) scale(1);
 	opacity: 1;
 	visibility: visible;
-	font-family: "FontAwesome";
+	font-family: "Material";
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-search-toggle span:after, .rd-navbar-transparent.rd-navbar-static .rd-navbar-search-toggle span:after, .rd-navbar-center.rd-navbar-static .rd-navbar-search-toggle span:after, .rd-navbar-minimal.rd-navbar-static .rd-navbar-search-toggle span:after {
@@ -22055,7 +22055,7 @@ html .rd-file-picker input[type="file"] {
 	transform: rotate(-90deg) scale(0);
 	opacity: 0;
 	visibility: hidden;
-	font-family: "FontAwesome";
+	font-family: "Material";
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-search-toggle.active span:before, .rd-navbar-transparent.rd-navbar-static .rd-navbar-search-toggle.active span:before, .rd-navbar-center.rd-navbar-static .rd-navbar-search-toggle.active span:before, .rd-navbar-minimal.rd-navbar-static .rd-navbar-search-toggle.active span:before {
@@ -22530,7 +22530,7 @@ html .rd-file-picker input[type="file"] {
 	transform: rotate(0deg) scale(1);
 	opacity: 1;
 	visibility: visible;
-	font-family: "FontAwesome";
+	font-family: "Material";
 }
 
 .rd-navbar-transparent.rd-navbar-static .rd-navbar-search-toggle span:after {
@@ -22538,7 +22538,7 @@ html .rd-file-picker input[type="file"] {
 	transform: rotate(-90deg) scale(0);
 	opacity: 0;
 	visibility: hidden;
-	font-family: "FontAwesome";
+	font-family: "Material";
 }
 
 .rd-navbar-transparent.rd-navbar-static .rd-navbar-search-toggle.active span:before {

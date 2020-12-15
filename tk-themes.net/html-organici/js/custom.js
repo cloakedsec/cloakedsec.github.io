@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){"use strict";new WOW().init();});jQuery(window).load(function(){"use strict";jQuery('header').addClass('eff');});
