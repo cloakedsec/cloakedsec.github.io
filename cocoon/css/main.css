@@ -107,12 +107,12 @@ small {
 }
 
 .white {
-    color: #ffffff;
+    color:  #064742;
 }
 
 .white .small,
 .white small {
-    color: #eee;
+    color: #064742;
 }
 
 .black {
@@ -136,7 +136,7 @@ small {
 
 p {
     font-family: "Josefin Sans", sans-serif;
-    color: #828281;
+    color: #064742;
     font-size: 22px;
 }
 
@@ -406,7 +406,7 @@ fieldset[disabled] .btn-default.active {
 }
 
 .navbar .navbar-nav > li > a {
-    /* color: #ECECEC; */
+    color: #064742;
     text-transform: uppercase;
     padding: 25px 15px;
     font-weight: 700;
@@ -1425,18 +1425,18 @@ fieldset[disabled] .btn-default.active {
     -o-background-size: cover;
     background-size: cover;
     text-align: center;
-    color: #ffffff;
+    color: #064742;
     padding: 60px 0px 60px;
 }
 
 .trusted-quote .quote-body {
-    color: #ffffff;
+    color: #064742;
     margin: 20px 0px;
     font-size: 31px;
 }
 
 .trusted-quote .quote-author {
-    color: #ffffff;
+    color:#064742;
     margin: 20px 0px;
     font-size: 26px;
 }
@@ -1573,7 +1573,7 @@ fieldset[disabled] .btn-default.active {
    ----------- */
 
 .page_header {
-    background: url(../img/header/1.jpg) no-repeat center top;
+    background: url(https://g2.dcdn.lt/images/pix/a-dish-at-the-sweet-root-restaurant-72668812.jpg) no-repeat center top;
     background-size: cover;
     padding: 200px 0 150px;
 }
