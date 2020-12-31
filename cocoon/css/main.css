@@ -107,12 +107,12 @@ small {
 }
 
 .white {
-    color:  #064742;
+    color:  #4b4741;
 }
 
 .white .small,
 .white small {
-    color: #064742;
+    color: #000000;
 }
 
 .black {
@@ -680,7 +680,7 @@ fieldset[disabled] .btn-default.active {
 }
 
 .footer h1 {
-    color: #f9c56a;
+    color: #4b4741;
     font-size: 18px;
     text-align: left;
     margin: 60px 0px 26px;
