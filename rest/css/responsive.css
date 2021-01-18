@@ -1,0 +1,2788 @@
+@media only screen and (min-width: 1921px) {
+  body.backgound-img {
+    background-size: contain;
+  }
+
+  .onthego-container-hompage-5-sense-fullwidth,.onthego-container-hompage-5-sense-fullwidth img {
+    width: 100%;
+}
+
+}
+@media only screen and (max-width: 1919px) {
+  .header-logo-container img {
+    width: 30%;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  nav a {
+    font-size: 15px;
+  }
+  .readmore-btn a {
+    font-size: 15px;
+  }
+  .about-text-2 p,
+  .about-kundanla-contet-left-2 p,
+  .dishhes-content-2-text p,
+  .menu-content-2-text p,
+  .menu-content-3-text p,
+  .onthego-text p,
+  .blog-text p,
+  .contact-us-header-2-p p,
+  .contat-text-from p,
+.form-group label, .form-text-are label {
+    font-size: 15px;
+  }
+  .log-text-container a,
+  li p,
+  li a p,
+  .row-upper-border p {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  .stories-text p {
+    font-size: 16px;
+    line-height: 1.7;
+    padding-bottom: 20px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .abt-page-served-2 ul li p {
+    font-size: 18px;
+  }
+  .image-contiainer-forhover label {
+    font-size: 18px;
+    line-height: 60px;
+  }
+  .stories-image .image-contiainer-forhover,
+  .stories-image .image-contiainer-forhover img {
+    width: 450px;
+  }
+  .about-kundanla-contet-left-2 ul li p span {
+    font-size: 22px;
+  }
+  .obr-heading h4 {
+    font-size: 22px;
+  }
+  .obr-text p {
+    font-size: 16px;
+  }
+  .founder-word p {
+    font-size: 16px;
+  }
+  .csr-heading h4 {
+    font-size: 25px;
+  }
+  footer ul li h4 {
+    font-size: 25px;
+  }
+  .nav-button-container:nth-child(1) {
+    flex-basis: 40%;
+  }
+  a.nav-button {
+    padding: 10px 14px;
+  }
+  .nav-button-container:nth-child(2) {
+    flex-basis: 60%;
+  }
+  .about-img-1,
+  .about-img-1 img,
+  .about-img-3,
+  .about-img-3 img {
+    width: 100%;
+  }
+  .about-daryaganj-body-sec-2 {
+    flex: 1;
+  }
+  .about-daryaganj-body-sec-1 {
+    width: 480px;
+  }
+  .about-daryaganj-body-sec-3 {
+    width: 400px;
+  }
+  .about-daryaganj-body {
+    padding: 10px 0px 50px 0px;
+  }
+  .about-kundanla-contet-left {
+    flex: 1;
+    height: 470px;
+  }
+  .about-kundanla-contet-right {
+    width: 550px;
+    padding-left: 30px;
+    text-align: -webkit-right;
+  }
+  .kundal-lal-jaggi-image-container,
+  .kundal-lal-jaggi-image-container img {
+    width: 100%;
+  }
+  .about-kundanla-contet-left-1 img {
+    width: 90px;
+    height: 25px;
+    align-self: center;
+  }
+  .iconic-dishhes-content-1,
+  .iconic-dishhes-content-3 {
+    width: 30%;
+  }
+  .dishhes-content-1-img,
+  .dishhes-content-1-img img,
+  dishhes-content-2-img,
+  dishhes-content-2-img img {
+    width: 100%;
+  }
+  .dishhes-content-3-text,
+  .dishhes-content-3-text img,
+  .dishhes-content-3-img,
+  .dishhes-content-3-img img {
+    width: 70%;
+  }
+  .iconic-dishhes-content-2 {
+    padding: 0 0px;
+    width: 33%;
+  }
+  .menu-dishhes-content-1,
+  .menu-dishhes-content-2,
+  .menu-dishhes-content-3 {
+    width: 30%;
+    padding: 0;
+  }
+  .menu-content-1-img,
+  .menu-content-1-img img,
+  .menu-content-2-img,
+  .menu-content-2-img img,
+  .menu-content-3-img,
+  .menu-content-3-img img {
+    width: 100%;
+  }
+  /* .menu-content-1-img,
+  .menu-content-1-img img {
+    height: 100%;
+    object-fit: contain;
+  } */
+  .readmore-btn a:after {
+    padding: 0 98px;
+  }
+  ul.footer-wrap-ul li {
+    flex-basis: 42%;
+  }
+  .onthego-text {
+    padding: 30px;
+  }
+
+  .blog-text h3 {
+    line-height: 1.2;
+    padding-top: 10px;
+  }
+  .footerlogo-container {
+    width: 25%;
+  }
+  .footerlogo-container img {
+    width: 100%;
+  }
+  .follow-us-container {
+    width: 35%;
+  }
+  .follow-us-container ul {
+    padding-left: 50px;
+  }
+  .contact-us-container {
+    width: 42%;
+  }
+  section.about-kundanla-container.about-page-iconic-section
+    .about-kundanla-contet-container {
+    margin-bottom: 200px;
+  }
+  section.about-kundanla-container.about-page-iconic-section {
+    padding: 0;
+  }
+  .founder img {
+    width: 100%;
+  }
+  .about-page-iconic-section .image-contiainer-forhover {
+    height: auto;
+  }
+  .abiamce-img-container {
+    width: 100%;
+  }
+  .col-1-amiabnce-img,
+  .col-2-amiabnce-img,
+  .col-3-amiabnce-img {
+    width: 32%;
+  }
+  section.about-kundanla-container.about-page {
+    padding: 30px 0;
+    padding-bottom: 0;
+  }
+  section.about-kundanla-container.about-page-iconic-section
+    .about-kundanla-contet-container {
+    margin-bottom: 30px;
+    padding-top: 0px;
+  }
+  .abt-page-served-2 ul li {
+    padding-bottom: 20px;
+  }
+  .dignitaries-served-row {
+    padding: 30px 0;
+  }
+  section.about-kundanla-container.about-page-iconic-section.the-menu-concept
+    .about-kundanla-contet-container {
+    margin-bottom: 30px;
+  }
+  .readmore-btn.see-full-menu a:hover::before {
+    width: 235px;
+  }
+  .readmore-btn a:hover::before,
+  .button-container button:hover::before {
+    width: 200px;
+  }
+  .kundal-lal-jaggi-image-container.the-menu-concept
+    .image-contiainer-forhover {
+    height: 600px;
+    width: 450px;
+  }
+  section.about-kundanla-container.about-page-iconic-section.the-menu-concept
+    .about-kundanla-contet-right {
+    width: auto;
+  }
+  .abiamce-img-container .image-contiainer-forhover img {
+    width: 100%;
+  }
+  section.about-kundanla-container.section-3-abtpage {
+    padding: 20px 0;
+    padding-bottom: 0;
+  }
+  .dignitaries-content-col-1-top {
+    width: 70%;
+  }
+  
+  .orb-log img {
+    height: 100px;
+    width: auto;
+  }
+  .founder {
+    width: 43%;
+  }
+  .form-group input,
+  .form-group select {
+    width: 300px;
+  }
+  section.about-kundanla-container.gallery-page {
+    padding-top: 0;
+  }
+  .gallery-img-col-1,
+  .gallery-img-col-2 {
+    width: 49%;
+  }
+  .gallery-first-img-container {
+    width: 60%;
+  }
+  .gallery-img-col-1 .image-contiainer-forhover,
+  .gallery-img-col-1 .image-contiainer-forhover img,
+  .gallery-img-col-2 .image-contiainer-forhover,
+  .gallery-img-col-2 .image-contiainer-forhover img {
+    width: 100%;
+  }
+  .gallery-img-col-1 .image-contiainer-forhover {
+    height: 500px;
+  }
+  .marketing-coletral-col {
+    width: 32%;
+  }
+  .marketing-coletral-col .image-contiainer-forhover,
+  .marketing-coletral-col .image-contiainer-forhover img {
+    width: 100%;
+  }
+  .marketing-coletral-col.single-imgefull-height .image-contiainer-forhover,
+  .marketing-coletral-col.single-imgefull-height
+    .image-contiainer-forhover
+    img {
+    height: 100%;
+  }
+  .gallery-page .section-start-img {
+    padding-bottom: 0;
+  }
+  .gallery-page .awards-content-2 .awards-content-2-1 {
+    padding: 0px;
+  }
+  section.gallery-marketing-collateral-section.fouth-sec {
+    padding: 0;
+  }
+  section.gallery-marketing-collateral-section.menu-sec-first-sec {
+    padding: 0;
+  }
+  .marketing-coletral-row-2.food-at-daryaganj .image-contiainer-forhover,
+  .marketing-coletral-row-2.food-at-daryaganj .image-contiainer-forhover img {
+    width: 100%;
+  }
+  section.blog-section.menu-page {
+    padding: 20px 0;
+  }
+  .width-30 {
+    width: 30%;
+  }
+  .width-50 {
+    width: 50%;
+  }
+  .width-70 {
+    width: 70%;
+  }
+  .articles-page-media-col .image-contiainer-forhover,
+  .articles-page-media-col .image-contiainer-forhover img {
+    width: 100%;
+    height: 100%;
+  }
+  .articles-page-media-row.width-30 .articles-page-media-col {
+    height: 100%;
+  }
+  section.articles-page-media-sec {
+    padding-bottom: 50px;
+  }
+  section.menupage-bevrage-sec.media-page {
+    padding-bottom: 50px;
+  }
+  section.gallery-marketing-collateral-section.serverd-to-stars.media-page
+    .section-end-img {
+    padding-top: 50px;
+  }
+  .publication-logo-content button.prevArrow.slick-arrow,
+  .publication-logo-content .nextArrow.slick-arrow {
+    top: 60px;
+  }
+  .fouth-sec .marketing-coletral-col span {
+    height: 80px;
+    width: 80px;
+    left: 110px;
+  }
+  .fouth-sec .marketing-coletral-col span img {
+    width: 100%;
+  }
+  .dishhes-content-2-text.dashed-heading-top.team-of-daryaganj {
+    padding: 10px 0;
+    border: 0.13em dashed #00000061;
+  }
+
+  section.gallery-marketing-collateral-section.fouth-sec.video-section {
+    padding-bottom: 40px;
+}
+
+.awards-content-1-1, .awards-content-1-3, .awards-content-3-1, .awards-content-3-3 {
+  width: 45%;
+}
+
+.awards-content-1-1 img, .awards-content-1-3 img,.awards-content-3-1 img, .awards-content-3-3 img {
+  width: 100%;
+}
+.awards-content-2-1 {
+  width: 90%;
+}
+
+.awards-content-2-1 img {
+  width: 100%;
+}
+.awards-content-1 .border-dashed, .awards-content-3 .border-dashed {
+  padding: 40px 30px !important;
+}
+
+.awards-content-1-3 .border-dashed, .awards-content-3-3 .border-dashed {
+  padding: 0px 50px !important;
+}
+
+.onthego-container-hompage-5-sense-fullwidth,.onthego-container-hompage-5-sense-fullwidth img {
+  width: 100%;
+}
+.abt-page-iconic-three-last-two-section {
+    height: auto;
+}
+
+section.about-kundanla-container.section-2-abtpage {
+    padding-top: 0;
+}
+
+.row1 .stories-text {
+    margin-left: 20px;
+}
+
+.stories-image {
+    margin: 0 20px;
+}
+
+.row2 .stories-text {
+    margin-right: 20px;
+}
+
+.dignitaries-content {
+    padding: 0;
+}
+
+p.abt-page-core-team-text {
+    font-size: 20px;
+}
+
+.team-member-one-abt-page {
+    width: 30%;
+}
+
+.team-member-one-abt-page .image-contiainer-forhover,.team-member-one-abt-page .image-contiainer-forhover img {
+    width: 100%;
+}
+
+.team-member-degination p {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.dishhes-content-3-text.home-page-about-iconic-image, .dishhes-content-3-text.home-page-about-iconic-image img {
+  width: 100%;
+}
+
+footer .follow-us-container ul li:first-child, footer .contact-us-container ul:first-child li:first-child {
+  margin-bottom: 30px;
+}
+
+.awards-content-1.media-page-accolades, .awards-content-3.media-page-accolades {
+  width: auto;
+}
+.awards-content-1.media-page-accolades .awards-content-1-1, .awards-content-1.media-page-accolades .awards-content-1-3, .awards-content-3.media-page-accolades .awards-content-3-1, .awards-content-3.media-page-accolades .awards-content-3-3 {
+  width: 80%;
+}
+
+.awards-content-2.media-page-accolades .awards-content-2-1{
+  width:100%;
+}
+
+.dishhes-content-2-text.gallery-page-team-of-daryaganj.team-of-daryaganj {
+  margin-top: 80px;
+}
+.awards-content-1.faimly-aulbum.gallery-page, .awards-content-2.faimly-aulbum.gallery-page, .awards-content-3.faimly-aulbum.gallery-page {
+  width: 33%;
+}
+.awards-content-1.faimly-aulbum.gallery-page .awards-content-1-1, .awards-content-1.faimly-aulbum.gallery-page .awards-content-1-3, .awards-content-3.faimly-aulbum.gallery-page .awards-content-3-1, .awards-content-3.faimly-aulbum.gallery-page .awards-content-3-3 {
+  width: 70%;
+}
+.dishhes-content-2-text h3 {
+  font-size: 25px;
+}
+.customer-review-right-section {
+  width: 60%;
+}
+
+.customer-review-sub-left-right-section{
+  width: 60%;
+}
+.customer-review-sub-right-right-section {
+   width:38%;
+}
+
+.customer-review-sub-left-right-section .image-contiainer-forhover, .customer-review-sub-right-right-section .image-contiainer-forhover, .customer-review-sub-left-right-section .image-contiainer-forhover img, .customer-review-sub-right-right-section .image-contiainer-forhover img {
+  width: 100%;
+}
+
+.propmotion-teaxt {
+  top: 70px;
+}
+.one-review-location-page h4 {
+  font-size: 20px;
+}
+
+.one-review-location-page p {
+  font-size: 15px;
+}
+
+.location-text-cn p{
+  font-size: 16px;
+}
+section.about-kundanla-container.section-2-abtpage.abot-page-spacial-padding-section {
+  margin-bottom: 60px;
+}
+
+
+.by-the-inverstors-section h2, .by-the-inverstors-section-like h2{
+  font-size: 30px;
+}
+
+}
+
+@media only screen and (max-width: 1440px) {
+  .contact-us-container {
+    width: 44%;
+  }
+  .onthego-img {
+    width: 35%;
+  }
+  .onthego-img img {
+    width: 100%;
+  }
+  .onthego-text {
+    padding-top: 0px;
+  }
+  .about-daryaganj-body-sec-1 {
+    width: 400px;
+  }
+  .about-daryaganj-body-sec-3 {
+    width: 350px;
+    padding-left: 10px;
+  }
+
+  section.about-kundanla-container.about-page-iconic-section
+    .about-kundanla-contet-right {
+    padding-right: 30px;
+  }
+  section.about-kundanla-container.about-page-iconic-section
+    .about-kundanla-contet-container {
+    margin-bottom: 50px;
+  }
+  section.about-kundanla-container.about-page-iconic-section
+    .about-kundanla-contet-right {
+    width: 43%;
+  }
+  .contact-us-header-1 {
+    width: 40%;
+  }
+  .form-group input,
+  .form-group select {
+    width: 270px;
+  }
+  .subheading-hospi p,
+  .contat-text-from p {
+    font-size: 16px;
+  }
+  .find-us-text p {
+    font-size: 16px;
+  }
+  .cn-one-icon {
+    padding-left: 30px;
+  }
+  .about-page-iconic-section .image-contiainer-forhover {
+    height: 100%;
+    object-fit: cover;
+    width: auto;
+  }
+
+  section.about-kundanla-container.section-2-abtpage
+    .about-kundanla-contet-left {
+    padding-right: 20px;
+  }
+  section.about-kundanla-container.section-3-abtpage
+    .about-kundanla-contet-left-1
+    .image-contiainer-forhover {
+    overflow: visible;
+  }
+  .about-kundanla-contet-left.senses-of-delivery {
+    height: auto;
+  }
+  .section-end-img.for-sense-of-respo {
+    padding-top: 0 !important;
+  }
+  .row1 {
+    margin-bottom: 30px;
+  }
+  section.gallery-marketing-collateral-section.food-at-daryaganj-sec {
+    padding-top: 30px;
+  }
+  section.gallery-marketing-collateral-section {
+    /* padding: 30px 0; */
+  }
+  .gallery-button-container {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .marketing-coletral-row.food-at-daryaganj {
+    padding: 10px 0;
+}
+
+  section.dignitaries-at-daryaganj.gallery-page {
+    padding-bottom: 0px;
+    padding-top: 30px;
+  }
+  section.daryaganj-on-the-go-sec.abt-page.gallery-page .section-start-img {
+    padding-bottom: 0px;
+    padding-top: 30px;
+  }
+  .birthday-video-contianer {
+    padding: 20px 0;
+  }
+  .gallery-img-col-1 .image-contiainer-forhover {
+    height: 450px;
+  }
+  .menu-beverage-img-container .image-contiainer-forhover img {
+    width: 100%;
+  }
+  .publication-logo-content {
+    padding: 0px 10px;
+  }
+  .publication-logo-content button.prevArrow.slick-arrow,
+  .publication-logo-content .nextArrow.slick-arrow {
+    top: 40px;
+  }
+  .fouth-sec .marketing-coletral-col span {
+    height: 60px;
+    width: 60px;
+    left: 90px;
+    top: 100px;
+  }
+  .fouth-sec .marketing-coletral-col span img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .contact-us-header-1-img .image-contiainer-forhover {width: 440px;height: 400px;}
+
+.contact-us-header-1-img .image-contiainer-forhover img {
+    width: 100%;
+    height: 100%;
+}
+.about-img-3-1, .about-img-3-1 img {
+    width: 350px;
+}
+
+.about-img-1 .border-dashed {
+    padding: 50px 10px !important;
+}
+
+.kundal-lal-jaggi-image-container {
+    width: 450px;
+}
+
+.kundal-lal-jaggi-image-container img {
+    width: 420px;
+}
+
+.about-page-iconic-section .image-contiainer-forhover img {
+    width: 100%;
+}
+.blog-text h3 {
+    font-size: 18px;
+}
+.nav-button-container:nth-child(2) {
+  flex-basis: auto;
+}
+.dishhes-content-2-text {
+  margin-top: 40px;
+}
+
+.dishhes-content-2-text .readmore-btn {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.readmore-btn a, .button-container button {
+  padding: 15px 50px;
+}
+
+.readmore-btn a:after, .button-container button:after {
+  padding: 0 90px;
+}
+
+.readmore-btn a:hover::before, .button-container button:hover::before {
+  width: 190px;
+}
+.stories-container {
+    margin-bottom: 40px;
+}
+
+.about-kundanla-contet-container.the-daryaganj-rest-abt-page .about-kundanla-contet-right {
+    width: auto;
+}
+
+.about-kundanla-contet-left.the-menu-concept {
+    margin-left: 30px;
+}
+
+.about-kundanla-contet-container.the-daryaganj-rest-abt-page {
+  margin-bottom: 80px;
+}
+.kundal-lal-jaggi-image-container.the-menu-concept img {width: 100%;}
+
+.kundal-lal-jaggi-image-container.the-menu-concept {
+    width: 400px;
+}
+
+.kundal-lal-jaggi-image-container.the-menu-concept .image-contiainer-forhover {
+    width: auto;
+    height: auto;
+}
+
+.stories-image {
+    width: 350px;
+}
+
+.stories-image .image-contiainer-forhover {
+    width: auto;
+}
+
+.stories-image .image-contiainer-forhover img {
+    width: 350px;
+}
+
+.one-csr-container ul li:before {
+  top: 5px;
+}
+.expansion-page-first-section-text ul li {
+  font-size: 20px;
+}
+
+.expansion-page-first-section-text ul li:before {
+  width: 15px;
+  height: 15px;
+}
+
+.expansion-page-first-section-text ul {
+  margin: 30px auto;
+}
+
+section.different-segment-of-revenu-section .about-dariyaganj {
+  text-align: center;
+}
+
+.different-segment-of-revenu-text ul {
+  padding: 20px 0;
+  padding-top: 0;
+}
+
+.different-segment-of-revenu-text ul li {
+  font-size: 20px;
+}
+
+.expansion-format ul li p {
+  font-size: 20px;
+}
+
+.expansion-format ul li p span {
+  font-size: 16px;
+}
+
+.expansion-page-form {
+  width: 60%;
+}
+.expansion-page-form button {
+  padding: 15px 40px;
+}
+.contact-us-header-2-p p {
+  font-size: 18px;
+}
+
+footer .log-container {
+  margin-right: 20px;
+}
+.publication-button-container {
+    margin: 30px 0px;
+    padding-bottom: 30px;
+}
+
+.publication-logo-content .image-contiainer-forhover {
+    margin: 10px 0;
+}
+.dishhes-content-2-text.gallery-page-team-of-daryaganj.team-of-daryaganj {
+    margin-top: 50px;
+}
+.expansion-page-first-section-text h3 {
+  font-size: 20px;
+}
+
+.one-review-location-page h4 {
+  font-size: 18px;
+}
+.contact-from-container.location-page-container {
+  padding-top: 20px;
+}
+.propmotion-teaxt {
+  top: 50px;
+}
+
+.propmotion-teaxt h2 {
+  font-size: 40px;
+  letter-spacing: 6px;
+}
+
+.propmotion-teaxt h1 {
+  font-size: 50px;
+  letter-spacing: 6px;
+}
+
+.propmotion-teaxt h3 {
+  font-size: 20px;
+}
+
+.location-page-promotion-container {
+  margin-top: 40px;
+}
+
+.service-content-location-page-one.fourth-iteam .service-content-location-page-one-text {
+  top: 60px;
+}
+
+.service-content-location-page-one.fifth-iteam .service-content-location-page-one-text {
+  left: -180px;
+  bottom: 60px;
+}
+
+.service-content-location-page-one.second-iteam .service-content-location-page-one-text {
+  right: -160px;
+}
+
+div#map {
+  height: 500px;
+}
+
+.map-right-sub-div {
+  padding-top: 50px;
+}
+
+.about-iconic-dishhes-content.team-of-daryaganj-gallery-page {
+  padding: 10px 0;
+  padding-bottom: 30px;
+}
+
+}
+
+@media only screen and (max-width: 1366px) {
+  .cta-tab-header {
+    width: 65%;
+  }
+  .cta-button-header {
+    width: 28%;
+  }
+  .follow-us-container {
+    width: 40%;
+  }
+  .footer-text-container {
+    height: 300px;
+  }
+  .container {
+    padding: 0px 100px;
+  }
+  .arrow-down::after {
+    right: -36px;
+    bottom: -15px;
+  }
+
+  section.daryaganj-on-the-go-sec {
+    padding: 30px 0;
+}
+.about-dariyaganj {
+  padding: 10px 0px;
+}
+
+.about-kundanla-contet-container.the-daryaganj-rest-abt-page {
+  margin-bottom: 60px;
+}
+
+p.abt-page-core-team-text {
+  margin-top: -10px;
+}
+.about-dariyaganj.expansion-page {
+  padding-top: 20px;
+}
+
+}
+@media only screen and (max-width: 1280px) {
+  .container {
+    padding: 0 60px;
+  }
+  .expansion-page-first-section-text ul li {
+    font-size: 18px;
+}
+
+.different-segment-of-revenu-text ul li {
+    font-size: 18px;
+}
+
+.expansion-format ul li p {
+    font-size: 18px;
+}
+
+.expansion-format ul li p span {
+    font-size: 15px;
+}
+
+.expansion-format-sub-heading {
+    padding-bottom: 20px;
+}
+
+.expansion-page-form {
+    padding-left: 100px;
+}
+
+.cities-for-expansion-text, .expansion-format, .expansion-page-all-location-text {
+  padding-left: 100px;
+}
+.expansion-page-first-section-text h3{
+  font-size: 18px;
+}
+
+}
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 30px;
+  }
+  nav a {
+    font-size: 14px;
+  }
+  .readmore-btn a {
+    font-size: 13px;
+  }
+  .about-text-2 p,
+  .about-kundanla-contet-left-2 p,
+  .dishhes-content-2-text p,
+  .menu-content-2-text p,
+  .menu-content-3-text p,
+  .onthego-text p,
+  .blog-text p,
+  .contact-us-header-2-p p,
+  .contat-text-from p,
+  .form-group label, .form-text-are label {
+    font-size: 14px;
+  }
+  .log-text-container a,
+  li p,
+  li a p,
+  .row-upper-border p {
+    font-size: 13px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  .stories-text p {
+    font-size: 14px;
+    line-height: 1.7;
+    padding-bottom: 20px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .abt-page-served-2 ul li p {
+    font-size: 16px;
+  }
+  .image-contiainer-forhover label {
+    font-size: 16px;
+    line-height: 60px;
+  }
+  .about-kundanla-contet-left-2 ul li p span {
+    font-size: 20px;
+  }
+  .obr-heading h4 {
+    font-size: 20px;
+  }
+  .obr-text p {
+    font-size: 14px;
+  }
+  .founder-word p {
+    font-size: 14px;
+  }
+  .csr-heading h4 {
+    font-size: 22px;
+  }
+  footer ul li h4 {
+    font-size: 22px;
+  }
+  .blog-text {
+    width: 100%;
+    height: auto;
+  }
+  .about-daryaganj-body {
+    flex-wrap: wrap;
+  }
+  .about-daryaganj-body-sec-3 {
+    display: none;
+  }
+  .about-kundanla-contet-right {
+    width: 380px;
+  }
+  .text-continaer {
+    text-align: center;
+  }
+  .stories-image {
+    width: 50%;
+  }
+  .row1 {
+    margin-bottom: 0px;
+  }
+  .row2 {
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+  .contact-from-container {
+    flex-direction: column;
+  }
+  .contact-from-text {
+    border: none;
+    border-bottom: 2px solid #c1bfbf;
+    padding-bottom: 40px;
+  }
+  .contact-from-container {
+    padding: 30px 0;
+  }
+  .form-group input,
+  .form-group select {
+    width: 390px;
+  }
+  .hospitality-one {
+    padding-bottom: 20px;
+    width: 45%;
+  }
+  .heading-hospi p span {
+    font-size: 40px;
+    position: absolute;
+    left: -30px;
+  }
+  .heading-hospi p {
+    margin-left: 40px;
+    position: relative;
+  }
+  .contact-us-form-content {
+    padding-left: 0;
+  }
+  section.about-kundanla-container.about-page .about-kundanla-contet-container {
+    padding: 30px 0;
+    padding-bottom: 0;
+  }
+  .stories-image .image-contiainer-forhover,
+  .stories-image .image-contiainer-forhover img {
+    width: 350px;
+  }
+  .stories-behind-iconic-dishes .about-dariyaganj {
+    padding-top: 0;
+  }
+  .abt-page-served-1 h3 {
+    padding: 10px 0;
+  }
+  .dignitaries-served-col-left {
+    width: 60%;
+  }
+  .dignitaries-served-col-right {
+    width: 40%;
+    justify-content: unset;
+  }
+  .dignitaries-served-col-right .image-contiainer-forhover {
+    width: 100%;
+  }
+  .timeline-img-container {
+    padding: 0px 0 20px;
+  }
+  section.about-kundanla-container.about-page-iconic-section.the-menu-concept {
+    padding-top: 30px;
+  }
+  .kundal-lal-jaggi-image-container.the-menu-concept
+    .image-contiainer-forhover {
+    height: 480px;
+    width: 350px;
+  }
+  .about-kundanla-contet-left-1 img {
+    width: 90px;
+    height: 20px;
+  }
+  .about-kundanla-contet-left-1 .image-contiainer-forhover {
+    overflow: visible;
+  }
+  .abmiance-para p:first-child {
+    padding-bottom: 20px;
+  }
+  .abmiance-para {
+    width: 80%;
+  }
+  .gallery-img-col-1 .image-contiainer-forhover {
+    height: 345px;
+  }
+  .row-for-menu-ninetyfoutyseven .image-contiainer-forhover {
+    width: 42%;
+    margin: auto;
+  }
+  .row-for-menu-ninetyfoutyseven .image-contiainer-forhover:last-child img {
+    width: 100%;
+  }
+  .awards-content-2-1 {
+    margin-bottom: 30px;
+  }
+  .awards-content-container {
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+  .fouth-sec .marketing-coletral-col span {
+    height: 60px;
+    width: 60px;
+    left: 70px;
+    top: 80px;
+  }
+  .fouth-sec .marketing-coletral-col span img {
+    width: 100%;
+  }
+  .contact-us-header-1-img .image-contiainer-forhover {
+    width: 340px;
+}
+.container {
+  padding: 0 30px;
+}
+.cta-button-header {
+  width: 30%;
+}
+
+.nav-button-container:nth-child(1) {
+  flex-basis: auto;
+}
+.kundal-lal-jaggi-image-container {
+    width: 100%;
+}
+
+.kundal-lal-jaggi-image-container img {
+    width: 100%;
+}
+
+section.about-kundanla-container {
+    padding: 30px 0;
+}
+
+.about-kundanla-contet-left {
+    height: auto;
+}
+
+section.menu-iconic-dishhes {
+  padding: 30px 0;
+}
+
+.readmore-btn a, .button-container button {
+  padding: 15px 40px;
+}
+
+.readmore-btn a:after, .button-container button:after {
+  padding: 0 70px;
+}
+
+.readmore-btn.see-full-menu a:hover::before {
+  width: 180px;
+}
+.about-kundanla-container.about-page .about-kundanla-contet-left-2 {
+    margin-bottom: 0;
+}
+
+section.about-kundanla-container.about-page-iconic-section .about-kundanla-contet-right {
+    width: 50%;
+}
+
+.stories-container {
+    margin-top: 30px;
+}
+
+section.about-kundanla-container.about-page-iconic-section .about-kundanla-contet-container {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.about-kundanla-contet-container.the-daryaganj-rest-abt-page .about-kundanla-contet-right {
+    width: 380px;
+}
+
+.about-kundanla-contet-container.the-daryaganj-rest-abt-page {
+    margin-bottom: 0;
+}
+
+section.about-kundanla-container.section-2-abtpage {
+    padding-bottom: 0;
+}
+
+section.about-kundanla-container.about-page-iconic-section.the-menu-concept .about-kundanla-contet-container {
+    margin-bottom: 0;
+}
+
+.expansion-page-form {
+  padding-left: 30px;
+  width: 90%;
+}
+
+.cities-for-expansion-text, .expansion-format, .expansion-page-all-location-text {
+  padding-left: 30px;
+}
+
+.contact-from-container.location-page-container .contact-from-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.propmotion-teaxt {
+  top: 30px;
+}
+
+.location-text-cn p{
+  font-size: 14px;
+}
+section.about-kundanla-container.section-2-abtpage.abot-page-spacial-padding-section {
+  margin-bottom: 0px;
+}
+
+}
+@media only screen and (max-width: 768px) {
+  header .row {
+    border: none;
+}
+
+  nav {
+    transition: 1s;
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: -100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    z-index: 111;
+    background-image: url(../img/home-top-background.png);
+    background-repeat: repeat-y;
+  }
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 30px;
+    height: 3px;
+    background-color: #67021e;
+    margin: 6px 0;
+    border-radius: 3px;
+    transition: 0.4s;
+  }
+  .bars {
+    display: inline-block;
+    position: relative;
+    z-index: 1111;
+  }
+  .bar2 {
+    width: 20px;
+  }
+  .bar2 {
+    width: 20px;
+  }
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-7px, 7px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+    width: 30px;
+    background-color: #000;
+  }
+  .change .bar2 {
+    opacity: 0;
+  }
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -6px);
+    transform: rotate(45deg) translate(-6px, -6px);
+    width: 30px;
+    background-color: #000;
+  }
+  button.navbar-toggler_custom {
+    display: block;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+  .row.mobile-nav-header-container {
+    display: flex;
+    justify-content: space-between;
+    z-index: 11111;
+  }
+  .container {
+    padding: 0 30px;
+  }
+  .header-logo-container img {
+    width: 70%;
+    float: left;
+  }
+  nav.open_tab {
+    top: -10px;
+    left: 0px;
+  }
+  .cta-tab-header {
+    width: 100%;
+  }
+  .cta-button-header {
+    width: 100%;
+  }
+  .cta-tab-header ul {
+    flex-direction: column;
+  }
+  .cta-button-header {
+    margin: 0 auto;
+    justify-content: center;
+    border-top: 2px solid #bbb9b9;
+    margin-top: 15px;
+  }
+  nav a {
+    font-size: 16px;
+  }
+  .cta-tab-header ul li {
+    padding: 20px 0;
+    position: relative;
+  }
+  .nav-button-container {
+    width: auto;
+    padding: 25px 0px;
+    margin: 0px 20px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  .about-text-2 p,
+  .about-kundanla-contet-left-2 p,
+  .dishhes-content-2-text p,
+  .menu-content-2-text p,
+  .menu-content-3-text p,
+  .onthego-text p,
+  .blog-text p,
+  .contact-us-header-2-p p,
+  .contat-text-from p,
+  .form-group label, .form-text-are label {
+    font-size: 16px;
+  }
+  .stories-text p {
+    font-size: 16px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .obr-text p {
+    font-size: 16px;
+  }
+  .founder-word p {
+    font-size: 16px;
+  }
+  .about-dariyaganj div img {
+    width: 80px;
+  }
+  .about-kundanla-contet-container {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .about-kundanla-contet-left {
+    flex-basis: 100%;
+  }
+  .about-kundanla-contet-right {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .about-kundanla-contet-left {
+    padding: 30px 0px;
+    width: 100%;
+  }
+  .about-kundanla-contet-left-2 {
+    margin-bottom: 40px;
+  }
+  .about-iconic-dishhes-content {
+    flex-wrap: wrap;
+    padding: 30px 0;
+  }
+  .iconic-dishhes-content-1,
+  .iconic-dishhes-content-3 {
+    width: 50%;
+  }
+  .iconic-dishhes-content-2 {
+    width: 48%;
+    justify-content: space-evenly;
+  }
+  .iconic-dishhes-content-3 {
+    display: flex;
+    flex-direction: row;
+  }
+  .dishhes-content-3-text:nth-child(1) {
+  padding-right: 0;
+  }
+  .menu-iconic-dishhes-content {
+    flex-wrap: wrap;
+  }
+  .menu-dishhes-content-1,
+  .menu-dishhes-content-2,
+  .menu-dishhes-content-3 {
+    width: 50%;
+    padding: 0px;
+  }
+  .menu-dishhes-content-1 {
+    width: 48%;
+  }
+  .menu-content-2-img {
+    padding-top: 30px;
+  }
+  .menu-content-2-text p {
+    line-height: 1.4;
+  }
+  .menu-dishhes-content-3 {
+    margin-top: 40px;
+    flex-direction: row-reverse;
+    flex-basis: 100%;
+  }
+  .menu-content-3-text {
+    width: 100%;
+  }
+  .awards-content-container {
+    flex-wrap: wrap;
+    padding: 0px 0;
+    padding-bottom: 0px;
+  }
+  .awards-content-1,
+  .awards-content-2,
+  .awards-content-3 {
+    width: 100%;
+  }
+  .awards-content-1,
+  .awards-content-3 {
+    flex-direction: row;
+  }
+  .awards-content-1-2,
+  .awards-content-1-2 img,
+  .awards-content-3-2,
+  .awards-content-3-2 img {
+    display: none;
+  }
+  .awards-content-1-1,
+  .awards-content-3-1 {
+    padding: 0px 30px;
+  }
+  .awards-content-2-1 {
+    width: 350px;
+    margin-bottom: 30px;
+  }
+  .awards-content-2,
+  .readmore-btn {
+    margin-bottom: 20px;
+  }
+  .abousolute-position-onthego-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .onthego-img {
+    width: 100%;
+  }
+  .onthego-text {
+    width: 50%;
+    padding: 30px 20px;
+  }
+  .onthego-text p {
+    margin-bottom: 30px;
+  }
+  .footer-text-container {
+    flex-wrap: wrap;
+  }
+  .footerlogo-container {
+    width: 100%;
+  }
+  .footerlogo-container img {
+    width: 100%;
+  }
+  .footer-text-container {
+    height: auto;
+  }
+  section.blog-section {
+    padding: 0px 0px;
+  }
+  section.about-kundanla-container.about-page .about-kundanla-contet-container {
+    padding-bottom: 0px;
+  }
+  .stories-text p {
+    padding-bottom: 20px;
+  }
+  .about-page-iconic-section .about-kundanla-contet-container {
+    flex-direction: column;
+  }
+  section.about-kundanla-container.about-page-iconic-section
+    .about-kundanla-contet-right {
+    width: 100%;
+    padding-right: 0;
+  }
+  section.about-kundanla-container.about-page-iconic-section
+    .about-kundanla-contet-container {
+    margin-bottom: 0;
+    padding-bottom: 40px;
+  }
+  .founder-word p {
+    padding-bottom: 20px;
+  }
+  section.award-and-media-sec.abt-page-family .awards-content-2-1 {
+    margin-bottom: 0;
+  }
+  section.award-and-media-sec.abt-page-family .awards-content-2 {
+    margin-bottom: 0;
+  }
+  .contact-us-header {
+    flex-direction: column;
+  }
+  .contact-us-header-1 {
+    width: 100%;
+  }
+  .contact-us-header-1-img {
+    text-align: center;
+  }
+  .contact-us-header-2-content {
+    padding: 0;
+    padding-top: 0px;
+  }
+  .contact-us-header-2-p {
+    padding: 20px 0;
+  }
+  .location-text-cn {
+    font-size: 16px;
+  }
+  .form-group input,
+  .form-group select {
+    width: 300px;
+  }
+  .contact-us-form-content {
+    margin-bottom: 20px;
+  }
+  .hospitality-one {
+    width: 100%;
+    padding: 20px 0;
+  }
+  .contact-us-header-2 {
+    padding: 0;
+  }
+  .about-daryaganj-body-sec-1 {
+    width: 80%;
+  }
+  section.about-kundanla-container {
+    padding: 20px 0;
+  }
+  .menu-content-2-text {
+    margin-bottom: 20px;
+  }
+  .marketing-coletral-row.food-at-daryaganj {
+    flex-wrap: wrap;
+  }
+  .fouth-sec .marketing-coletral-col {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+  .row1 {
+    flex-wrap: wrap;
+  }
+  .stories-image {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .stories-image .image-contiainer-forhover,
+  .stories-image .image-contiainer-forhover img {
+    width: 100%;
+  }
+  .row1 .stories-text {
+    margin-left: 0;
+  }
+  .row2 {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    margin-bottom: 30px;
+  }
+
+  .dignitaries-served-row {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .dignitaries-served-col-right {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .dignitaries-served-col-right .image-contiainer-forhover:first-child {
+    margin-bottom: 0;
+  }
+  .about-dariyaganj {
+    padding: 20px 0;
+  }
+  .dignitaries-served-col-right .image-contiainer-forhover {
+    width: 350px;
+    height: 100%;
+  }
+  .dignitaries-served-col-right .image-contiainer-forhover img {
+    width: 100%;
+    height: 100%;
+  }
+  section.about-kundanla-container.about-page-iconic-section
+    .about-kundanla-contet-left-2 {
+    margin-bottom: 0;
+  }
+  section.about-kundanla-container.about-page-iconic-section
+    .about-kundanla-contet-container {
+    padding-bottom: 0px;
+  }
+  .dignitaries-served-col-left {
+    width: 100%;
+  }
+  section.about-kundanla-container.section-2-abtpage
+    .about-kundanla-contet-left {
+    padding: 30px 0px;
+    /* padding: 0; */
+  }
+  section.about-kundanla-container.about-page-iconic-section.the-menu-concept {
+    padding-top: 0px;
+  }
+  .about-kundanla-contet-left-2 p {
+    margin-top: 0px;
+  }
+  .about-kundanla-contet-left.the-menu-concept {
+    width: 100%;
+  }
+  .abmiance-para p:first-child {
+    padding-bottom: 10px;
+  }
+  .abiamce-img-container {
+    padding: 20px 0;
+  }
+  .section-3-abtpage .about-kundanla-contet-container {
+    padding: 0px;
+  }
+  .about-kundanla-contet-right.sen-full-image-container {
+    width: 50%;
+  }
+  .celebrities-btn-container {
+    padding: 30px 0;
+  }
+  section.about-kundanla-container.section-3-abtpage {
+    padding: 10px 0;
+  }
+  .orb-content {
+    width: 46%;
+  }
+
+  .abt-our-brands-container {
+    padding: 20px;
+  }
+  section.daryaganj-on-the-go-sec.abt-page .onthego-img {
+    width: 40%;
+    align-self: center;
+  }
+  .onthego-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  section.daryaganj-on-the-go-sec.abt-page
+    .abousolute-position-onthego-container {
+    flex-direction: row;
+  }
+  .fouth-sec .marketing-coletral-col span {
+    left: 40%;
+    top: 130px;
+  }
+  section.about-kundanla-container.section-2-abtpage {
+    padding: 0;
+  }
+  .about-kundanla-contet-left.senses-of-delivery {
+    padding-bottom: 0;
+  }
+  .csr-parent-container {
+    padding: 20px 0;
+  }
+  .about-iconic-dishhes-content.abt-page-core-team {
+    padding: 20px 0;
+  }
+  .iconic-dishhes-content-2 {
+    flex-direction: column-reverse;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .dishhes-content-2-text.text-aligh-center {
+    align-self: center;
+  }
+  .publication-logo-content {
+    margin: 10px 50px;
+  }
+  .publication-logo-content .image-contiainer-forhover img {
+    margin: 0 auto;
+  }
+  .readmore-btn a:after,
+  .button-container button:after {
+    padding: 0 75px;
+  }
+  .articles-page-media-row-maineconatianer {
+    flex-direction: column-reverse;
+  }
+  .articles-page-media-row.width-70 {
+    width: 100%;
+  }
+  .articles-page-media-row.width-30 {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 20px;
+  }
+  .articles-page-media-col .image-contiainer-forhover img {
+    object-fit: cover;
+  }
+  .about-iconic-dishhes-content.media-page {
+    flex-wrap: inherit;
+    padding: 20px 0;
+  }
+  .about-iconic-dishhes-content.media-page .iconic-dishhes-content-2 {
+    flex-direction: column;
+    padding: 0px 10px;
+  }
+
+  .gallery-resturant-text {
+    flex-direction: column-reverse;
+  }
+  .gallery-first-img-container {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .gallery-resturant-text .stories-text {
+    width: 100%;
+  }
+  .gallery-img-col-1 .image-contiainer-forhover {
+    height: 400px;
+  }
+  .dignitaries-content-col-3 {
+    margin-top: 0px;
+  }
+  section.award-and-media-sec.abt-page-family .awards-content-2 {
+    margin: 20px 0px;
+  }
+  .iconic-dishhes-content-3.team-of-daryaganj-fullimg
+    .image-contiainer-forhover
+    img,
+  .iconic-dishhes-content-1.team-of-daryaganj-fullimg
+    .image-contiainer-forhover
+    img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .dishhes-content-2-text.team-of-daryaganj {
+    padding: 50px 20px;
+  }
+  .iconic-dishhes-content-3.team-of-daryaganj-fullimg .dishhes-content-3-text {
+    padding: 0;
+  }
+  .iconic-dishhes-content-1.team-of-daryaganj-fullimg {
+    width: 100%;
+  }
+  span.officialvideo-playicon {
+    left: 44%;
+  }
+  span.officialvideo-playicon img {
+    width: 80px;
+    height: 80px;
+  }
+  .contact-us-header-1-img .image-contiainer-forhover {
+    width: auto;
+    height: auto;
+}
+/* 100% zoomed images*/
+.modal-content {
+  width: 100%;
+}
+
+.about-text-2 p {
+    padding-bottom: 30px;
+}
+
+.readmore-btn a:hover::before, .button-container button:hover::before {
+    width: 160px;
+}
+.about-kundanla-contet-left>div:first-child {
+    margin-bottom: 0;
+}
+
+.footer-text-container {
+    padding-bottom: 0px;
+}
+
+.follow-us-container ul {
+    padding-left: 0;
+}
+
+.contact-us-container {
+    width: 50%;
+}
+
+.follow-us-container {
+    width: 30%;
+}
+
+.iconic-dishhes-content-1 {
+    order: 1;
+}
+.dishhes-content-3-text img, .dishhes-content-1-img img {
+    width: 95%;
+}
+
+.dishhes-content-1-img,.dishhes-content-3-text {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.dishhes-content-2-text {
+    margin: 30px auto;
+}
+.awards-new-wrapper-view {
+    width: 100%;
+}
+
+.awards-content-2 {
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+.footerlogo-container {justify-content: center;}
+
+.footerlogo-container .image-contiainer-forhover {
+    text-align: center;
+}
+
+footer {
+    padding-top: 30px;
+}
+.kundal-lal-jaggi-image-container.abt-page-iconic-three {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.about-kundanla-contet-container.the-daryaganj-rest-abt-page .about-kundanla-contet-left {
+    width: 100%;
+}
+
+.about-kundanla-contet-left.the-menu-concept {
+    margin-left: 0;
+}
+
+.team-member-degination p {
+    font-size: 18px;
+}
+
+.contact-us-header {
+  padding: 20px 0;
+}
+.expansion-page-first-section-text ul {
+  width: 90%;
+}
+
+.different-segment-of-revenu-text {
+  width: 90%;
+}
+
+.different-segment-of-revenu-text ul li:before {
+  width: 15px;
+  height: 15px;
+}
+
+.dishhes-content-3-text.home-page-about-iconic-image, .dishhes-content-3-text.home-page-about-iconic-image img {
+  width: 95%;
+}
+.publication-logo-content .image-contiainer-forhover {
+  width: 32%;
+}
+
+.about-iconic-dishhes-content.media-page {
+  flex-wrap: wrap;
+}
+.awards-content-2.media-page-accolades {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.media-page-accolades-button-conatainer {
+  margin-top: 10px;
+}
+
+.awards-content-1.media-page-accolades, .awards-content-3.media-page-accolades {
+  width: 100%;
+  flex-direction: row;
+}
+
+.awards-content-3.media-page-accolades {
+  margin-bottom: 20px;
+}
+section.gallery-marketing-collateral-section {
+  padding-bottom: 0;
+}
+.awards-content-1.faimly-aulbum.gallery-page, .awards-content-2.faimly-aulbum.gallery-page, .awards-content-3.faimly-aulbum.gallery-page {
+  width: 100%;
+}
+
+.awards-content-1.faimly-aulbum.gallery-page, .awards-content-3.faimly-aulbum.gallery-page {
+  flex-direction: row;
+}
+.iconic-dishhes-content-1.team-of-daryaganj-fullimg.gallery-page {
+  width: 50%;
+}
+.dishhes-content-2-text.gallery-page-team-of-daryaganj.team-of-daryaganj {
+  margin: 0;
+}
+
+
+.customer-review-conatainer {
+  margin-bottom: 20px;
+}
+
+.location-page-about-daryagnaj-parent-container {
+  flex-direction: column;
+}
+
+.location-page-about-daryagnaj-left-container {
+  width: 100%;
+}
+
+.location-page-about-daryagnaj-right-container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.location-page-first-readmore-container {
+  margin: 30px 0;
+}
+
+.map-section-content-container {
+  flex-direction: column;
+}
+
+div#map {
+  width: 100%;
+  height: 400px;
+}
+
+.map-right-content-container {
+  width: 95%;
+  margin-top: 30px;
+}
+
+.map-right-sub-div {
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 40px;
+}
+
+.customer-review-conatainer {
+  flex-direction: column;
+}
+
+.customer-review-left-section {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.customer-review-right-section {
+  width: 100%;
+}
+
+.contact-from-container.location-page-container .contact-from-text {
+  display: block;
+}
+
+.service-content-location-page-one-img {
+  width: 70%;
+  padding: 40px 0;
+}
+.img-promotion-page img {
+  height: 360px;
+  object-fit: cover;
+}
+
+.service-content-location-page-one-text img {
+  display: none;
+}
+
+.service-content-location-page-one-text {
+  position: relative;
+  right: unset;
+  top: unset;
+  justify-content: center;
+}
+.service-content-location-page-one.second-iteam .service-content-location-page-one-text {right: unset;left: unset;bottom: unset;}
+
+.service-content-location-page-one.fourth-iteam .service-content-location-page-one-text {
+  top: unset;
+  bottom: unset;
+  right: unset;
+  left: unset;
+}
+
+.service-content-location-page-one.fifth-iteam .service-content-location-page-one-text {
+  right: unset;
+  left: unset;
+  bottom: unset;
+  top: unset;
+}
+
+.location-text-cn p{
+  font-size: 16px;
+}
+
+.by-the-inverstors-section h2, .by-the-inverstors-section-like h2 {
+  font-size: 26px;
+}
+
+.hide-under-767 {
+  display: none;
+}
+
+.hiddend-show-bar {
+  padding: 0;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+}
+
+.show-under-767 {
+  display: block;
+}
+
+}
+
+@media only screen and (max-width: 500px) {
+  .iconic-dishhes-content-1,
+  .iconic-dishhes-content-3 {
+    width: 100%;
+  }
+  .iconic-dishhes-content-2 {
+    width: 100%;
+    padding: 20px 0;
+  }
+  .dishhes-content-2-text {
+    padding-bottom: 10px;
+  }
+  .iconic-dishhes-content-3 {
+    flex-direction: column;
+  }
+  .dishhes-content-3-text {
+    padding: 0;
+    padding-bottom: 20px;
+  }
+  .menu-dishhes-content-1 {
+    width: 100%;
+  }
+  .menu-dishhes-content-2 {
+    width: 100%;
+  }
+  .menu-content-2-text p {
+    margin: 10px 0;
+  }
+  .menu-dishhes-content-3 {
+    flex-direction: column;
+  }
+  .about-dariyaganj div img {
+    display: none;
+  }
+  .about-dariyaganj .text-continaer {
+    margin: 0 0;
+  }
+  .awards-content-1,
+  .awards-content-3 {
+    flex-direction: column;
+    padding: 0px 0;
+  }
+  .awards-content-1-1,
+  .awards-content-3-1,
+  .awards-content-1-3,
+  .awards-content-3-3 {
+    padding: 10px 0;
+    width: 100%;
+  }
+  .awards-content-2-1 {
+    width: 100%;
+    padding: 0;
+  }
+  .awards-content-2,
+  .awards-content-2 img {
+    padding: 0px 0px;
+    width: 100%;
+  }
+  .onthego-img,
+  .onthego-img img {
+    height: 300px;
+    object-fit: cover;
+  }
+  .about-kundanla-contet-left-1 div img {
+    display: none;
+  }
+  .footerlogo-container img {
+    width: 90%;
+  }
+  .follow-us-container {
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: flex-start;
+  }
+  .contact-us-container {
+    width: 100%;
+  }
+  .follow-us-container ul {
+    padding: 0;
+  }
+  .log-text-container a,
+  li p,
+  li a p,
+  .row-upper-border p {
+    font-size: 15px;
+  }
+  .container {
+    padding: 0 20px;
+  }
+  .by-the-inverstors-section {
+    padding: 20px 10px;
+  }
+  h1,
+  h2,
+  h3 {
+    line-height: 1.4;
+  }
+  .text-continaer {
+    text-align: center;
+  }
+  .about-daryaganj-body-sec-2 {
+    padding: 0;
+  }
+  .about-kundanla-contet-right {
+    width: 100%;
+  }
+  .about-kundanla-contet-left {
+    padding: 20px 0;
+  }
+  .header-logo-container img {
+    width: 70%;
+  }
+  .one-blog {
+    width: 100%;
+    margin: 0;
+  }
+  .homepage-blogcontainer {
+    display: block;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .home-blog-text-container {
+    padding: 20px 10px 20px;
+  }
+  .home-blog-text-container {
+    display: block;
+  }
+  button.prevArrow.slick-arrow {
+    position: absolute;
+    left: -50px;
+    top: 250px;
+  }
+  button.nextArrow.slick-arrow {
+    position: absolute;
+    right: -52px;
+    top: 250px;
+  }
+  section.about-kundanla-container {
+    padding: 20px 0px;
+  }
+  section.menu-iconic-dishhes {
+    padding: 20px 0;
+  }
+  .row1,
+  .row2 {
+    flex-direction: column;
+  }
+  .stories-image {
+    width: 100%;
+  }
+  .row2 {
+    flex-direction: column-reverse;
+  }
+  .row1 .stories-text,
+  .row2 .stories-text {
+    margin: 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+  section.about-kundanla-container.about-page-iconic-section
+    .about-kundanla-contet-left-2 {
+    margin-bottom: 0px;
+  }
+  .founder-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .founder {
+    width: 100%;
+  }
+  .founder-img {
+    width: 100%;
+  }
+  .founder-word {
+    width: 100%;
+  }
+  section.about-kundanla-container.about-page-iconic-section
+    .about-kundanla-contet-right {
+    padding-right: 0;
+  }
+  .blog-text {
+    height: auto;
+  }
+  .form-row {
+    flex-direction: column;
+    padding: 0px;
+  }
+  .location-container-contact {
+    flex-basis: 100%;
+    padding-bottom: 30px;
+  }
+  .subheading-hospi {
+    padding: 0;
+    padding-left: 30px;
+  }
+  form.contact-form {
+    margin: 40px 0;
+  }
+  .form-row {
+    width: 100%;
+  }
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    height: 30px;
+  }
+  .form-group {
+    padding: 20px 0px;
+  }
+  .button-container {
+    margin-top: 30px;
+  }
+  .contact-from-container {
+    padding-bottom: 10px;
+  }
+  .contact-from-text {
+    flex-basis: 100%;
+    padding-right: 0;
+  }
+  .heading-hospi p {
+    font-size: 30px;
+  }
+  .menu-content-2-text {
+    margin: 20px 0;
+  }
+  .fouth-sec .marketing-coletral-col {
+    width: 100%;
+  }
+  .fouth-sec .marketing-coletral-col span {
+    height: 80px;
+    width: 60px;
+    top: 170px;
+    left: 40%;
+  }
+  .about-daryaganj-body-sec-1 {
+    width: 100%;
+    padding-right: 0;
+  }
+  .kundal-lal-jaggi-image-container.abt-page-iconic-three {
+    flex-direction: column;
+  }
+  .dignitaries-served-col-right {
+    flex-direction: column;
+  }
+  .dignitaries-served-row {
+    padding: 10px 0;
+  }
+  .dignitaries-served-row {
+  }
+  .abt-page-served-2 ul li {
+    width: 38%;
+    padding-bottom: 20px;
+    padding-left: 25px;
+  }
+  section.about-kundanla-container.section-2-abtpage
+    .about-kundanla-contet-left {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .abiamce-img-container {
+    flex-direction: column;
+  }
+  .col-1-amiabnce-img,
+  .col-2-amiabnce-img,
+  .col-3-amiabnce-img {
+    width: 100%;
+  }
+  .about-kundanla-contet-right.sen-full-image-container {
+    width: 100%;
+  }
+  .dignitaries-content-col-1 {
+  }
+  .dignitaries-content-col-1,
+  .dignitaries-content-col-3 {
+    flex-direction: column;
+  }
+  .dignitaries-content-col-3 {
+    margin-top: 0;
+  }
+  .dignitaries-content-col-1 .stories-text {
+    width: 100%;
+    padding-right: 0;
+  }
+  .dignitaries-content-col-1 .image-contiainer-forhover {
+    width: 100%;
+  }
+  .image-contiainer-forhover.celeb-margin-negative {
+    width: 100%;
+    padding-right: 0;
+  }
+  .dignitaries-content-col-3 .image-contiainer-forhover {
+    width: 100%;
+  }
+  .orb-content {
+    width: 100%;
+  }
+  .abt-our-brands-container {
+    margin: 10px 10px;
+  }
+  .abousolute-position-onthego-container {
+    flex-direction: column !important;
+  }
+  section.daryaganj-on-the-go-sec.abt-page .onthego-img {
+    height: auto;
+    width: 100%;
+  }
+  .iconic-dishhes-content-2 {
+    flex-direction: column-reverse;
+    padding: 0px;
+  }
+  .readmore-btn a:after,
+  .button-container button:after {
+    padding: 0 70px;
+  }
+  .one-csr-container {
+    width: 100%;
+  }
+  .contact-us-header-1-img .image-contiainer-forhover img {
+    width: 100%;
+  }
+  .articles-page-media-sub-row {
+    flex-direction: column;
+  }
+  .articles-page-media-col.width-70 {
+    width: 100%;
+  }
+  .articles-page-media-col {
+    padding: 0;
+  }
+  .articles-page-media-col.width-30 {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .articles-page-media-col.width-50 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .menu-beverage-img-container {
+    flex-direction: column;
+  }
+  .menu-beverage-img-container .image-contiainer-forhover {
+    width: 100%;
+  }
+  .about-iconic-dishhes-content.media-page {
+    flex-direction: column;
+  }
+  .about-iconic-dishhes-content.media-page .iconic-dishhes-content-2 {
+    padding: 0;
+  }
+  .dishhes-content-2-text.dashed-heading-top.team-of-daryaganj {
+    margin: 20px 0px;
+  }
+  .about-iconic-dishhes-content.media-page .iconic-dishhes-content-3 {
+    margin-top: 20px;
+  }
+  .marketing-coletral-row {
+    flex-direction: column;
+  }
+  .marketing-coletral-col {
+    width: 100%;
+  }
+  .marketing-coletral-col .image-contiainer-forhover {
+    margin: 10px 0px;
+  }
+  .row-for-menu-ninetyfoutyseven .image-contiainer-forhover {
+    width: 100%;
+  }
+  .marketing-coletral-row.food-at-daryaganj {
+    width: 100%;
+  }
+  .marketing-coletral-row-2.food-at-daryaganj {
+    width: 100%;
+  }
+  .marketing-coletral-row-2.food-at-daryaganj .image-contiainer-forhover img {
+    height: 250px;
+    object-fit: cover;
+  }
+  .marketing-coletral-row.food-at-daryaganj {
+    padding: 0px 0;
+  }
+  .official-video-wrap img {
+    height: 350px;
+    object-fit: cover;
+  }
+  .gallery-resturant-text .stories-text.border-dashed {
+    width: 90%;
+  }
+  .gallery-img-col-1 .image-contiainer-forhover {
+    height: auto;
+  }
+  .gallery-first-img-container {
+    width: 100%;
+    flex-direction: column;
+  }
+  .gallery-img-col-1,
+  .gallery-img-col-2 {
+    width: 100%;
+  }
+  .about-daryaganj-body {
+    padding: 20px 0 30px 0;
+}
+
+.dishhes-content-1-img, .dishhes-content-3-text {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.dishhes-content-3-text img, .dishhes-content-1-img img {
+    width: 100%;
+}
+
+.dishhes-content-3-text:nth-child(1) {
+    padding-bottom: 20px;
+}
+.readmore-btn a:hover::before, .button-container button:hover::before {
+    width: 150px;
+}
+
+.kundal-lal-jaggi-image-container.abt-page-iconic-three {
+    width: 100%;
+}
+
+.abt-page-iconic-three-last-two-section,.abt-page-iconic-three-last-two-section .image-contiainer-forhover, .abt-page-iconic-three-last-two-section .image-contiainer-forhover img {
+    width: 100%;
+}
+
+.abt-page-iconic-three div .image-contiainer-forhover:first-child {
+    margin-left: 0;
+}
+
+.abt-page-iconic-three div .image-contiainer-forhover {
+    margin-left: 0;
+}
+
+.kundal-lal-jaggi-image-container.abt-page-iconic-three .image-contiainer-forhover {
+    width: 100%;
+}
+
+.dignitaries-served-col-right .image-contiainer-forhover {
+    width: 100%;
+}
+
+.abt-page-served-2 ul li:before {
+    width: 15px;
+    height: 15px;
+    top: 5px;
+}
+
+.abt-page-served-2 {
+    padding-top: 30px;
+}
+
+.about-kundanla-contet-container.the-daryaganj-rest-abt-page .border-dashed {padding: 50px 10px !important;}
+
+section.about-kundanla-container.about-page-iconic-section.the-menu-concept .about-kundanla-contet-right {
+    width: 100%;
+}
+
+.kundal-lal-jaggi-image-container.the-menu-concept {
+    width: 100%;
+}
+
+.abmiance-para {
+    width: 100%;
+}
+
+.col-2-amiabnce-img {
+    margin: 20px 0;
+}
+
+.about-kundanla-contet-left-2 ul li {
+    padding-left: 30px;
+}
+
+.about-kundanla-contet-left-2 ul li:before {
+    width: 15px;
+    height: 15px;
+}
+
+.about-kundanla-contet-left-2 ul {
+    margin-top: 20px;
+}
+
+.dignitaries-content {
+    flex-direction: column;
+}
+
+.dignitaries-content-col-1-top {
+    width: 100%;
+}
+
+.dignitaries-content-col-2 {
+    width: 100%;
+}
+
+.dignitaries-content-col-2 .image-contiainer-forhover img {
+    width: 100%;
+}
+
+.team-member-one-abt-page {
+    width: 100%;
+}
+
+.onthego-text {
+    width: 100%;
+}
+
+.founder-word p {
+  padding: 10px 0;
+}
+.about-kundanla-contet-container.the-daryaganj-rest-abt-page .about-kundanla-contet-right {
+  width: 100%;
+}
+.contact-us-header {
+  padding-bottom: 0;
+}
+
+.expansion-page-first-section-text ul li {
+  font-size: 16px;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.expansion-page-first-section-text ul li:before {
+  top: 15px;
+}
+
+.different-segment-of-revenu-text ul li {
+  font-size: 16px;
+  width: 100%;
+}
+
+.expansion-page-form {
+  padding-left: 0;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.cities-for-expansion-text, .expansion-format, .expansion-page-all-location-text {
+  padding-left: 0px;
+}
+
+
+.expansion-format-sub-heading {
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+
+.cities-for-expansion-text {
+  padding: 20px 0;
+}
+
+.dishhes-content-3-text.home-page-about-iconic-image, .dishhes-content-3-text.home-page-about-iconic-image img {
+  width: 100%;
+}
+
+footer .follow-us-container ul li:first-child, footer .contact-us-container ul:first-child li:first-child {
+  margin-bottom: 0px;
+}
+.publication-logo-content .image-contiainer-forhover {
+  width: 100%;
+}
+
+.awards-content-1.media-page-accolades, .awards-content-3.media-page-accolades {
+  flex-direction: column;
+}
+.awards-content-1.faimly-aulbum.gallery-page, .awards-content-3.faimly-aulbum.gallery-page {
+  flex-direction: column;
+}
+
+.awards-content-1.faimly-aulbum.gallery-page .awards-content-1-1, .awards-content-1.faimly-aulbum.gallery-page .awards-content-1-3, .awards-content-3.faimly-aulbum.gallery-page .awards-content-3-1, .awards-content-3.faimly-aulbum.gallery-page .awards-content-3-3 {
+  width: 100%;
+}
+
+.iconic-dishhes-content-1.team-of-daryaganj-fullimg.gallery-page {
+  width: 100%;
+}
+.expansion-page-first-section-text h3{
+  font-size: 16px;
+}
+
+button.prevArrow.location-page.slick-arrow {
+  top: 100px;
+  left: -20px;
+}
+
+button.nextArrow.location-page.slick-arrow {
+  top: 100px;
+  right: -20px;
+}
+
+.location-page-promotion-parent-container button.nextArrow.location-page.slick-arrow {
+  top: unset;
+  right: -20px;
+  bottom: 0;
+}
+
+.location-page-promotion-parent-container button.prevArrow.location-page.slick-arrow {
+  top: unset;
+  right: -20px;
+  bottom: 0;
+}
+
+.img-promotion-page img {
+  height: 460px;
+}
+
+.service-content-location-page-left, .service-content-location-page-center, .service-content-location-page-right {
+  width: 100%;
+}
+
+.service-content-location-page {
+  flex-wrap: wrap;
+}
+
+.service-content-location-page-one.first-iteam, .service-content-location-page-one.fourth-iteam {
+  margin-bottom: 30px;
+}
+
+.service-content-location-page-one {
+  margin-bottom: 30px;
+}
+
+.our-service-button-contaiber {
+  margin: 20px 0;
+  margin-bottom: 30px;
+}
+
+.map-right-content-container {
+  width: 90%;
+}
+
+.map-right-sub-div {
+  padding: 20px 20px;
+}
+
+.customer-review-right-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.customer-review-sub-left-right-section {
+  width: 100%;
+}
+
+.customer-review-sub-right-right-section {
+  width: 100%;
+}
+
+.hospitia-our-br-text>p {
+  font-size: 22px;
+}
+
+.hiddend-show-bar {
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 0;
+}
+
+section.daryaganj-on-the-go-sec.abt-page .onthego-img img {width: 100%;height: auto;}
+.articles-page-media-col.width-33-article {
+  width: 100%;
+}
+
+button.nextArrow.media-mentions {
+  right: 50px;
+  bottom: -100px;
+}
+
+button.prevArrow.media-mentions {
+  bottom: -100px;
+  left: 50px;
+}
+
+}
+
+@media only screen and (max-width: 425px) {
+}
+@media only screen and (max-width: 375px) {
+  .kundal-lal-jaggi-image-container.the-menu-concept
+    .image-contiainer-forhover {
+    width: 300px;
+    height: 400px;
+  }
+  .onthego-text {
+    padding: 10px 0px;
+    width: 90%;
+  }
+  .readmore-btn a:after,
+  .button-container button:after {
+    padding: 0 85px;
+  }
+  .readmore-btn a,
+  .button-container button {
+    padding: 15px 50px;
+  }
+  .readmore-btn a:after,
+  .button-container button:after {
+    padding: 0px 78px;
+  }
+
+  .video-section-media-button-container {
+    margin: 10px 0;
+}
+}
+@media only screen and (max-width: 360px) {
+  .kundal-lal-jaggi-image-container.the-menu-concept
+    .image-contiainer-forhover {
+    width: 285px;
+  }
+  section.daryaganj-on-the-go-sec.abt-page .onthego-container {
+    padding: 20px 10px;
+}
+}
+
+
+@media only screen and (max-width: 320px) {
+
+  ul.footer-wrap-ul li {
+    width: 100%;
+    flex-basis: 100%;
+  }
+
+  .readmore-btn a {
+    font-size: 12px;
+}
+.nav-button-container {
+  margin: 0 10px;
+}
+
+button.nextArrow.media-mentions {
+  right: 50px;
+  bottom: -50px;
+}
+
+button.prevArrow.media-mentions {
+  bottom: -50px;
+  left: 50px;
+}
+
+}
+
+
