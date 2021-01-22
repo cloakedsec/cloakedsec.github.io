@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <title>MSME ALGORITHM</title>
+    <center>
+        <h2>MSME</h2>
+
+        <input type="radio" name="radioCheck" id="radioCheck" value="yes" onclick="displayText()">Are you an
+        MSME?</input>
+
+        <div style="display:none;" id="displayText">
+            <br>
+            <br>
+            Name:
+            <input type="text" name="name" id="name"></input><br>
+            Email Id:
+            <input type="text" name="email" id="email"></input><br>
+            Mobile No:
+            <input type="number" name="contactNo" id="contactNo" length="10"></input><br>
+
+            GST No:
+            <input type="number" name="gst" id="gst"></input><br>
+
+            Udyog Adhaar No:
+            <input type="number" name="udyog" id="udyog"></input><br>
+
+            <input type="button" name="clickHereButton" id="clickHereButton" value="Next" onclick="onNext()">
+        </div>
+
+        <div style="display:none;" id="displayText2">
+            Nature of Business:
+            <select name="natureDropdown" id="natureDropdown" onchange="checkNature();">
+                <option value="-1">Select</option>
+                <option value="1">Manufacturer</option>
+                <option value="2">Service Provider</option>
+                <option value="3">Trader</option>
+            </select>
+        </div>
+
+        <div style="display:none;" id="displayText3" onclick="displayInv();">
+            Type of Entity:
+            <select name="entity" id="entity">
+                <option value="-1">Select</option>
+                <option value="1">Proprieter</option>
+                <option value="2">HUF</option>
+                <option value="3">AOP</option>
+                <option value="4">Partnership</option>
+                <option value="5">LLP</option>
+                <option value="6">Private Limited</option>
+                <option value="7">Public Entity</option>
+                <option value="8">Legal Entity</option>
+            </select>
+        </div>
+
+
+
+        <div style="display:none;" id="displayText4">
+            Investment in P&M (except Land & Building) Rs/Lakhs:
+            <input type="number" name="investmentPm" id="investmentPm" onblur="checkRange(1);" ;></input><br>
+        </div>
+        <div style="display:none;" id="displayText5">
+            Turnover (As per GST Returns) Rs/Lakhs:
+            <input type="number" name="turnOver" id="turnOver" onblur="checkRange(2);"></input><br>
+
+            <input type="button" name="checkType" id="checkType" value="Check" onclick="checkType()" disabled></input>
+        </div>
+    </center>
+
+    <script>
+        //parent._alert = new parent.Function("alert(arguments[0]);");
+        parent._alert('Test!');
+
+        function displayText() {
+            document.getElementById("displayText").style.display = "";
+        }
+
+        function onNext() {
+            var name = document.getElementById("name");
+            var email = document.getElementById("email");
+            var contact = document.getElementById("contactNo");
+
+            if (name != null && name.value != "" && email != null && email.value != "" && contact != null && contact
+                .value != "") {
+                document.getElementById("displayText2").style.display = "";
+            } else {
+                alert("Please fill name, email and contact No");
+                return false;
+            }
+        }
+
+        function checkType() {
+            var investmentPm = document.getElementById("investmentPm");
+            var flag = "";
+
+            if (investmentPm.value != "") {
+
+                if (investmentPm.value <= 100) {
+                    flag = checkTurnover(1);
+                } else if (investmentPm.value > 100 && investmentPm.value <= 1000) {
+                    flag = checkTurnover(2);
+                } else if (investmentPm.value > 1000 && investmentPm.value <= 5000) {
+                    flag = checkTurnover(3);
+                } else {
+                    alert("You're not MSME")
+                }
+
+                if (flag == 10)
+                    alert("You are Micro Enterprises.")
+
+                if (flag == 20)
+                    alert("You are Small Enterprises.")
+
+                if (flag == 30)
+                    alert("You are Medium Enterprises.")
+            } else {
+                alert("Please provide a valid Investment value.");
+            }
+
+        }
+
+
+        function checkTurnover(checkFlag) {
+            var turnOver = document.getElementById("turnOver");
+            if (turnOver.value != "") {
+                if (checkFlag == 1) {
+                    if (turnOver.value <= 500) {
+                        return 10;
+                    } else if (turnOver.value > 500 && turnOver.value <= 5000) {
+                        return 20;
+                    } else if (turnOver.value > 5000 && turnOver.value <= 25000) {
+                        return 30;
+                    }
+                } else if (checkFlag == 2) {
+                    if (turnOver.value > 500 && turnOver.value <= 5000) {
+                        return 20
+                    } else if (turnOver.value > 5000 && turnOver.value <= 25000) {
+                        return 30;
+                    } else {
+                        return 20;
+                    }
+                } else if (checkFlag == 3) {
+
+                    return 30;
+
+                } else {
+                    alert("You're not MSME")
+                }
+            } else {
+                alert("Please provide a valid Turnover value.")
+            }
+
+        }
+
+
+
+        function checkNature() {
+            document.getElementById("displayText3").style.display = "";
+            var nature = document.getElementById("natureDropdown");
+            if (nature.value == 3) {
+                alert("You're not MSME");
+                document.getElementById("displayText3").style.display = "none";
+                document.getElementById("displayText4").style.display = "none";
+                document.getElementById("displayText5").style.display = "none";
+            }
+
+        }
+
+        function displayInv() {
+            document.getElementById("displayText4").style.display = "";
+            document.getElementById("displayText5").style.display = "";
+        }
+
+        function checkRange(flag) {
+            if (flag == 1) {
+                var investmentPm = document.getElementById("investmentPm");
+                if (investmentPm.value > 5000) {
+                    alert("You're Not MSME.");
+                    document.getElementById("investmentPm").value = "";
+                    document.getElementById("checkType").disabled = true;
+                    return false;
+                }
+            } else {
+                var turnOver = document.getElementById("turnOver");
+                if (turnOver.value > 25000) {
+                    alert("You're Not MSME.");
+                    document.getElementById("turnOver").value = "";
+                    document.getElementById("checkType").disabled = true;
+                    return false;
+                } else {
+                    document.getElementById("checkType").disabled = false;
+                }
+            }
+        }
+    </script>
+
+</body>
+
+</html>
