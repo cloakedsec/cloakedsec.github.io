@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SMART VIDYA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Shelly - Website" />
+    <meta name="author" content="merkulove" />
+    <meta name="keywords" content="" />
+    <link rel="icon" href="assets/img/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<title>SMART VIDYA</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Shelly - Website" />
-	<meta name="author" content="merkulove">
-	<meta name="keywords" content="" />
-	<link rel="icon" href="assets/img/favicon.png">
-	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
-</head>
-
-
-<body>
-
-	<div class="wrapper">
-
-
-		<!-- <header>
+  <body>
+    <div class="wrapper">
+      <!-- <header>
 			<div class="container">
 				<div class="header-content d-flex flex-wrap align-items-center">
 					<div class="logo">
@@ -59,82 +62,87 @@
 			</div>
 		</header> -->
 
+      <section class="page-content">
+        <div class="container">
+          <div class="course-section"></div>
+        </div>
+      </section>
 
-
-
-		<section class="page-content">
-			<div class="container">
-				<div class="course-section">
-				</div>
-			</div>
-		</section>
-
-		<section class="newsletter-section">
-			<div class="container">
-				<div class="newsletter-sec">
-					<div class="row align-items-center">
-						<div class="col-lg-4">
-							<div class="newsz-ltr-text">
-								<h2> <br /> </h2>
-
-							</div>
+      <section class="newsletter-section">
+        <div class="container">
+          <div class="newsletter-sec">
+            <div class="row align-items-center">
+              <div class="col-lg-4">
+                <div class="newsz-ltr-text">
+                  <h2><br /></h2>
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <form class="newsletter-form">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <h1 style="color: aliceblue; text-align: center">
+                          Select Class
+                        </h1>
+                        <br />
+                        <br />
+                        <div class="form-group select-tg">
+                          <select id="mySelect" onchange="displayText()">
+                            <option value="Class1">Class 1</option>
+                            <option value="Class2">Class 2</option>
+                            <option value="Class3">Class 3</option>
+                            <option value="Class4">Class 4</option>
+                            <option value="Class4">Class 5</option>
+                            <option value="Class4">Class 6</option>
+                            <option value="Class4">Class 7</option>
+                            <option value="Class4">Class 8</option>
+                            <option value="Class4">Class 9</option>
+                            <option value="Class4">Class 10</option>
+                          </select>
 						</div>
-						<div class="col-lg-8">
-							<form class="newsletter-form">
-								<div class="row">
-									<div class="col-md-4">
-										<div class="form-group">
-											<h1 style="color: aliceblue;text-align: center;">Select Class</h1>
-											<br>
-											<br>
-											<div class="form-group select-tg">
-												<select id="mySelect" onchange="displayText()">
-													<option value="Class1">Class 1</option>
-													<option value="Class2">Class 2</option>
-													<option value="Class3">Class 3</option>
-													<option value="Class4">Class 4</option>
-													<option value="Class4">Class 5</option>
-													<option value="Class4">Class 6</option>
-													<option value="Class4">Class 7</option>
-													<option value="Class4">Class 8</option>
-													<option value="Class4">Class 9</option>
-													<option value="Class4">Class 10</option>
-												</select>
-											</div>
-										</div>
 
-									</div>
-									
+						<div id="displayText">
+							<select id="mySubject" onchange="displayVideo()">
+								<option value="english">English</option>
+								<option value="science">Science</option>
+								<option value="maths">Maths</option>
+								<option value="hindi">Hindi</option>
+								
+							</select>
 
 
-								</div>
-							</form>
-
-							<p id="demo"></p>
-							<script>
-								function myFunction() {
-									var x = document.getElementById("mySelect").value;
-									document.getElementById("demo").innerHTML = "You selected: " + x;
-								}
-							</script>
 						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+						
+						
+                      </div>
+                    </div>
+                  </div>
+                </form>
 
+                <p id="subject"></p>
+                <script>
+                  function displayText() {
+                    var x = document.getElementById("mySelect").value;
+                    document.getElementById("subject").innerHTML =
+                      "You selected: " + x;
+                  }
+                </script>
 
-	</div>
+                <script></script>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
 
-
-	<script src="assets/js/jquery.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/isotope.js"></script>
-	<script src="assets/js/html5lightbox.js"></script>
-	<script src="assets/js/slick.min.js"></script>
-	<script src="assets/js/tweenMax.js"></script>
-	<script src="assets/js/scripts.js"></script>
-
-</body>
-
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/html5lightbox.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/tweenMax.js"></script>
+    <script src="assets/js/scripts.js"></script>
+  </body>
 </html>
